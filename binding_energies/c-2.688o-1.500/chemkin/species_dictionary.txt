@@ -214,6 +214,31 @@ CH4O2X(61)
 7 H u0 p0 c0 {3,S}
 8 X u0 p0 c0
 
+OCCO(52)
+1  O u0 p2 c0 {3,S} {5,S}
+2  O u0 p2 c0 {4,S} {6,S}
+3  C u0 p0 c0 {1,S} {4,S} {7,S} {8,S}
+4  C u0 p0 c0 {2,S} {3,S} {9,S} {10,S}
+5  H u0 p0 c0 {1,S}
+6  H u0 p0 c0 {2,S}
+7  H u0 p0 c0 {3,S}
+8  H u0 p0 c0 {3,S}
+9  H u0 p0 c0 {4,S}
+10 H u0 p0 c0 {4,S}
+
+SX(65)
+1  O u0 p2 c0 {3,S} {5,S}
+2  O u0 p2 c0 {4,S} {6,S}
+3  C u0 p0 c0 {1,S} {4,S} {7,S} {8,S}
+4  C u0 p0 c0 {2,S} {3,S} {9,S} {10,S}
+5  H u0 p0 c0 {1,S}
+6  H u0 p0 c0 {2,S}
+7  H u0 p0 c0 {3,S}
+8  H u0 p0 c0 {3,S}
+9  H u0 p0 c0 {4,S}
+10 H u0 p0 c0 {4,S}
+11 X u0 p0 c0
+
 CH3O2X(50)
 1 O u0 p2 c0 {3,S} {7,S}
 2 O u0 p2 c0 {3,S} {4,S}
@@ -232,7 +257,7 @@ CH3O2X(60)
 6 H u0 p0 c0 {3,S}
 7 X u0 p0 c0 {3,S}
 
-OCCO(52)
+SX(64)
 1  O u0 p2 c0 {3,S} {5,S}
 2  O u0 p2 c0 {4,S} {6,S}
 3  C u0 p0 c0 {1,S} {4,S} {7,S} {8,S}
@@ -242,22 +267,9 @@ OCCO(52)
 7  H u0 p0 c0 {3,S}
 8  H u0 p0 c0 {3,S}
 9  H u0 p0 c0 {4,S}
-10 H u0 p0 c0 {4,S}
+10 X u0 p0 c0 {4,S}
 
-SX(79)
-1  O u0 p2 c0 {3,S} {5,S}
-2  O u0 p2 c0 {4,S} {6,S}
-3  C u0 p0 c0 {1,S} {4,S} {7,S} {8,S}
-4  C u0 p0 c0 {2,S} {3,S} {9,S} {10,S}
-5  H u0 p0 c0 {1,S}
-6  H u0 p0 c0 {2,S}
-7  H u0 p0 c0 {3,S}
-8  H u0 p0 c0 {3,S}
-9  H u0 p0 c0 {4,S}
-10 H u0 p0 c0 {4,S}
-11 X u0 p0 c0
-
-OCOCO(64)
+OCOCO(68)
 1  O u0 p2 c0 {4,S} {6,S}
 2  O u0 p2 c0 {5,S} {7,S}
 3  O u0 p2 c0 {4,S} {5,S}
@@ -270,7 +282,7 @@ OCOCO(64)
 10 H u0 p0 c0 {5,S}
 11 H u0 p0 c0 {5,S}
 
-SX(83)
+SX(92)
 1  O u0 p2 c0 {4,S} {6,S}
 2  O u0 p2 c0 {5,S} {7,S}
 3  O u0 p2 c0 {4,S} {5,S}
@@ -284,7 +296,7 @@ SX(83)
 11 H u0 p0 c0 {5,S}
 12 X u0 p0 c0
 
-OC(O)O(73)
+OC(O)O(77)
 1 O u0 p2 c0 {4,S} {5,S}
 2 O u0 p2 c0 {4,S} {6,S}
 3 O u0 p2 c0 {4,S} {7,S}
@@ -294,7 +306,7 @@ OC(O)O(73)
 7 H u0 p0 c0 {3,S}
 8 H u0 p0 c0 {4,S}
 
-CH4O3X(85)
+CH4O3X(94)
 1 O u0 p2 c0 {4,S} {5,S}
 2 O u0 p2 c0 {4,S} {6,S}
 3 O u0 p2 c0 {4,S} {7,S}
@@ -305,19 +317,34 @@ CH4O3X(85)
 8 H u0 p0 c0 {4,S}
 9 X u0 p0 c0
 
-SX(78)
-1  O u0 p2 c0 {3,S} {5,S}
-2  O u0 p2 c0 {4,S} {6,S}
-3  C u0 p0 c0 {1,S} {4,S} {7,S} {8,S}
-4  C u0 p0 c0 {2,S} {3,S} {9,S} {10,S}
-5  H u0 p0 c0 {1,S}
+C2H6O3(75)
+1  O u0 p2 c0 {4,S} {8,S}
+2  O u0 p2 c0 {5,S} {6,S}
+3  O u0 p2 c0 {5,S} {7,S}
+4  C u0 p0 c0 {1,S} {5,S} {9,S} {10,S}
+5  C u0 p0 c0 {2,S} {3,S} {4,S} {11,S}
 6  H u0 p0 c0 {2,S}
 7  H u0 p0 c0 {3,S}
-8  H u0 p0 c0 {3,S}
+8  H u0 p0 c0 {1,S}
 9  H u0 p0 c0 {4,S}
-10 X u0 p0 c0 {4,S}
+10 H u0 p0 c0 {4,S}
+11 H u0 p0 c0 {5,S}
 
-SX(82)
+SX(99)
+1  O u0 p2 c0 {4,S} {8,S}
+2  O u0 p2 c0 {5,S} {6,S}
+3  O u0 p2 c0 {5,S} {7,S}
+4  C u0 p0 c0 {1,S} {5,S} {9,S} {10,S}
+5  C u0 p0 c0 {2,S} {3,S} {4,S} {11,S}
+6  H u0 p0 c0 {2,S}
+7  H u0 p0 c0 {3,S}
+8  H u0 p0 c0 {1,S}
+9  H u0 p0 c0 {4,S}
+10 H u0 p0 c0 {4,S}
+11 H u0 p0 c0 {5,S}
+12 X u0 p0 c0
+
+SX(91)
 1  O u0 p2 c0 {4,S} {6,S}
 2  O u0 p2 c0 {5,S} {7,S}
 3  O u0 p2 c0 {4,S} {5,S}
@@ -330,7 +357,7 @@ SX(82)
 10 H u0 p0 c0 {5,S}
 11 X u0 p0 c0 {5,S}
 
-CH3O3X(70)
+CH3O3X(74)
 1 O u0 p2 c0 {4,S} {8,S}
 2 O u0 p2 c0 {4,S} {5,S}
 3 O u0 p2 c0 {4,S} {6,S}
@@ -340,34 +367,7 @@ CH3O3X(70)
 7 H u0 p0 c0 {4,S}
 8 X u0 p0 c0 {1,S}
 
-C2H6O3(71)
-1  O u0 p2 c0 {4,S} {8,S}
-2  O u0 p2 c0 {5,S} {6,S}
-3  O u0 p2 c0 {5,S} {7,S}
-4  C u0 p0 c0 {1,S} {5,S} {9,S} {10,S}
-5  C u0 p0 c0 {2,S} {3,S} {4,S} {11,S}
-6  H u0 p0 c0 {2,S}
-7  H u0 p0 c0 {3,S}
-8  H u0 p0 c0 {1,S}
-9  H u0 p0 c0 {4,S}
-10 H u0 p0 c0 {4,S}
-11 H u0 p0 c0 {5,S}
-
-SX(117)
-1  O u0 p2 c0 {4,S} {8,S}
-2  O u0 p2 c0 {5,S} {6,S}
-3  O u0 p2 c0 {5,S} {7,S}
-4  C u0 p0 c0 {1,S} {5,S} {9,S} {10,S}
-5  C u0 p0 c0 {2,S} {3,S} {4,S} {11,S}
-6  H u0 p0 c0 {2,S}
-7  H u0 p0 c0 {3,S}
-8  H u0 p0 c0 {1,S}
-9  H u0 p0 c0 {4,S}
-10 H u0 p0 c0 {4,S}
-11 H u0 p0 c0 {5,S}
-12 X u0 p0 c0
-
-SX(81)
+SX(90)
 1  O u0 p2 c0 {4,S} {6,S}
 2  O u0 p2 c0 {5,S} {11,S}
 3  O u0 p2 c0 {4,S} {5,S}
@@ -380,7 +380,7 @@ SX(81)
 10 H u0 p0 c0 {5,S}
 11 X u0 p0 c0 {2,S}
 
-SX(80)
+SX(89)
 1  O u0 p2 c0 {4,S} {5,S}
 2  O u0 p2 c0 {3,S} {4,S}
 3  C u0 p0 c0 {2,S} {6,S} {7,S} {10,S}
@@ -392,7 +392,7 @@ SX(80)
 9  H u0 p0 c0 {4,S}
 10 X u0 p0 c0 {3,S}
 
-CH3O3X(84)
+CH3O3X(93)
 1 O u0 p2 c0 {4,S} {5,S}
 2 O u0 p2 c0 {4,S} {6,S}
 3 O u0 p2 c0 {4,S} {7,S}
@@ -402,7 +402,7 @@ CH3O3X(84)
 7 H u0 p0 c0 {3,S}
 8 X u0 p0 c0 {4,S}
 
-C2H6O4(74)
+C2H6O4(78)
 1  O u0 p2 c0 {5,S} {9,S}
 2  O u0 p2 c0 {6,S} {7,S}
 3  O u0 p2 c0 {6,S} {8,S}
@@ -431,7 +431,20 @@ SX(154)
 12 H u0 p0 c0 {6,S}
 13 X u0 p0 c0
 
-SX(98)
+SX(83)
+1  O u0 p2 c0 {4,S} {6,S}
+2  O u0 p2 c0 {5,S} {11,S}
+3  O u0 p2 c0 {5,S} {7,S}
+4  C u0 p0 c0 {1,S} {5,S} {8,S} {9,S}
+5  C u0 p0 c0 {2,S} {3,S} {4,S} {10,S}
+6  H u0 p0 c0 {1,S}
+7  H u0 p0 c0 {3,S}
+8  H u0 p0 c0 {4,S}
+9  H u0 p0 c0 {4,S}
+10 H u0 p0 c0 {5,S}
+11 X u0 p0 c0 {2,S}
+
+SX(103)
 1  O u0 p2 c0 {5,S} {7,S}
 2  O u0 p2 c0 {6,S} {12,S}
 3  O u0 p2 c0 {6,S} {8,S}
@@ -465,14 +478,20 @@ HOOH(59)
 3 H u0 p0 c0 {1,S}
 4 H u0 p0 c0 {2,S}
 
-HOOHX(180)
+HOOHX(192)
 1 O u0 p2 c0 {2,S} {3,S}
 2 O u0 p2 c0 {1,S} {4,S}
 3 H u0 p0 c0 {1,S}
 4 H u0 p0 c0 {2,S}
 5 X u0 p0 c0
 
-S(109)
+HO2X(51)
+1 O u0 p2 c0 {2,S} {4,S}
+2 O u0 p2 c0 {1,S} {3,S}
+3 H u0 p0 c0 {2,S}
+4 X u0 p0 c0 {1,S}
+
+S(114)
 1  O u0 p2 c0 {6,S} {8,S}
 2  O u0 p2 c0 {6,S} {9,S}
 3  O u0 p2 c0 {7,S} {10,S}
@@ -487,7 +506,7 @@ S(109)
 12 H u0 p0 c0 {6,S}
 13 H u0 p0 c0 {7,S}
 
-SX(182)
+SX(197)
 1  O u0 p2 c0 {6,S} {8,S}
 2  O u0 p2 c0 {6,S} {9,S}
 3  O u0 p2 c0 {7,S} {10,S}
@@ -514,7 +533,7 @@ CH4O4(141)
 8 H u0 p0 c0 {3,S}
 9 H u0 p0 c0 {4,S}
 
-SX(183)
+SX(198)
 1  O u0 p2 c0 {5,S} {6,S}
 2  O u0 p2 c0 {5,S} {7,S}
 3  O u0 p2 c0 {5,S} {8,S}
@@ -554,12 +573,6 @@ SX(151)
 11 H u0 p0 c0 {6,S}
 12 X u0 p0 c0 {1,S}
 
-HO2X(51)
-1 O u0 p2 c0 {2,S} {4,S}
-2 O u0 p2 c0 {1,S} {3,S}
-3 H u0 p0 c0 {2,S}
-4 X u0 p0 c0 {1,S}
-
 SX(150)
 1  O u0 p2 c0 {5,S} {6,S}
 2  O u0 p2 c0 {5,S} {7,S}
@@ -584,7 +597,7 @@ SX(138)
 8 H u0 p0 c0 {4,S}
 9 X u0 p0 c0 {1,S}
 
-SX(169)
+SX(180)
 1  O u0 p2 c0 {6,S} {13,S}
 2  O u0 p2 c0 {6,S} {10,S}
 3  O u0 p2 c0 {7,S} {8,S}
@@ -614,7 +627,7 @@ S(142)
 12 H u0 p0 c0 {6,S}
 13 H u0 p0 c0 {6,S}
 
-SX(261)
+SX(274)
 1  O u0 p2 c0 {6,S} {11,S}
 2  O u0 p2 c0 {7,S} {8,S}
 3  O u0 p2 c0 {7,S} {9,S}
@@ -630,7 +643,7 @@ SX(261)
 13 H u0 p0 c0 {6,S}
 14 X u0 p0 c0
 
-S(100)
+S(105)
 1  O u0 p2 c0 {6,S} {10,S}
 2  O u0 p2 c0 {7,S} {11,S}
 3  O u0 p2 c0 {8,S} {9,S}
@@ -648,7 +661,7 @@ S(100)
 15 H u0 p0 c0 {7,S}
 16 H u0 p0 c0 {8,S}
 
-SX(268)
+SX(281)
 1  O u0 p2 c0 {6,S} {10,S}
 2  O u0 p2 c0 {7,S} {11,S}
 3  O u0 p2 c0 {8,S} {9,S}
@@ -667,7 +680,7 @@ SX(268)
 16 H u0 p0 c0 {8,S}
 17 X u0 p0 c0
 
-SX(181)
+SX(196)
 1  O u0 p2 c0 {6,S} {8,S}
 2  O u0 p2 c0 {6,S} {9,S}
 3  O u0 p2 c0 {7,S} {10,S}
@@ -682,7 +695,49 @@ SX(181)
 12 H u0 p0 c0 {6,S}
 13 X u0 p0 c0 {7,S}
 
-SX(185)
+SX(97)
+1  O u0 p2 c0 {4,S} {8,S}
+2  O u0 p2 c0 {5,S} {6,S}
+3  O u0 p2 c0 {5,S} {7,S}
+4  C u0 p0 c0 {1,S} {5,S} {9,S} {11,S}
+5  C u0 p0 c0 {2,S} {3,S} {4,S} {10,S}
+6  H u0 p0 c0 {2,S}
+7  H u0 p0 c0 {3,S}
+8  H u0 p0 c0 {1,S}
+9  H u0 p0 c0 {4,S}
+10 H u0 p0 c0 {5,S}
+11 X u0 p0 c0 {4,S}
+
+C2H6O4(79)
+1  O u0 p2 c0 {5,S} {7,S}
+2  O u0 p2 c0 {5,S} {8,S}
+3  O u0 p2 c0 {6,S} {9,S}
+4  O u0 p2 c0 {6,S} {10,S}
+5  C u0 p0 c0 {1,S} {2,S} {6,S} {11,S}
+6  C u0 p0 c0 {3,S} {4,S} {5,S} {12,S}
+7  H u0 p0 c0 {1,S}
+8  H u0 p0 c0 {2,S}
+9  H u0 p0 c0 {3,S}
+10 H u0 p0 c0 {4,S}
+11 H u0 p0 c0 {5,S}
+12 H u0 p0 c0 {6,S}
+
+SX(326)
+1  O u0 p2 c0 {5,S} {7,S}
+2  O u0 p2 c0 {5,S} {8,S}
+3  O u0 p2 c0 {6,S} {9,S}
+4  O u0 p2 c0 {6,S} {10,S}
+5  C u0 p0 c0 {1,S} {2,S} {6,S} {11,S}
+6  C u0 p0 c0 {3,S} {4,S} {5,S} {12,S}
+7  H u0 p0 c0 {1,S}
+8  H u0 p0 c0 {2,S}
+9  H u0 p0 c0 {3,S}
+10 H u0 p0 c0 {4,S}
+11 H u0 p0 c0 {5,S}
+12 H u0 p0 c0 {6,S}
+13 X u0 p0 c0
+
+SX(200)
 1  O u0 p2 c0 {6,S} {10,S}
 2  O u0 p2 c0 {7,S} {13,S}
 3  O u0 p2 c0 {7,S} {8,S}
@@ -697,7 +752,7 @@ SX(185)
 12 H u0 p0 c0 {6,S}
 13 X u0 p0 c0 {2,S}
 
-CH3O3(104)
+CH3O3(109)
 multiplicity 2
 1 O u1 p2 c0 {4,S}
 2 O u0 p2 c0 {4,S} {5,S}
@@ -707,7 +762,7 @@ multiplicity 2
 6 H u0 p0 c0 {3,S}
 7 H u0 p0 c0 {4,S}
 
-SX(260)
+SX(273)
 1  O u0 p2 c0 {6,S} {8,S}
 2  O u0 p2 c0 {7,S} {9,S}
 3  O u0 p2 c0 {7,S} {10,S}
@@ -738,7 +793,7 @@ S(146)
 13 H u0 p0 c0 {2,S}
 14 H u0 p0 c0 {7,S}
 
-SX(327)
+SX(367)
 1  O u0 p2 c0 {7,S} {12,S}
 2  O u0 p2 c0 {7,S} {13,S}
 3  O u0 p2 c0 {8,S} {9,S}
@@ -755,7 +810,21 @@ SX(327)
 14 H u0 p0 c0 {7,S}
 15 X u0 p0 c0
 
-SX(270)
+SX(306)
+1  O u0 p2 c0 {5,S} {12,S}
+2  O u0 p2 c0 {5,S} {9,S}
+3  O u0 p2 c0 {6,S} {7,S}
+4  O u0 p2 c0 {6,S} {8,S}
+5  C u0 p0 c0 {1,S} {2,S} {6,S} {10,S}
+6  C u0 p0 c0 {3,S} {4,S} {5,S} {11,S}
+7  H u0 p0 c0 {3,S}
+8  H u0 p0 c0 {4,S}
+9  H u0 p0 c0 {2,S}
+10 H u0 p0 c0 {5,S}
+11 H u0 p0 c0 {6,S}
+12 X u0 p0 c0 {1,S}
+
+SX(283)
 1  O u0 p2 c0 {7,S} {9,S}
 2  O u0 p2 c0 {7,S} {10,S}
 3  O u0 p2 c0 {8,S} {14,S}
@@ -771,46 +840,7 @@ SX(270)
 13 H u0 p0 c0 {7,S}
 14 X u0 p0 c0 {3,S}
 
-S(111)
-1  O u0 p2 c0 {7,S} {13,S}
-2  O u0 p2 c0 {8,S} {10,S}
-3  O u0 p2 c0 {8,S} {11,S}
-4  O u0 p2 c0 {9,S} {12,S}
-5  O u0 p2 c0 {7,S} {9,S}
-6  O u0 p2 c0 {8,S} {9,S}
-7  C u0 p0 c0 {1,S} {5,S} {14,S} {15,S}
-8  C u0 p0 c0 {2,S} {3,S} {6,S} {16,S}
-9  C u0 p0 c0 {4,S} {5,S} {6,S} {17,S}
-10 H u0 p0 c0 {2,S}
-11 H u0 p0 c0 {3,S}
-12 H u0 p0 c0 {4,S}
-13 H u0 p0 c0 {1,S}
-14 H u0 p0 c0 {7,S}
-15 H u0 p0 c0 {7,S}
-16 H u0 p0 c0 {8,S}
-17 H u0 p0 c0 {9,S}
-
-SX(351)
-1  O u0 p2 c0 {7,S} {13,S}
-2  O u0 p2 c0 {8,S} {10,S}
-3  O u0 p2 c0 {8,S} {11,S}
-4  O u0 p2 c0 {9,S} {12,S}
-5  O u0 p2 c0 {7,S} {9,S}
-6  O u0 p2 c0 {8,S} {9,S}
-7  C u0 p0 c0 {1,S} {5,S} {14,S} {15,S}
-8  C u0 p0 c0 {2,S} {3,S} {6,S} {16,S}
-9  C u0 p0 c0 {4,S} {5,S} {6,S} {17,S}
-10 H u0 p0 c0 {2,S}
-11 H u0 p0 c0 {3,S}
-12 H u0 p0 c0 {4,S}
-13 H u0 p0 c0 {1,S}
-14 H u0 p0 c0 {7,S}
-15 H u0 p0 c0 {7,S}
-16 H u0 p0 c0 {8,S}
-17 H u0 p0 c0 {9,S}
-18 X u0 p0 c0
-
-SX(259)
+SX(272)
 1  O u0 p2 c0 {6,S} {13,S}
 2  O u0 p2 c0 {7,S} {8,S}
 3  O u0 p2 c0 {7,S} {9,S}
@@ -825,7 +855,7 @@ SX(259)
 12 H u0 p0 c0 {6,S}
 13 X u0 p0 c0 {1,S}
 
-SX(258)
+SX(271)
 1  O u0 p2 c0 {6,S} {7,S}
 2  O u0 p2 c0 {6,S} {8,S}
 3  O u0 p2 c0 {6,S} {9,S}
@@ -839,7 +869,7 @@ SX(258)
 11 H u0 p0 c0 {5,S}
 12 X u0 p0 c0 {5,S}
 
-SX(307)
+SX(346)
 1  O u0 p2 c0 {7,S} {14,S}
 2  O u0 p2 c0 {7,S} {9,S}
 3  O u0 p2 c0 {8,S} {10,S}
@@ -855,7 +885,7 @@ SX(307)
 13 H u0 p0 c0 {7,S}
 14 X u0 p0 c0 {1,S}
 
-CH3O4(232)
+CH3O4(245)
 multiplicity 2
 1 O u1 p2 c0 {5,S}
 2 O u0 p2 c0 {5,S} {6,S}
@@ -880,7 +910,7 @@ S(139)
 11 H u0 p0 c0 {5,S}
 12 H u0 p0 c0 {5,S}
 
-SX(411)
+SX(464)
 1  O u0 p2 c0 {5,S} {10,S}
 2  O u0 p2 c0 {6,S} {7,S}
 3  O u0 p2 c0 {6,S} {8,S}
@@ -895,7 +925,7 @@ SX(411)
 12 H u0 p0 c0 {5,S}
 13 X u0 p0 c0
 
-SX(116)
+SX(98)
 1  O u0 p2 c0 {4,S} {8,S}
 2  O u0 p2 c0 {5,S} {6,S}
 3  O u0 p2 c0 {5,S} {7,S}
@@ -908,21 +938,21 @@ SX(116)
 10 H u0 p0 c0 {4,S}
 11 X u0 p0 c0 {5,S}
 
-SX(409)
+SX(462)
 1  O u0 p2 c0 {5,S} {7,S}
 2  O u0 p2 c0 {6,S} {8,S}
-3  O u0 p2 c0 {6,S} {9,S}
-4  O u0 p2 c0 {6,S} {12,S}
+3  O u0 p2 c0 {6,S} {12,S}
+4  O u0 p2 c0 {6,S} {9,S}
 5  C u0 p0 c0 {1,S} {6,S} {10,S} {11,S}
 6  C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 7  H u0 p0 c0 {1,S}
 8  H u0 p0 c0 {2,S}
-9  H u0 p0 c0 {3,S}
+9  H u0 p0 c0 {4,S}
 10 H u0 p0 c0 {5,S}
 11 H u0 p0 c0 {5,S}
-12 X u0 p0 c0 {4,S}
+12 X u0 p0 c0 {3,S}
 
-SX(410)
+SX(463)
 1  O u0 p2 c0 {5,S} {7,S}
 2  O u0 p2 c0 {6,S} {8,S}
 3  O u0 p2 c0 {6,S} {9,S}
@@ -951,7 +981,7 @@ S(143)
 12 H u0 p0 c0 {2,S}
 13 H u0 p0 c0 {6,S}
 
-SX(485)
+SX(543)
 1  O u0 p2 c0 {6,S} {11,S}
 2  O u0 p2 c0 {6,S} {12,S}
 3  O u0 p2 c0 {7,S} {8,S}
@@ -967,13 +997,27 @@ SX(485)
 13 H u0 p0 c0 {6,S}
 14 X u0 p0 c0
 
-HO2(215)
+SX(325)
+1  O u0 p2 c0 {5,S} {7,S}
+2  O u0 p2 c0 {5,S} {8,S}
+3  O u0 p2 c0 {6,S} {9,S}
+4  O u0 p2 c0 {6,S} {10,S}
+5  C u0 p0 c0 {1,S} {2,S} {6,S} {11,S}
+6  C u0 p0 c0 {3,S} {4,S} {5,S} {12,S}
+7  H u0 p0 c0 {1,S}
+8  H u0 p0 c0 {2,S}
+9  H u0 p0 c0 {3,S}
+10 H u0 p0 c0 {4,S}
+11 H u0 p0 c0 {5,S}
+12 X u0 p0 c0 {6,S}
+
+HO2(193)
 multiplicity 2
 1 O u1 p2 c0 {2,S}
 2 O u0 p2 c0 {1,S} {3,S}
 3 H u0 p0 c0 {2,S}
 
-S(188)
+S(203)
 1  O u0 p2 c0 {7,S} {10,S}
 2  O u0 p2 c0 {8,S} {13,S}
 3  O u0 p2 c0 {9,S} {11,S}
@@ -992,7 +1036,7 @@ S(188)
 16 H u0 p0 c0 {8,S}
 17 H u0 p0 c0 {8,S}
 
-SX(490)
+SX(578)
 1  O u0 p2 c0 {7,S} {10,S}
 2  O u0 p2 c0 {8,S} {13,S}
 3  O u0 p2 c0 {9,S} {11,S}
@@ -1012,7 +1056,22 @@ SX(490)
 17 H u0 p0 c0 {8,S}
 18 X u0 p0 c0
 
-SX(326)
+SX(541)
+1  O u0 p2 c0 {6,S} {8,S}
+2  O u0 p2 c0 {6,S} {9,S}
+3  O u0 p2 c0 {7,S} {10,S}
+4  O u0 p2 c0 {7,S} {11,S}
+5  O u0 p2 c0 {7,S} {13,S}
+6  C u0 p0 c0 {1,S} {2,S} {7,S} {12,S}
+7  C u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
+8  H u0 p0 c0 {1,S}
+9  H u0 p0 c0 {2,S}
+10 H u0 p0 c0 {3,S}
+11 H u0 p0 c0 {4,S}
+12 H u0 p0 c0 {6,S}
+13 X u0 p0 c0 {5,S}
+
+SX(366)
 1  O u0 p2 c0 {7,S} {12,S}
 2  O u0 p2 c0 {7,S} {13,S}
 3  O u0 p2 c0 {8,S} {9,S}
@@ -1028,7 +1087,7 @@ SX(326)
 13 H u0 p0 c0 {2,S}
 14 X u0 p0 c0 {7,S}
 
-S(239)
+S(251)
 1  O u0 p2 c0 {8,S} {10,S}
 2  O u0 p2 c0 {8,S} {11,S}
 3  O u0 p2 c0 {8,S} {12,S}
@@ -1045,7 +1104,7 @@ S(239)
 14 H u0 p0 c0 {5,S}
 15 H u0 p0 c0 {6,S}
 
-SX(519)
+SX(631)
 1  O u0 p2 c0 {8,S} {10,S}
 2  O u0 p2 c0 {8,S} {11,S}
 3  O u0 p2 c0 {8,S} {12,S}
@@ -1063,36 +1122,7 @@ SX(519)
 15 H u0 p0 c0 {6,S}
 16 X u0 p0 c0
 
-SX(483)
-1  O u0 p2 c0 {6,S} {8,S}
-2  O u0 p2 c0 {6,S} {9,S}
-3  O u0 p2 c0 {7,S} {10,S}
-4  O u0 p2 c0 {7,S} {11,S}
-5  O u0 p2 c0 {7,S} {13,S}
-6  C u0 p0 c0 {1,S} {2,S} {7,S} {12,S}
-7  C u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
-8  H u0 p0 c0 {1,S}
-9  H u0 p0 c0 {2,S}
-10 H u0 p0 c0 {3,S}
-11 H u0 p0 c0 {4,S}
-12 H u0 p0 c0 {6,S}
-13 X u0 p0 c0 {5,S}
-
-SX(482)
-1  O u0 p2 c0 {5,S} {7,S}
-2  O u0 p2 c0 {5,S} {8,S}
-3  O u0 p2 c0 {6,S} {9,S}
-4  O u0 p2 c0 {6,S} {10,S}
-5  C u0 p0 c0 {1,S} {2,S} {6,S} {11,S}
-6  C u0 p0 c0 {3,S} {4,S} {5,S} {12,S}
-7  H u0 p0 c0 {1,S}
-8  H u0 p0 c0 {2,S}
-9  H u0 p0 c0 {3,S}
-10 H u0 p0 c0 {4,S}
-11 H u0 p0 c0 {5,S}
-12 X u0 p0 c0 {6,S}
-
-HOCH2O(62)
+HOCH2O(66)
 multiplicity 2
 1 O u1 p2 c0 {3,S}
 2 O u0 p2 c0 {3,S} {4,S}
@@ -1101,7 +1131,22 @@ multiplicity 2
 5 H u0 p0 c0 {3,S}
 6 H u0 p0 c0 {3,S}
 
-SX(492)
+SX(514)
+1  O u0 p2 c0 {6,S} {13,S}
+2  O u0 p2 c0 {6,S} {8,S}
+3  O u0 p2 c0 {7,S} {9,S}
+4  O u0 p2 c0 {7,S} {10,S}
+5  O u0 p2 c0 {7,S} {11,S}
+6  C u0 p0 c0 {1,S} {2,S} {7,S} {12,S}
+7  C u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
+8  H u0 p0 c0 {2,S}
+9  H u0 p0 c0 {3,S}
+10 H u0 p0 c0 {4,S}
+11 H u0 p0 c0 {5,S}
+12 H u0 p0 c0 {6,S}
+13 X u0 p0 c0 {1,S}
+
+SX(600)
 1  O u0 p2 c0 {8,S} {15,S}
 2  O u0 p2 c0 {8,S} {13,S}
 3  O u0 p2 c0 {8,S} {14,S}
@@ -1118,21 +1163,6 @@ SX(492)
 14 H u0 p0 c0 {3,S}
 15 X u0 p0 c0 {1,S}
 
-SX(457)
-1  O u0 p2 c0 {6,S} {13,S}
-2  O u0 p2 c0 {6,S} {8,S}
-3  O u0 p2 c0 {7,S} {9,S}
-4  O u0 p2 c0 {7,S} {10,S}
-5  O u0 p2 c0 {7,S} {11,S}
-6  C u0 p0 c0 {1,S} {2,S} {7,S} {12,S}
-7  C u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
-8  H u0 p0 c0 {2,S}
-9  H u0 p0 c0 {3,S}
-10 H u0 p0 c0 {4,S}
-11 H u0 p0 c0 {5,S}
-12 H u0 p0 c0 {6,S}
-13 X u0 p0 c0 {1,S}
-
 CH3O3(137)
 multiplicity 2
 1 O u0 p2 c0 {4,S} {5,S}
@@ -1143,7 +1173,7 @@ multiplicity 2
 6 H u0 p0 c0 {2,S}
 7 H u0 p0 c0 {3,S}
 
-S(289)
+S(327)
 multiplicity 2
 1  O u1 p2 c0 {7,S}
 2  O u0 p2 c0 {6,S} {10,S}
@@ -1158,7 +1188,7 @@ multiplicity 2
 11 H u0 p0 c0 {6,S}
 12 H u0 p0 c0 {6,S}
 
-S(328)
+S(384)
 multiplicity 2
 1  O u1 p2 c0 {8,S}
 2  O u0 p2 c0 {7,S} {9,S}
@@ -1174,21 +1204,7 @@ multiplicity 2
 12 H u0 p0 c0 {5,S}
 13 H u0 p0 c0 {7,S}
 
-S(155)
-multiplicity 2
-1  O u1 p2 c0 {6,S}
-2  O u0 p2 c0 {5,S} {7,S}
-3  O u0 p2 c0 {6,S} {8,S}
-4  O u0 p2 c0 {5,S} {6,S}
-5  C u0 p0 c0 {2,S} {4,S} {9,S} {10,S}
-6  C u0 p0 c0 {1,S} {3,S} {4,S} {11,S}
-7  H u0 p0 c0 {2,S}
-8  H u0 p0 c0 {3,S}
-9  H u0 p0 c0 {5,S}
-10 H u0 p0 c0 {5,S}
-11 H u0 p0 c0 {6,S}
-
-S(520)
+S(579)
 multiplicity 2
 1  O u1 p2 c0 {7,S}
 2  O u0 p2 c0 {6,S} {8,S}
@@ -1203,7 +1219,7 @@ multiplicity 2
 11 H u0 p0 c0 {5,S}
 12 H u0 p0 c0 {6,S}
 
-S(390)
+S(442)
 multiplicity 2
 1  O u1 p2 c0 {7,S}
 2  O u0 p2 c0 {7,S} {9,S}
@@ -1219,21 +1235,21 @@ multiplicity 2
 12 H u0 p0 c0 {5,S}
 13 H u0 p0 c0 {7,S}
 
-S(437)
+S(166)
 multiplicity 2
 1  O u1 p2 c0 {6,S}
 2  O u0 p2 c0 {5,S} {7,S}
 3  O u0 p2 c0 {6,S} {8,S}
-4  O u0 p2 c0 {6,S} {9,S}
-5  C u0 p0 c0 {2,S} {6,S} {10,S} {11,S}
-6  C u0 p0 c0 {1,S} {3,S} {4,S} {5,S}
+4  O u0 p2 c0 {5,S} {6,S}
+5  C u0 p0 c0 {2,S} {4,S} {9,S} {10,S}
+6  C u0 p0 c0 {1,S} {3,S} {4,S} {11,S}
 7  H u0 p0 c0 {2,S}
 8  H u0 p0 c0 {3,S}
-9  H u0 p0 c0 {4,S}
+9  H u0 p0 c0 {5,S}
 10 H u0 p0 c0 {5,S}
-11 H u0 p0 c0 {5,S}
+11 H u0 p0 c0 {6,S}
 
-S(352)
+S(400)
 multiplicity 2
 1  O u1 p2 c0 {6,S}
 2  O u0 p2 c0 {7,S} {8,S}
@@ -1248,7 +1264,21 @@ multiplicity 2
 11 H u0 p0 c0 {6,S}
 12 H u0 p0 c0 {6,S}
 
-S(245)
+S(493)
+multiplicity 2
+1  O u1 p2 c0 {6,S}
+2  O u0 p2 c0 {5,S} {7,S}
+3  O u0 p2 c0 {6,S} {8,S}
+4  O u0 p2 c0 {6,S} {9,S}
+5  C u0 p0 c0 {2,S} {6,S} {10,S} {11,S}
+6  C u0 p0 c0 {1,S} {3,S} {4,S} {5,S}
+7  H u0 p0 c0 {2,S}
+8  H u0 p0 c0 {3,S}
+9  H u0 p0 c0 {4,S}
+10 H u0 p0 c0 {5,S}
+11 H u0 p0 c0 {5,S}
+
+S(258)
 multiplicity 2
 1  O u1 p2 c0 {6,S}
 2  O u0 p2 c0 {6,S} {10,S}
@@ -1263,7 +1293,7 @@ multiplicity 2
 11 H u0 p0 c0 {6,S}
 12 H u0 p0 c0 {7,S}
 
-S(589)
+S(633)
 multiplicity 2
 1  O u1 p2 c0 {6,S}
 2  O u0 p2 c0 {6,S} {8,S}
@@ -1278,7 +1308,7 @@ multiplicity 2
 11 H u0 p0 c0 {5,S}
 12 H u0 p0 c0 {6,S}
 
-S(199)
+S(216)
 multiplicity 2
 1  O u1 p2 c0 {5,S}
 2  O u0 p2 c0 {6,S} {7,S}
@@ -1292,7 +1322,7 @@ multiplicity 2
 10 H u0 p0 c0 {5,S}
 11 H u0 p0 c0 {6,S}
 
-S(569)
+S(654)
 multiplicity 2
 1  O u1 p2 c0 {8,S}
 2  O u0 p2 c0 {8,S} {13,S}
@@ -1309,7 +1339,7 @@ multiplicity 2
 13 H u0 p0 c0 {2,S}
 14 H u0 p0 c0 {3,S}
 
-CH3O2(68)
+CH3O2(72)
 multiplicity 2
 1 O u0 p2 c0 {3,S} {4,S}
 2 O u0 p2 c0 {3,S} {5,S}
@@ -1318,18 +1348,18 @@ multiplicity 2
 5 H u0 p0 c0 {2,S}
 6 H u0 p0 c0 {3,S}
 
-SX(406)
+SX(459)
 multiplicity 2
 1 O u1 p2 c0 {5,S}
 2 O u0 p2 c0 {5,S} {6,S}
-3 O u0 p2 c0 {5,S} {8,S}
-4 O u0 p2 c0 {5,S} {7,S}
+3 O u0 p2 c0 {5,S} {7,S}
+4 O u0 p2 c0 {5,S} {8,S}
 5 C u0 p0 c0 {1,S} {2,S} {3,S} {4,S}
 6 H u0 p0 c0 {2,S}
-7 H u0 p0 c0 {4,S}
-8 X u0 p0 c0 {3,S}
+7 H u0 p0 c0 {3,S}
+8 X u0 p0 c0 {4,S}
 
-S(184)
+S(199)
 multiplicity 2
 1  O u0 p2 c0 {5,S} {7,S}
 2  O u0 p2 c0 {5,S} {8,S}
@@ -1341,6 +1371,20 @@ multiplicity 2
 8  H u0 p0 c0 {2,S}
 9  H u0 p0 c0 {3,S}
 10 H u0 p0 c0 {6,S}
+11 H u0 p0 c0 {6,S}
+
+S(368)
+multiplicity 2
+1  O u1 p2 c0 {5,S}
+2  O u0 p2 c0 {5,S} {9,S}
+3  O u0 p2 c0 {6,S} {7,S}
+4  O u0 p2 c0 {6,S} {8,S}
+5  C u0 p0 c0 {1,S} {2,S} {6,S} {10,S}
+6  C u0 p0 c0 {3,S} {4,S} {5,S} {11,S}
+7  H u0 p0 c0 {3,S}
+8  H u0 p0 c0 {4,S}
+9  H u0 p0 c0 {2,S}
+10 H u0 p0 c0 {5,S}
 11 H u0 p0 c0 {6,S}
 
 S(118)
@@ -1356,7 +1400,7 @@ multiplicity 2
 9  H u0 p0 c0 {5,S}
 10 H u0 p0 c0 {5,S}
 
-CH2O4(641)
+CH2O4(707)
 multiplicity 3
 1 O u1 p2 c0 {5,S}
 2 O u1 p2 c0 {5,S}
@@ -1366,7 +1410,7 @@ multiplicity 3
 6 H u0 p0 c0 {3,S}
 7 H u0 p0 c0 {4,S}
 
-S(269)
+S(282)
 multiplicity 2
 1  O u0 p2 c0 {6,S} {8,S}
 2  O u0 p2 c0 {6,S} {9,S}
@@ -1381,17 +1425,30 @@ multiplicity 2
 11 H u0 p0 c0 {4,S}
 12 H u0 p0 c0 {7,S}
 
-SX(303)
+S(155)
+multiplicity 2
+1  O u1 p2 c0 {5,S}
+2  O u0 p2 c0 {4,S} {6,S}
+3  O u0 p2 c0 {5,S} {7,S}
+4  C u0 p0 c0 {2,S} {5,S} {8,S} {9,S}
+5  C u0 p0 c0 {1,S} {3,S} {4,S} {10,S}
+6  H u0 p0 c0 {2,S}
+7  H u0 p0 c0 {3,S}
+8  H u0 p0 c0 {4,S}
+9  H u0 p0 c0 {4,S}
+10 H u0 p0 c0 {5,S}
+
+SX(342)
 multiplicity 2
 1 O u1 p2 c0 {4,S}
-2 O u0 p2 c0 {4,S} {7,S}
-3 O u0 p2 c0 {4,S} {5,S}
+2 O u0 p2 c0 {4,S} {5,S}
+3 O u0 p2 c0 {4,S} {7,S}
 4 C u0 p0 c0 {1,S} {2,S} {3,S} {6,S}
-5 H u0 p0 c0 {3,S}
+5 H u0 p0 c0 {2,S}
 6 H u0 p0 c0 {4,S}
-7 X u0 p0 c0 {2,S}
+7 X u0 p0 c0 {3,S}
 
-CH2O3(683)
+CH2O3(758)
 multiplicity 3
 1 O u1 p2 c0 {4,S}
 2 O u1 p2 c0 {4,S}
@@ -1400,7 +1457,7 @@ multiplicity 3
 5 H u0 p0 c0 {3,S}
 6 H u0 p0 c0 {4,S}
 
-S(220)
+S(233)
 multiplicity 2
 1  O u0 p2 c0 {5,S} {6,S}
 2  O u0 p2 c0 {5,S} {7,S}
@@ -1413,7 +1470,7 @@ multiplicity 2
 9  H u0 p0 c0 {4,S}
 10 H u0 p0 c0 {5,S}
 
-S(375)
+S(426)
 multiplicity 2
 1  O u0 p2 c0 {6,S} {7,S}
 2  O u0 p2 c0 {6,S} {8,S}
@@ -1427,7 +1484,7 @@ multiplicity 2
 10 H u0 p0 c0 {5,S}
 11 H u0 p0 c0 {5,S}
 
-S(491)
+S(599)
 multiplicity 2
 1  O u0 p2 c0 {7,S} {9,S}
 2  O u0 p2 c0 {7,S} {10,S}
@@ -1443,7 +1500,7 @@ multiplicity 2
 12 H u0 p0 c0 {4,S}
 13 H u0 p0 c0 {5,S}
 
-CH2O2X(69)
+CH2O2X(73)
 1 O u0 p2 c0 {3,S} {4,S}
 2 O u0 p2 c0 {3,S} {5,S}
 3 C u0 p0 c0 {1,S} {2,S} {6,D}
@@ -1451,7 +1508,7 @@ CH2O2X(69)
 5 H u0 p0 c0 {2,S}
 6 X u0 p0 c0 {3,D}
 
-SX(96)
+SX(101)
 1 O u0 p2 c0 {4,S} {5,S}
 2 O u0 p2 c0 {3,S} {4,S}
 3 C u0 p0 c0 {2,S} {6,S} {9,D}
@@ -1462,7 +1519,7 @@ SX(96)
 8 H u0 p0 c0 {4,S}
 9 X u0 p0 c0 {3,D}
 
-SX(167)
+SX(178)
 1  O u0 p2 c0 {5,S} {6,S}
 2  O u0 p2 c0 {5,S} {7,S}
 3  O u0 p2 c0 {4,S} {5,S}
@@ -1474,7 +1531,7 @@ SX(167)
 9  H u0 p0 c0 {5,S}
 10 X u0 p0 c0 {4,D}
 
-SX(97)
+SX(102)
 1  O u0 p2 c0 {4,S} {6,S}
 2  O u0 p2 c0 {5,S} {7,S}
 3  O u0 p2 c0 {4,S} {5,S}
@@ -1486,7 +1543,7 @@ SX(97)
 9  H u0 p0 c0 {5,S}
 10 X u0 p0 c0 {4,D}
 
-SX(168)
+SX(179)
 1  O u0 p2 c0 {5,S} {7,S}
 2  O u0 p2 c0 {6,S} {8,S}
 3  O u0 p2 c0 {6,S} {9,S}
@@ -1499,7 +1556,7 @@ SX(168)
 10 H u0 p0 c0 {6,S}
 11 X u0 p0 c0 {5,D}
 
-SX(305)
+SX(344)
 1  O u0 p2 c0 {6,S} {7,S}
 2  O u0 p2 c0 {6,S} {8,S}
 3  O u0 p2 c0 {6,S} {9,S}
@@ -1512,7 +1569,7 @@ SX(305)
 10 H u0 p0 c0 {5,S}
 11 X u0 p0 c0 {5,D}
 
-SX(306)
+SX(345)
 1  O u0 p2 c0 {6,S} {8,S}
 2  O u0 p2 c0 {7,S} {9,S}
 3  O u0 p2 c0 {7,S} {10,S}
@@ -1526,7 +1583,7 @@ SX(306)
 11 H u0 p0 c0 {4,S}
 12 X u0 p0 c0 {6,D}
 
-SX(456)
+SX(513)
 1  O u0 p2 c0 {5,S} {7,S}
 2  O u0 p2 c0 {6,S} {8,S}
 3  O u0 p2 c0 {6,S} {9,S}
@@ -1539,18 +1596,19 @@ SX(456)
 10 H u0 p0 c0 {4,S}
 11 X u0 p0 c0 {5,D}
 
-SX(88)
-1 O u0 p2 c0 {3,S} {5,S}
-2 O u0 p2 c0 {4,S} {6,S}
-3 C u0 p0 c0 {1,S} {4,S} {9,D}
-4 C u0 p0 c0 {2,S} {3,S} {7,S} {8,S}
-5 H u0 p0 c0 {1,S}
-6 H u0 p0 c0 {2,S}
-7 H u0 p0 c0 {4,S}
-8 H u0 p0 c0 {4,S}
-9 X u0 p0 c0 {3,D}
+SX(305)
+1  O u0 p2 c0 {4,S} {6,S}
+2  O u0 p2 c0 {5,S} {7,S}
+3  O u0 p2 c0 {5,S} {8,S}
+4  C u0 p0 c0 {1,S} {5,S} {10,D}
+5  C u0 p0 c0 {2,S} {3,S} {4,S} {9,S}
+6  H u0 p0 c0 {1,S}
+7  H u0 p0 c0 {2,S}
+8  H u0 p0 c0 {3,S}
+9  H u0 p0 c0 {5,S}
+10 X u0 p0 c0 {4,D}
 
-SX(484)
+SX(542)
 1  O u0 p2 c0 {6,S} {11,S}
 2  O u0 p2 c0 {6,S} {12,S}
 3  O u0 p2 c0 {7,S} {8,S}
@@ -1581,7 +1639,7 @@ S(149)
 13 H u0 p0 c0 {5,S}
 14 H u0 p0 c0 {6,S}
 
-SX(1086)
+SX(1197)
 1  O u0 p2 c0 {7,S} {9,S}
 2  O u0 p2 c0 {7,S} {10,S}
 3  O u0 p2 c0 {7,S} {11,S}
@@ -1598,7 +1656,7 @@ SX(1086)
 14 H u0 p0 c0 {6,S}
 15 X u0 p0 c0
 
-SX(1045)
+SX(1153)
 1  O u0 p2 c0 {7,S} {14,S}
 2  O u0 p2 c0 {7,S} {12,S}
 3  O u0 p2 c0 {7,S} {13,S}
@@ -1614,7 +1672,7 @@ SX(1045)
 13 H u0 p0 c0 {3,S}
 14 X u0 p0 c0 {1,S}
 
-S(1087)
+S(1198)
 multiplicity 2
 1  O u1 p2 c0 {7,S}
 2  O u0 p2 c0 {7,S} {12,S}
@@ -1630,67 +1688,24 @@ multiplicity 2
 12 H u0 p0 c0 {2,S}
 13 H u0 p0 c0 {3,S}
 
-CHOX(724)
+SX(82)
+1 O u0 p2 c0 {3,S} {5,S}
+2 O u0 p2 c0 {4,S} {6,S}
+3 C u0 p0 c0 {1,S} {4,S} {9,D}
+4 C u0 p0 c0 {2,S} {3,S} {7,S} {8,S}
+5 H u0 p0 c0 {1,S}
+6 H u0 p0 c0 {2,S}
+7 H u0 p0 c0 {4,S}
+8 H u0 p0 c0 {4,S}
+9 X u0 p0 c0 {3,D}
+
+CHOX(802)
 1 O u0 p2 c0 {2,S} {3,S}
 2 C u0 p0 c0 {1,S} {4,T}
 3 H u0 p0 c0 {1,S}
 4 X u0 p0 c0 {2,T}
 
-SX(550)
-1  O u0 p2 c0 {4,S} {6,S}
-2  O u0 p2 c0 {5,S} {7,S}
-3  O u0 p2 c0 {5,S} {8,S}
-4  C u0 p0 c0 {1,S} {5,S} {10,D}
-5  C u0 p0 c0 {2,S} {3,S} {4,S} {9,S}
-6  H u0 p0 c0 {1,S}
-7  H u0 p0 c0 {2,S}
-8  H u0 p0 c0 {3,S}
-9  H u0 p0 c0 {5,S}
-10 X u0 p0 c0 {4,D}
-
-SX(115)
-1  O u0 p2 c0 {4,S} {8,S}
-2  O u0 p2 c0 {5,S} {6,S}
-3  O u0 p2 c0 {5,S} {7,S}
-4  C u0 p0 c0 {1,S} {5,S} {9,S} {11,S}
-5  C u0 p0 c0 {2,S} {3,S} {4,S} {10,S}
-6  H u0 p0 c0 {2,S}
-7  H u0 p0 c0 {3,S}
-8  H u0 p0 c0 {1,S}
-9  H u0 p0 c0 {4,S}
-10 H u0 p0 c0 {5,S}
-11 X u0 p0 c0 {4,S}
-
-C2H6O4(75)
-1  O u0 p2 c0 {5,S} {7,S}
-2  O u0 p2 c0 {5,S} {8,S}
-3  O u0 p2 c0 {6,S} {9,S}
-4  O u0 p2 c0 {6,S} {10,S}
-5  C u0 p0 c0 {1,S} {2,S} {6,S} {11,S}
-6  C u0 p0 c0 {3,S} {4,S} {5,S} {12,S}
-7  H u0 p0 c0 {1,S}
-8  H u0 p0 c0 {2,S}
-9  H u0 p0 c0 {3,S}
-10 H u0 p0 c0 {4,S}
-11 H u0 p0 c0 {5,S}
-12 H u0 p0 c0 {6,S}
-
-SX(1238)
-1  O u0 p2 c0 {5,S} {7,S}
-2  O u0 p2 c0 {5,S} {8,S}
-3  O u0 p2 c0 {6,S} {9,S}
-4  O u0 p2 c0 {6,S} {10,S}
-5  C u0 p0 c0 {1,S} {2,S} {6,S} {11,S}
-6  C u0 p0 c0 {3,S} {4,S} {5,S} {12,S}
-7  H u0 p0 c0 {1,S}
-8  H u0 p0 c0 {2,S}
-9  H u0 p0 c0 {3,S}
-10 H u0 p0 c0 {4,S}
-11 H u0 p0 c0 {5,S}
-12 H u0 p0 c0 {6,S}
-13 X u0 p0 c0
-
-S(304)
+S(343)
 multiplicity 2
 1  O u0 p2 c0 {6,S} {8,S}
 2  O u0 p2 c0 {7,S} {9,S}
@@ -1705,7 +1720,7 @@ multiplicity 2
 11 H u0 p0 c0 {4,S}
 12 H u0 p0 c0 {6,S}
 
-S(166)
+S(177)
 multiplicity 2
 1  O u0 p2 c0 {5,S} {7,S}
 2  O u0 p2 c0 {6,S} {8,S}
@@ -1719,7 +1734,7 @@ multiplicity 2
 10 H u0 p0 c0 {5,S}
 11 H u0 p0 c0 {6,S}
 
-C2H5O3(95)
+S(100)
 multiplicity 2
 1  O u0 p2 c0 {4,S} {6,S}
 2  O u0 p2 c0 {5,S} {7,S}
