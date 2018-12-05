@@ -6,7 +6,7 @@ database(
     kineticsDepositories = ['training'],
     kineticsFamilies =['surface','default'],
     kineticsEstimator = 'rate rules',
-    bindingEnergies = { # default values for Ni(111)
+    bindingEnergies = { # default values for Pt(111)
                        'C':(-6.364, 'eV/molecule'),
                        'H':(-2.778, 'eV/molecule'),
                        'O':(-3.481, 'eV/molecule'),
@@ -25,33 +25,6 @@ species(
     reactive=True,
     structure=SMILES("[CH4]"),
 )
-species(
-   label='O2',
-   reactive=True,
-   structure=adjacencyList(
-       """
-1 O u1 p2 c0 {2,S}
-2 O u1 p2 c0 {1,S}
-"""),
-)
-
-species(
-    label='N2',
-    reactive=False,
-    structure=SMILES("N#N"),
-)
-
-species(
-    label='CO2',
-    reactive=True,
-    structure=SMILES("O=C=O"),
-)
-
-species(
-    label='H2O',
-    reactive=True,
-    structure=SMILES("O"),
-)
 
 species(
     label='H2',
@@ -60,21 +33,9 @@ species(
 )
 
 species(
-    label='CO',
-    reactive=True,
-    structure=SMILES("[C-]#[O+]"),
-)
-
-species(
     label='C2H6',
     reactive=True,
     structure=SMILES("CC"),
-)
-
-species(
-    label='CH2O',
-    reactive=True,
-    structure=SMILES("C=O"),
 )
 
 species(
@@ -102,27 +63,9 @@ species(
 )
 
 species(
-    label='CH3OH',
+    label='C4H8',
     reactive=True,
-    structure=SMILES("CO"),
-)
-
-species(
-    label='HCO',
-    reactive=True,
-    structure=SMILES("[CH]=O"),
-)
-
-species(
-    label='CH3CHO',
-    reactive=True,
-    structure=SMILES("CC=O"),
-)
-
-species(
-    label='OH',
-    reactive=True,
-    structure=SMILES("[OH]"),
+    structure=SMILES("C=CCC"),
 )
 
 species(
@@ -134,12 +77,11 @@ species(
 #----------
 # Reaction systems
 surfaceReactor(
-    temperature=(800,'K'),
-    initialPressure=(1.0, 'bar'),
+    temperature=(353,'K'),
+    initialPressure=(31.0, 'bar'),
     initialGasMoleFractions={
-        "CH4": 0.1,
-        "O2": 0.1,
-        "N2": 0.8,
+        "C2H4": 0.5,
+        "He": 0.5,
     },
     initialSurfaceCoverages={
         "X": 1.0,
