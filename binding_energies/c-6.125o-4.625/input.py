@@ -8,7 +8,7 @@ database(
     kineticsEstimator = 'rate rules',
     bindingEnergies = { # default values for Pt(111)
                        'C':(-6.125000, 'eV/molecule'),
-                       'H':(-2.778, 'eV/molecule'),
+                       'H':(-0.240, 'eV/molecule'),
                        'O':(-4.625000, 'eV/molecule'),
                        }
 )
