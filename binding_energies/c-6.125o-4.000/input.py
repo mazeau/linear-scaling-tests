@@ -96,7 +96,7 @@ surfaceReactor(
     surfaceSiteDensity=(2.9e-9, 'mol/cm^2'),
 #    terminationConversion = { "CH4":0.9,},
     terminationTime=(1000., 's'),
-#    terminationConversion={'C2H4': 0.99,}
+    terminationConversion={'C2H4': 0.99,}
 )
 
 simulator(
@@ -106,7 +106,7 @@ simulator(
 
 model(
     toleranceKeepInEdge=0.0,
-    toleranceMoveToCore=1e-12,
+    toleranceMoveToCore=1e-4,
     toleranceInterruptSimulation=0.1,
     maximumEdgeSpecies=100000
 )
