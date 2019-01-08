@@ -1,7 +1,7 @@
 # Data sources
 database(
     thermoLibraries=['surfaceThermoPt', 'primaryThermoLibrary', 'thermo_DFT_CCSDTF12_BAC','DFT_QCI_thermo'],
-    reactionLibraries = [('CPOX_Pt/Deutschmann2006', True)],
+    reactionLibraries = [('CPOX_Pt/Deutschmann2006', False)],
     seedMechanisms = [],
     kineticsDepositories = ['training'],
     kineticsFamilies =['surface','default'],
@@ -107,7 +107,7 @@ simulator(
 model(
     toleranceKeepInEdge=0.0,
     toleranceMoveToCore=1e-8,
-    toleranceInterruptSimulation=0.1,
+    toleranceInterruptSimulation=1e-8,
     maximumEdgeSpecies=100000
 )
 
