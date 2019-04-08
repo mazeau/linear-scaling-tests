@@ -7,10 +7,10 @@ database(
     kineticsFamilies = ['surface','default'],
     kineticsEstimator = 'rate rules',
     bindingEnergies = { # default values for Pt(111)
-                       'C':(-6.750, 'eV/molecule'),
+                       'C':(-5.437500, 'eV/molecule'),
                        'H':(-2.479, 'eV/molecule'),
                        'O':(-3.586, 'eV/molecule'),
-		       'N':(-4.352, 'eV/molecule'),
+		       'N':(-1.500000, 'eV/molecule'),
                        }
 )
 
