@@ -1,2 +1,2 @@
-export RMGpy=/gss_gpfs_scratch/westgroup/Cat/RMG-Py
+export RMGpy=/scratch/westgroup/mazeau/Cat/RMG-Py
 find . -name run.sh -execdir sh -c "sbatch run.sh" \;
