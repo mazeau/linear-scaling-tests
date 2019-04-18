@@ -1,15 +1,16 @@
 # Data sources
 database(
-    thermoLibraries=['surfaceThermoPt', 'primaryThermoLibrary', 'thermo_DFT_CCSDTF12_BAC','DFT_QCI_thermo'],
-    reactionLibraries = [('CPOX_Pt/Deutschmann2006', False)],
+    thermoLibraries=['surfaceThermoPt', 'primaryThermoLibrary', 'thermo_DFT_CCSDTF12_BAC','DFT_QCI_thermo','C3','C10H11','CH',],
+    reactionLibraries = [('Surface/CPOX_Pt/Deutschmann2006', False),'2009_Sharma_C5H5_CH3_highP','2015_Buras_C2H3_C4H6_highP','c-C5H5_CH3_Sharma'],
     seedMechanisms = [],
     kineticsDepositories = ['training'],
     kineticsFamilies =['surface','default'],
     kineticsEstimator = 'rate rules',
     bindingEnergies = { # default values for Pt(111)
                        'C':(-6.750, 'eV/molecule'),
-                       'H':(-0.240, 'eV/molecule'),
-                       'O':(-1.030, 'eV/molecule'),
+                       'H':(-2.479, 'eV/molecule'),
+                       'O':(-3.586, 'eV/molecule'),
+		       'N':(-4.352, 'eV/molecule'),
                        }
 )
 
@@ -94,8 +95,9 @@ surfaceReactor(
     },
     surfaceVolumeRatio=(1.e5, 'm^-1'),
     surfaceSiteDensity=(2.9e-9, 'mol/cm^2'),
-#    terminationConversion = { "CH4":0.9,},
+#    terminationConversion = { "C2H4":0.95,},
     terminationTime=(1000., 's'),
+#    terminationRateRatio=0.01,
 #    terminationConversion={'C2H4': 0.99,}
 )
 
@@ -106,9 +108,9 @@ simulator(
 
 model(
     toleranceKeepInEdge=0.0,
-    toleranceMoveToCore=1e-8,
-    toleranceInterruptSimulation=1e-8,
-    maximumEdgeSpecies=100000
+    toleranceMoveToCore=1e-4,
+    toleranceInterruptSimulation=1e8,
+    maximumEdgeSpecies=100000,
 )
 
 options(
@@ -116,6 +118,10 @@ options(
     saveRestartPeriod=None,
     generateOutputHTML=True,
     generatePlots=False,
-    saveEdgeSpecies=True,
+    saveEdgeSpecies=False,
     saveSimulationProfiles=True,
+)
+
+generatedSpeciesConstraints(
+    allowed=['input species','reaction libraries'],
 )
