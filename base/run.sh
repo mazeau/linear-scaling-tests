@@ -3,7 +3,9 @@
 #SBATCH --error=error.log
 #SBATCH --output=output.log
 #SBATCH -n1
-#SBATCH --mem=128Gb
+#SBATCH --partition=west,general
+#SBATCH --exclude=c5003
+#SBATCH --mem=50Gb
 #SBATCH --time=24:00:00
 
 echo $RMGpy

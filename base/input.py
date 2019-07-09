@@ -1,17 +1,20 @@
 # Data sources
 database(
     thermoLibraries=['surfaceThermoPt', 'primaryThermoLibrary', 'thermo_DFT_CCSDTF12_BAC','DFT_QCI_thermo'],
-    reactionLibraries = [('Surface/CPOX_Pt/Deutschmann2006', True),'ERC-FoundationFuelv0.9','BurkeH2O2inN2'],
+    reactionLibraries = [('Surface/CPOX_Pt/Deutschmann2006', True),'BurkeH2O2inArHe'],
     seedMechanisms = [],
     kineticsDepositories = ['training'],
     kineticsFamilies =['surface','default'],
     kineticsEstimator = 'rate rules',
+)
+catalystProperties(
     bindingEnergies = { # default values for Pt(111)
                        'C':(-6.750, 'eV/molecule'),
                        'O':(-3.586, 'eV/molecule'),
                        'N':(-4.352, 'eV/molecule'),
-		       'H':(-2.479, 'eV/molecule'),
-                       }
+                       'H':(-2.479, 'eV/molecule'),
+                       },
+    surfaceSiteDensity=(2.72e-9, 'mol/cm^2'),
 )
 
 # List of species
@@ -135,7 +138,7 @@ species(
 #----------
 # Reaction systems
 surfaceReactor(
-    temperature=(400,'K'),
+    temperature=(600,'K'),
     initialPressure=(1.0, 'bar'),
     initialGasMoleFractions={
         "CH4": 0.041866,
@@ -146,7 +149,6 @@ surfaceReactor(
         "X": 1.0,
     },
     surfaceVolumeRatio=(1.e5, 'm^-1'),
-    surfaceSiteDensity=(2.9e-9, 'mol/cm^2'),
     terminationConversion = { "CH4":0.95,},
     terminationTime=(10., 's'),
 #    terminationConversion={'O2': 0.99,},
@@ -154,7 +156,7 @@ surfaceReactor(
 )
 
 surfaceReactor(
-    temperature=(400,'K'),
+    temperature=(600,'K'),
     initialPressure=(1.0, 'bar'),
     initialGasMoleFractions={
         "CH4": 0.108574,
@@ -165,7 +167,6 @@ surfaceReactor(
         "X": 1.0,
     },
     surfaceVolumeRatio=(1.e5, 'm^-1'),
-    surfaceSiteDensity=(2.9e-9, 'mol/cm^2'),
     terminationConversion = { "CH4":0.95,},
     terminationTime=(10., 's'),
 #    terminationConversion={'O2': 0.99,},
@@ -173,7 +174,7 @@ surfaceReactor(
 )
 
 surfaceReactor(
-    temperature=(1400,'K'),
+    temperature=(2000,'K'),
     initialPressure=(1.0, 'bar'),
     initialGasMoleFractions={
         "CH4": 0.041866,
@@ -184,7 +185,6 @@ surfaceReactor(
         "X": 1.0,
     },
     surfaceVolumeRatio=(1.e5, 'm^-1'),
-    surfaceSiteDensity=(2.9e-9, 'mol/cm^2'),
     terminationConversion = { "CH4":0.95,},
     terminationTime=(10., 's'),
 #    terminationConversion={'O2': 0.99,},
@@ -192,7 +192,7 @@ surfaceReactor(
 )
     
 surfaceReactor(
-    temperature=(1400,'K'),
+    temperature=(2000,'K'),
     initialPressure=(1.0, 'bar'),
     initialGasMoleFractions={
         "CH4": 0.108574,
@@ -203,7 +203,6 @@ surfaceReactor(
         "X": 1.0,
     },
     surfaceVolumeRatio=(1.e5, 'm^-1'),
-    surfaceSiteDensity=(2.9e-9, 'mol/cm^2'),
     terminationConversion = { "CH4":0.95,},
     terminationTime=(10., 's'),
 #    terminationConversion={'O2': 0.99,},
@@ -220,13 +219,13 @@ model(
     toleranceMoveToCore=1e-1,
 # inturrupt tolerance was 0.1 wout pruning, 1e8 w pruning on
     toleranceInterruptSimulation=1e8,
-    maximumEdgeSpecies=50000,
+    maximumEdgeSpecies=500000,
 # PRUNING: uncomment to prune
-    minCoreSizeForPrune=50,
+#    minCoreSizeForPrune=50,
 # prune before simulation based on thermo
-    toleranceThermoKeepSpeciesInEdge=0.5,
+#    toleranceThermoKeepSpeciesInEdge=0.5,
 # prune rxns from edge that dont move into core
-    minSpeciesExistIterationsForPrune=2,
+#    minSpeciesExistIterationsForPrune=2,
 # FILTERING: set so threshold is slightly larger than max rate constants
 #    filterReactions=True,
 #    filterThreshold=5e8, # default value
@@ -237,7 +236,7 @@ options(
     saveRestartPeriod=None,
     generateOutputHTML=True,
     generatePlots=False,
-    saveEdgeSpecies=False,
+    saveEdgeSpecies=True,
     saveSimulationProfiles=True,
 )
 
