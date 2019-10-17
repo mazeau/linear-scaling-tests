@@ -68,7 +68,7 @@ for x in lsrs:
             t = f.read()
 
         # Removing dummy reaction
-        t = t.replace('\# Reaction 1\nreaction(\'N2 <=> N2\', [0.000000e+00, 0.0, 0.0],\n         id=\'gas-1\')','\n')
+        t = t.replace("# Reaction 1\nreaction('N2 <=> N2', [0.000000e+00, 0.0, 0.0],\n         id='gas-1')","\n")
 
         # Saving cantera file
         with open(final_cantera,'w') as f:
