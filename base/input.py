@@ -1,7 +1,7 @@
 # Data sources
 database(
     thermoLibraries=['surfaceThermoPt', 'primaryThermoLibrary', 'thermo_DFT_CCSDTF12_BAC','DFT_QCI_thermo','C3','CH',],
-    reactionLibraries = ['C3','2015_Buras_C2H3_C4H6_highP'],
+    reactionLibraries = ['2015_Buras_C2H3_C4H6_highP'],
     seedMechanisms = [],
     kineticsDepositories = ['training'],
     kineticsFamilies =['surface', 'default'],
@@ -126,7 +126,7 @@ surfaceReactor(
     surfaceVolumeRatio=(1e7, 'm^-1'),  # should be 5.9e8, but when additional
     # ethylene is added in to maintain constant pressure so I'm making this less
     # so there is more ethylene than surface sites
-    terminationTime=(500., 's'),
+    terminationTime=(100., 's'),
     #terminationRateRatio=1.e-3,
     terminationConversion={'C2H4': 0.9,}
     # terminationConversion={'X': 0.99,}
@@ -141,7 +141,7 @@ model(
     toleranceKeepInEdge=0.0,
     toleranceMoveToCore=1e-3,
     toleranceInterruptSimulation=1e-3,
-    maximumEdgeSpecies=100000,
+    maximumEdgeSpecies=10000,
 # PRUNING: uncomment to prune
     minCoreSizeForPrune=50,
 # prune rxns from edge that dont move into core
@@ -153,10 +153,12 @@ options(
     saveRestartPeriod=None,
     generateOutputHTML=True,
     generatePlots=False,
-    saveEdgeSpecies=True,
+    saveEdgeSpecies=False,
     saveSimulationProfiles=True,
 )
 
 generatedSpeciesConstraints(
     allowed=['input species','reaction libraries'],
+    maximumCarbonAtoms=14,
+    maximumRadicalElectrons=0,
 )
