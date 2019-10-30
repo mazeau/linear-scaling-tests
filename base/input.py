@@ -1,17 +1,19 @@
 # Data sources
 database(
-    thermoLibraries=['surfaceThermoPt', 'primaryThermoLibrary', 'thermo_DFT_CCSDTF12_BAC','DFT_QCI_thermo','C3','C10H11','CH',],
-    reactionLibraries = [('Surface/CPOX_Pt/Deutschmann2006', False),'2009_Sharma_C5H5_CH3_highP','2015_Buras_C2H3_C4H6_highP','c-C5H5_CH3_Sharma'],
+    thermoLibraries=['surfaceThermoPt', 'primaryThermoLibrary', 'thermo_DFT_CCSDTF12_BAC','DFT_QCI_thermo','C3','CH',],
+    reactionLibraries = ['C3','2015_Buras_C2H3_C4H6_highP'],
     seedMechanisms = [],
     kineticsDepositories = ['training'],
-    kineticsFamilies =['surface','default'],
-    kineticsEstimator = 'rate rules',
-    bindingEnergies = { # default values for Pt(111)
-                       'C':(-6.750, 'eV/molecule'),
-                       'H':(-2.479, 'eV/molecule'),
-                       'O':(-3.586, 'eV/molecule'),
-		       'N':(-4.352, 'eV/molecule'),
-                       }
+    kineticsFamilies =['surface', 'default'],
+    kineticsEstimator = 'rate rules',)
+catalystProperties(
+    bindingEnergies = { # default values for Ni(111)
+                       'C':(-6.045, 'eV/molecule'),  # Ni(111)
+                       'H':(-2.352, 'eV/molecule'),  # Pt(111)
+                       'O':(-4.712, 'eV/molecule'),  # Ni(111)
+                       'N':(-4.352, 'eV/molecule'),
+                       },
+    surfaceSiteDensity=(2.72e-9, 'mol/cm^2'),
 )
 
 # List of species
@@ -22,83 +24,112 @@ species(
 )
 
 species(
-    label='He',
-    reactive=True,
-    structure=adjacencyList("1 He u0 p1 c0"),
-)
-
-species(
-    label='CH4',
-    reactive=True,
-    structure=SMILES("[CH4]"),
-)
-
-species(
-    label='H2',
-    reactive=True,
-    structure=SMILES("[H][H]"),
-)
-
-species(
-    label='C2H6',
-    reactive=True,
-    structure=SMILES("CC"),
-)
-
-species(
-    label='CH3',
-    reactive=True,
-    structure=SMILES("[CH3]"),
-)
-
-species(
-    label='C3H8',
-    reactive=True,
-    structure=SMILES("CCC"),
-)
-
-species(
-    label='H',
-    reactive=True,
-    structure=SMILES("[H]"),
-)
-
-species(
-    label='C2H5',
-    reactive=True,
-    structure=SMILES("C[CH2]"),
-)
-
-species(
-    label='C4H8',
-    reactive=True,
-    structure=SMILES("C=CCC"),
-)
-
-species(
     label='C2H4',
     reactive=True,
     structure=SMILES("C=C"),
 )
 
+species(
+    label='n-heptane',
+    reactive=False,
+    structure=SMILES("CCCCCCC"),
+)
+
+species(
+    label='C4H8-1',
+    reactive=True,
+    structure=SMILES("CCC=C"),
+)
+
+species(
+    label='C4H8-2',
+    reactive=True,
+    structure=SMILES("CC=CC"),
+)
+
+species(
+    label='HX',
+    reactive=True,
+    structure=adjacencyList(
+    """
+    1 H u0 p0 c0 {2,S}
+    2 X u0 p0 c0 {1,S}
+    """
+    )
+)
+
+# species(
+#     label='C2H5X',
+#     reactive=True,
+#     structure=adjacencyList(
+#     """
+#     1 C u0 p0 c0 {2,S} {3,S} {4,S} {8,S}
+#     2 C u0 p0 c0 {1,S} {5,S} {6,S} {7,S}
+#     3 H u0 p0 c0 {1,S}
+#     4 H u0 p0 c0 {1,S}
+#     5 H u0 p0 c0 {2,S}
+#     6 H u0 p0 c0 {2,S}
+#     7 H u0 p0 c0 {2,S}
+#     8 X u0 p0 c0 {1,S}
+#     """
+#     )
+# )
+
+# species(
+#     label='H',
+#     reactive=True,
+#     structure=SMILES("[H]"),
+# )
+
+# species(
+#     label='C6H12-1',
+#     reactive=True,
+#     structure=SMILES("C=CCCCC"),
+# )
+#
+# species(
+#     label='C6H12-2',
+#     reactive=True,
+#     structure=SMILES("CC=CCCC"),
+#  )
+#
+# species(
+#     label='C6H12-3',
+#     reactive=True,
+#     structure=SMILES("CCC=CCC"),
+# )
+#
+# species(
+#     label='C6H12-1-3',
+#     reactive=True,
+#     structure=SMILES("C=CC(C)CC"),
+# )
+#
+# species(
+#     label='C6H12-2-3',
+#     reactive=True,
+#     structure=SMILES("CC=C(C)CC"),
+# )
+
 #----------
 # Reaction systems
 surfaceReactor(
-    temperature=(353,'K'),
-    initialPressure=(31.0, 'bar'),
+    temperature=(423,'K'),
+    initialPressure=(35, 'bar'),
     initialGasMoleFractions={
-        "C2H4": 0.5,
-        "He": 0.5,
+        "C2H4": 0.67,
+        "n-heptane": 0.33,
     },
     initialSurfaceCoverages={
         "X": 1.0,
     },
-    surfaceVolumeRatio=(1.e5, 'm^-1'),
-    surfaceSiteDensity=(2.9e-9, 'mol/cm^2'),
-#    terminationConversion = { "C2H4":0.95,},
-    terminationTime=(1000., 's'),
-#    terminationRateRatio=0.01,
-#    terminationConversion={'C2H4': 0.99,}
+    surfaceVolumeRatio=(1e7, 'm^-1'),  # should be 5.9e8, but when additional
+    # ethylene is added in to maintain constant pressure so I'm making this less
+    # so there is more ethylene than surface sites
+    terminationTime=(500., 's'),
+    #terminationRateRatio=1.e-3,
+    terminationConversion={'C2H4': 0.9,}
+    # terminationConversion={'X': 0.99,}
 )
 
 simulator(
@@ -108,9 +139,13 @@ simulator(
 
 model(
     toleranceKeepInEdge=0.0,
-    toleranceMoveToCore=1e-4,
-    toleranceInterruptSimulation=1e8,
+    toleranceMoveToCore=1e-3,
+    toleranceInterruptSimulation=1e-3,
     maximumEdgeSpecies=100000,
+# PRUNING: uncomment to prune
+    minCoreSizeForPrune=50,
+# prune rxns from edge that dont move into core
+    minSpeciesExistIterationsForPrune=3,
 )
 
 options(
@@ -118,7 +153,7 @@ options(
     saveRestartPeriod=None,
     generateOutputHTML=True,
     generatePlots=False,
-    saveEdgeSpecies=False,
+    saveEdgeSpecies=True,
     saveSimulationProfiles=True,
 )
 
