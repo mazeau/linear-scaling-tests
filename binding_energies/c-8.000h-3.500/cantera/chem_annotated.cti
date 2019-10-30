@@ -1,0 +1,996 @@
+units(length='cm', time='s', quantity='mol', act_energy='kcal/mol')
+
+ideal_gas(name='gas',
+          elements="H D T C Ci O Oi N Ne Ar He Si S Cl X",
+          species="""n-heptane   Ar          He          Ne
+                     N2          C2H4(2)     C4H8-1(3)   C4H8-2(4)
+                     C6H12(148)  C4H8(154)   C6H12(162)  C6H12(224)
+                     C6H12(303)  C6H12(534)  C6H12(535)  C6H12(645)""",
+          reactions='gas-*',
+          initial_state=state(temperature=300.0, pressure=OneAtm))
+
+ideal_interface(name='surface1',
+                elements="H D T C Ci O Oi N Ne Ar He Si S Cl X",
+                species="""X(1)        C2H3X(74)   HX(75)      C2H5X(78)
+                          C2H2X(104)  C4H9X(108)  C4H9X(109)  C2H4X(113)
+                          SX(115)     SX(116)     C2H3X(121)  C4H9X(142)
+                          SX(144)     C4H9X(155)  SX(158)     SX(168)
+                          SX(195)     SX(196)     SX(225)     SX(226)
+                          SX(536)""",
+                site_density=2.72e-09,
+                phases="gas",
+          reactions='surface1-*',
+                initial_state=state(temperature=300.0, pressure=OneAtm))
+
+#-------------------------------------------------------------------------------
+# Element data
+#-------------------------------------------------------------------------------
+
+element(symbol=u'X', atomic_mass=195.083)
+element(symbol=u'Ci', atomic_mass=13.003)
+element(symbol=u'D', atomic_mass=2.014)
+element(symbol=u'Oi', atomic_mass=18.0)
+element(symbol=u'T', atomic_mass=3.016)
+#-------------------------------------------------------------------------------
+# Species data
+#-------------------------------------------------------------------------------
+
+species(name=u'n-heptane',
+        atoms='H:16 C:7',
+        thermo=(NASA([100.00, 1262.75],
+                     [-2.93512125E-03,  7.69375610E-02, -3.48031525E-05,
+                       1.86160506E-09,  2.01550529E-12, -2.57829334E+04,
+                       3.00312819E+01]),
+                NASA([1262.75, 5000.00],
+                     [ 1.38379971E+01,  4.85941816E-02, -1.95472819E-05,
+                       3.52833289E-09, -2.39061569E-13, -3.05142526E+04,
+                      -4.48654615E+01])))
+
+species(name=u'Ar',
+        atoms='Ar:1',
+        thermo=(NASA([200.00, 1000.00],
+                     [ 2.50000000E+00,  0.00000000E+00,  0.00000000E+00,
+                       0.00000000E+00,  0.00000000E+00, -7.45375000E+02,
+                       4.37967000E+00]),
+                NASA([1000.00, 6000.00],
+                     [ 2.50000000E+00,  0.00000000E+00,  0.00000000E+00,
+                       0.00000000E+00,  0.00000000E+00, -7.45375000E+02,
+                       4.37967000E+00])))
+
+species(name=u'He',
+        atoms='He:1',
+        thermo=(NASA([200.00, 1000.00],
+                     [ 2.50000000E+00,  0.00000000E+00,  0.00000000E+00,
+                       0.00000000E+00,  0.00000000E+00, -7.45375000E+02,
+                       9.28724000E-01]),
+                NASA([1000.00, 6000.00],
+                     [ 2.50000000E+00,  0.00000000E+00,  0.00000000E+00,
+                       0.00000000E+00,  0.00000000E+00, -7.45375000E+02,
+                       9.28724000E-01])))
+
+species(name=u'Ne',
+        atoms='Ne:1',
+        thermo=(NASA([200.00, 1000.00],
+                     [ 2.50000000E+00,  0.00000000E+00,  0.00000000E+00,
+                       0.00000000E+00,  0.00000000E+00, -7.45375000E+02,
+                       3.35532000E+00]),
+                NASA([1000.00, 6000.00],
+                     [ 2.50000000E+00,  0.00000000E+00,  0.00000000E+00,
+                       0.00000000E+00,  0.00000000E+00, -7.45375000E+02,
+                       3.35532000E+00])))
+
+species(name=u'N2',
+        atoms='N:2',
+        thermo=(NASA([200.00, 1000.00],
+                     [ 3.53101000E+00, -1.23661000E-04, -5.02999000E-07,
+                       2.43531000E-09, -1.40881000E-12, -1.04698000E+03,
+                       2.96747000E+00]),
+                NASA([1000.00, 6000.00],
+                     [ 2.95258000E+00,  1.39690000E-03, -4.92632000E-07,
+                       7.86010000E-11, -4.60755000E-15, -9.23949000E+02,
+                       5.87189000E+00])))
+
+species(name=u'C2H4(2)',
+        atoms='H:4 C:2',
+        thermo=(NASA([100.00, 979.37],
+                     [ 3.97469045E+00, -4.75813325E-03,  4.16772624E-05,
+                      -4.51377676E-08,  1.54218287E-11,  4.91540855E+03,
+                       3.62439976E+00]),
+                NASA([979.37, 5000.00],
+                     [ 3.55670229E+00,  1.10625819E-02, -4.17009559E-06,
+                       7.85564219E-10, -5.70042086E-14,  4.32042473E+03,
+                       2.17665377E+00])))
+
+species(name=u'C4H8-1(3)',
+        atoms='H:8 C:4',
+        thermo=(NASA([100.00, 1007.28],
+                     [ 2.58772978E+00,  2.32777883E-02,  1.93412653E-05,
+                      -3.55496729E-08,  1.36906178E-11, -1.91872929E+03,
+                       1.45750592E+01]),
+                NASA([1007.28, 5000.00],
+                     [ 7.20516863E+00,  2.36361619E-02, -9.03150325E-06,
+                       1.65392736E-09, -1.16019318E-13, -3.79733809E+03,
+                      -1.24426086E+01])))
+
+species(name=u'C4H8-2(4)',
+        atoms='H:8 C:4',
+        thermo=(NASA([100.00, 1157.78],
+                     [ 2.51999305E+00,  2.76811707E-02,  9.44135366E-07,
+                      -1.25013222E-08,  4.67160311E-12, -3.34374810E+03,
+                       1.30195268E+01]),
+                NASA([1157.78, 5000.00],
+                     [ 6.04218222E+00,  2.60073554E-02, -1.04844041E-05,
+                       1.90882450E-09, -1.30601743E-13, -4.86273126E+03,
+                      -7.52672501E+00])))
+
+species(name=u'C6H12(148)',
+        atoms='H:12 C:6',
+        thermo=(NASA([100.00, 1018.92],
+                     [ 1.21824397E+00,  4.88307070E-02,  8.49214055E-06,
+                      -3.91884007E-08,  1.67100558E-11, -8.55522000E+03,
+                       2.43075994E+01]),
+                NASA([1018.92, 5000.00],
+                     [ 1.16699416E+01,  3.59248568E-02, -1.39119411E-05,
+                       2.55989045E-09, -1.79819725E-13, -1.21450638E+04,
+                      -3.34759078E+01])))
+
+species(name=u'C4H8(154)',
+        atoms='H:8 C:4',
+        thermo=(NASA([100.00, 1061.32],
+                     [ 2.52506524E+00,  2.64750742E-02,  7.08428866E-06,
+                      -2.07740178E-08,  8.00465619E-12, -4.02607206E+03,
+                       1.28856643E+01]),
+                NASA([1061.32, 5000.00],
+                     [ 6.48663440E+00,  2.49945454E-02, -9.83291861E-06,
+                       1.79345326E-09, -1.24009900E-13, -5.62448308E+03,
+                      -1.00311177E+01])))
+
+species(name=u'C6H12(162)',
+        atoms='H:12 C:6',
+        thermo=(NASA([100.00, 727.96],
+                     [ 9.39441039E-01,  7.36827155E-02, -7.88408288E-05,
+                       6.61456924E-08, -2.57040239E-11, -8.86666118E+03,
+                       2.10074368E+01]),
+                NASA([727.96, 5000.00],
+                     [ 3.15400003E+00,  5.47777335E-02, -2.60055303E-05,
+                       5.04732885E-09, -3.55800736E-13, -9.01059172E+03,
+                       1.22525773E+01])))
+
+species(name=u'C6H12(224)',
+        atoms='H:12 C:6',
+        thermo=(NASA([100.00, 1917.59],
+                     [ 2.29988559E+00,  4.93348058E-02, -1.39910600E-05,
+                      -2.79392986E-09,  1.20742677E-12, -1.03230295E+04,
+                       1.84312025E+01]),
+                NASA([1917.59, 5000.00],
+                     [ 1.85713833E+01,  3.37487534E-02, -1.61574143E-05,
+                       2.95099503E-09, -1.92337797E-13, -1.99382403E+04,
+                      -7.94628222E+01])))
+
+species(name=u'C6H12(303)',
+        atoms='H:12 C:6',
+        thermo=(NASA([100.00, 1083.88],
+                     [ 1.36792050E+00,  4.60329646E-02,  1.03880539E-05,
+                      -3.61559110E-08,  1.41148566E-11, -9.21215551E+03,
+                       2.36684556E+01]),
+                NASA([1083.88, 5000.00],
+                     [ 1.07760956E+01,  3.82407598E-02, -1.60947986E-05,
+                       3.05492336E-09, -2.16279178E-13, -1.28333639E+04,
+                      -2.97750462E+01])))
+
+species(name=u'C6H12(534)',
+        atoms='H:12 C:6',
+        thermo=(NASA([100.00, 1698.32],
+                     [ 1.59096309E+00,  5.26757966E-02, -1.83560662E-05,
+                      -1.06687924E-09,  1.11258465E-12, -1.06220129E+04,
+                       2.16531524E+01]),
+                NASA([1698.32, 5000.00],
+                     [ 1.44974887E+01,  3.62933219E-02, -1.62657874E-05,
+                       2.97195174E-09, -1.97265691E-13, -1.70271902E+04,
+                      -5.34000400E+01])))
+
+species(name=u'C6H12(535)',
+        atoms='H:12 C:6',
+        thermo=(NASA([100.00, 3144.66],
+                     [ 1.62486458E+00,  5.81706991E-02, -2.94074833E-05,
+                       6.41454590E-09, -5.27512950E-13, -9.95070714E+03,
+                       2.05730382E+01]),
+                NASA([3144.66, 5000.00],
+                     [ 2.63111437E+01,  2.09625560E-02, -8.88917459E-06,
+                       1.47742097E-09, -8.83257986E-14, -2.26053361E+04,
+                      -1.22241742E+02])))
+
+species(name=u'C6H12(645)',
+        atoms='H:12 C:6',
+        thermo=(NASA([100.00, 1669.47],
+                     [ 1.53174888E+00,  5.28581164E-02, -1.89680941E-05,
+                      -7.62610687E-10,  1.08597762E-12, -9.44873766E+03,
+                       2.14413917E+01]),
+                NASA([1669.47, 5000.00],
+                     [ 1.41704353E+01,  3.61100679E-02, -1.60801726E-05,
+                       2.93999208E-09, -1.95631060E-13, -1.55547534E+04,
+                      -5.16589683E+01])))
+
+species(name=u'X(1)',
+        atoms='X:1',
+        thermo=(NASA([100.00, 1554.81],
+                     [ 7.10134880E-03, -4.25615041E-05,  8.98521156E-08,
+                      -7.80182565E-11,  2.32462166E-14, -8.76099414E-01,
+                      -3.11209498E-02]),
+                NASA([1554.81, 5000.00],
+                     [ 1.60301287E-01, -2.52237396E-04,  1.14182282E-07,
+                      -1.21473809E-11,  3.85806589E-16, -7.08108147E+01,
+                      -9.09535600E-01])))
+
+species(name=u'C2H3X(74)',
+        atoms='H:3 C:2 X:1',
+        thermo=(NASA([100.00, 928.60],
+                     [ 3.83104022E+00, -8.76542826E-03,  6.98017027E-05,
+                      -8.68052566E-08,  3.33256145E-11, -2.02611992E+03,
+                      -1.81156365E+01]),
+                NASA([928.60, 5000.00],
+                     [ 8.78015372E+00,  1.92565992E-03,  8.25424482E-07,
+                      -1.63654020E-10,  5.70926320E-15, -4.32535794E+03,
+                      -4.90566656E+01])))
+
+species(name=u'HX(75)',
+        atoms='H:1 X:1',
+        thermo=(NASA([100.00, 952.91],
+                     [-3.80957846E-01,  5.47219393E-03,  2.60946928E-06,
+                      -9.65008412E-09,  4.63967474E-12, -1.52247970E+04,
+                       1.01722845E+00]),
+                NASA([952.91, 5000.00],
+                     [ 2.80337105E+00, -5.41002993E-04,  4.99482316E-07,
+                      -7.54902555E-11,  3.06721398E-15, -1.61655356E+04,
+                      -1.59435356E+01])))
+
+species(name=u'C2H5X(78)',
+        atoms='H:5 C:2 X:1',
+        thermo=(NASA([100.00, 803.89],
+                     [-1.64624290E+00,  3.89625197E-02, -4.31124593E-05,
+                       2.97071589E-08, -8.80200440E-12, -1.37303065E+04,
+                       9.27319544E+00]),
+                NASA([803.89, 5000.00],
+                     [ 1.97599860E+00,  2.09382411E-02, -9.47914613E-06,
+                       1.81392354E-09, -1.27205831E-13, -1.43126603E+04,
+                      -7.41117371E+00])))
+
+species(name=u'C2H2X(104)',
+        atoms='H:2 C:2 X:1',
+        thermo=(NASA([100.00, 1146.92],
+                     [-1.35665820E+00,  2.85337846E-02, -3.11240302E-05,
+                       1.70133631E-08, -3.63321309E-12, -9.60073602E+03,
+                       3.79543002E+00]),
+                NASA([1146.92, 5000.00],
+                     [ 4.86808415E+00,  6.82426487E-03, -2.73109304E-06,
+                       5.09412825E-10, -3.57465702E-14, -1.10285858E+04,
+                      -2.70886136E+01])))
+
+species(name=u'C4H9X(108)',
+        atoms='H:9 C:4 X:1',
+        thermo=(NASA([100.00, 1009.34],
+                     [ 2.45384267E+00,  2.40992831E-02,  3.11016702E-05,
+                      -4.95707962E-08,  1.85297228E-11, -1.78684369E+04,
+                      -3.52852897E+00]),
+                NASA([1009.34, 5000.00],
+                     [ 7.52077606E+00,  2.82414636E-02, -1.10516169E-05,
+                       2.04773827E-09, -1.44619150E-13, -2.01251301E+04,
+                      -3.41327944E+01])))
+
+species(name=u'C4H9X(109)',
+        atoms='H:9 C:4 X:1',
+        thermo=(NASA([100.00, 993.09],
+                     [ 2.22649398E+00,  2.86530264E-02,  2.37815365E-05,
+                      -4.60602647E-08,  1.82913397E-11, -1.65854214E+04,
+                      -3.55142154E+00]),
+                NASA([993.09, 5000.00],
+                     [ 9.09062474E+00,  2.59568966E-02, -9.83403953E-06,
+                       1.80637333E-09, -1.27731585E-13, -1.91791405E+04,
+                      -4.28140174E+01])))
+
+species(name=u'C2H4X(113)',
+        atoms='H:4 C:2 X:1',
+        thermo=(NASA([100.00, 922.95],
+                     [-1.51743966E+00,  3.54364160E-02, -3.81055319E-05,
+                       2.35706536E-08, -6.09806371E-12, -1.27134210E+04,
+                       5.77181645E+00]),
+                NASA([922.95, 5000.00],
+                     [ 2.83447637E+00,  1.65755512E-02, -7.45246257E-06,
+                       1.42931809E-09, -1.00637324E-13, -1.35167426E+04,
+                      -1.48747324E+01])))
+
+species(name=u'SX(115)',
+        atoms='H:13 C:6 X:1',
+        thermo=(NASA([100.00, 1104.49],
+                     [ 9.11727952E-01,  5.71187364E-02, -4.42099107E-06,
+                      -2.31823222E-08,  9.89574697E-12, -2.29997141E+04,
+                       4.93078500E+00]),
+                NASA([1104.49, 5000.00],
+                     [ 1.03932270E+01,  4.50091012E-02, -1.81629213E-05,
+                       3.33344658E-09, -2.30372468E-13, -2.64499884E+04,
+                      -4.78920572E+01])))
+
+species(name=u'SX(116)',
+        atoms='H:13 C:6 X:1',
+        thermo=(NASA([100.00, 1210.10],
+                     [ 1.10829393E+00,  5.37305715E-02, -6.36959419E-07,
+                      -2.23981043E-08,  8.32675983E-12, -2.42755681E+04,
+                       5.70636748E+00]),
+                NASA([1210.10, 5000.00],
+                     [ 9.93886732E+00,  4.70613564E-02, -2.02855378E-05,
+                       3.80586226E-09, -2.64097040E-13, -2.80616162E+04,
+                      -4.53930264E+01])))
+
+species(name=u'C2H3X(121)',
+        atoms='H:3 C:2 X:1',
+        thermo=(NASA([100.00, 808.69],
+                     [-1.45264836E+00,  3.42706810E-02, -4.40841426E-05,
+                       3.22606409E-08, -9.67619190E-12, -2.19539938E+04,
+                       5.13281617E+00]),
+                NASA([808.69, 5000.00],
+                     [ 2.64803324E+00,  1.39871085E-02, -6.46021660E-06,
+                       1.24353615E-09, -8.72724468E-14, -2.26172138E+04,
+                      -1.37797660E+01])))
+
+species(name=u'C4H9X(142)',
+        atoms='H:9 C:4 X:1',
+        thermo=(NASA([100.00, 971.26],
+                     [ 2.18772549E+00,  2.80528346E-02,  2.95105615E-05,
+                      -5.52418709E-08,  2.24097278E-11, -1.73625852E+04,
+                      -4.38996343E+00]),
+                NASA([971.26, 5000.00],
+                     [ 1.02820855E+01,  2.36845850E-02, -8.47958598E-06,
+                       1.54097260E-09, -1.09822817E-13, -2.03012440E+04,
+                      -5.02382303E+01])))
+
+species(name=u'SX(144)',
+        atoms='H:13 C:6 X:1',
+        thermo=(NASA([100.00, 1140.27],
+                     [ 9.41800086E-01,  5.59570190E-02, -1.23894799E-06,
+                      -2.54816216E-08,  1.02021657E-11, -2.29807733E+04,
+                       5.52622390E+00]),
+                NASA([1140.27, 5000.00],
+                     [ 1.08624593E+01,  4.53522162E-02, -1.91182639E-05,
+                       3.58110702E-09, -2.49789766E-13, -2.68162378E+04,
+                      -5.05350305E+01])))
+
+species(name=u'C4H9X(155)',
+        atoms='H:9 C:4 X:1',
+        thermo=(NASA([100.00, 1080.65],
+                     [ 2.49983637E+00,  2.56086794E-02,  2.02167358E-05,
+                      -3.35396814E-08,  1.17340118E-11, -1.97112611E+04,
+                      -5.31068160E+00]),
+                NASA([1080.65, 5000.00],
+                     [ 5.84113944E+00,  3.13514690E-02, -1.28931226E-05,
+                       2.39460188E-09, -1.66874948E-13, -2.14908889E+04,
+                      -2.65824721E+01])))
+
+species(name=u'SX(158)',
+        atoms='H:13 C:6 X:1',
+        thermo=(NASA([100.00, 988.52],
+                     [ 9.61294698E-01,  5.13754916E-02,  2.30924297E-05,
+                      -6.03820501E-08,  2.52646508E-11, -2.32490599E+04,
+                       5.00230567E+00]),
+                NASA([988.52, 5000.00],
+                     [ 1.29757774E+01,  3.94983750E-02, -1.46335076E-05,
+                       2.65803612E-09, -1.86921498E-13, -2.74193791E+04,
+                      -6.19011845E+01])))
+
+species(name=u'SX(168)',
+        atoms='H:13 C:6 X:1',
+        thermo=(NASA([100.00, 1014.61],
+                     [ 1.13916184E+00,  5.06470687E-02,  1.48415292E-05,
+                      -4.50652749E-08,  1.83832069E-11, -2.45574315E+04,
+                       5.31350787E+00]),
+                NASA([1014.61, 5000.00],
+                     [ 1.00366490E+01,  4.37573111E-02, -1.66449827E-05,
+                       3.00472483E-09, -2.07925820E-13, -2.78138096E+04,
+                      -4.48906928E+01])))
+
+species(name=u'SX(195)',
+        atoms='H:13 C:6 X:1',
+        thermo=(NASA([100.00, 1190.76],
+                     [ 9.15693015E-01,  5.89989950E-02, -1.57080816E-05,
+                      -8.97595584E-09,  4.63839105E-12, -2.56381641E+04,
+                       4.52517474E+00]),
+                NASA([1190.76, 5000.00],
+                     [ 9.59219391E+00,  4.53414845E-02, -1.80147109E-05,
+                       3.23901424E-09, -2.19546419E-13, -2.88025591E+04,
+                      -4.34595656E+01])))
+
+species(name=u'SX(196)',
+        atoms='H:13 C:6 X:1',
+        thermo=(NASA([100.00, 987.94],
+                     [ 1.09956664E+00,  5.19717579E-02,  1.64907435E-05,
+                      -4.79147779E-08,  1.98350798E-11, -2.44107631E+04,
+                       2.83840493E+00]),
+                NASA([987.94, 5000.00],
+                     [ 9.26916636E+00,  4.64876590E-02, -1.70778461E-05,
+                       3.00857716E-09, -2.05236491E-13, -2.73715592E+04,
+                      -4.32911697E+01])))
+
+species(name=u'SX(225)',
+        atoms='H:13 C:6 X:1',
+        thermo=(NASA([100.00, 1015.12],
+                     [ 1.10281627E+00,  4.95426158E-02,  2.18525980E-05,
+                      -5.42475352E-08,  2.18086315E-11, -2.45429135E+04,
+                       5.26541757E+00]),
+                NASA([1015.12, 5000.00],
+                     [ 1.13555344E+01,  4.22768679E-02, -1.63719269E-05,
+                       3.01008347E-09, -2.11322445E-13, -2.83316637E+04,
+                      -5.27607246E+01])))
+
+species(name=u'SX(226)',
+        atoms='H:13 C:6 X:1',
+        thermo=(NASA([100.00, 1734.41],
+                     [ 1.33802988E+00,  5.81661566E-02, -2.03392665E-05,
+                      -3.72821152E-10,  9.58301466E-13, -2.53884177E+04,
+                       2.78707644E+00]),
+                NASA([1734.41, 5000.00],
+                     [ 1.46208175E+01,  4.12590665E-02, -1.75885124E-05,
+                       3.13290245E-09, -2.04741314E-13, -3.20605610E+04,
+                      -7.45609239E+01])))
+
+species(name=u'SX(536)',
+        atoms='H:13 C:6 X:1',
+        thermo=(NASA([100.00, 961.91],
+                     [ 9.54161096E-01,  5.21922856E-02,  2.14823179E-05,
+                      -6.06760064E-08,  2.63164394E-11, -2.32689131E+04,
+                       5.71566632E+00]),
+                NASA([961.91, 5000.00],
+                     [ 1.28735160E+01,  3.85846108E-02, -1.33704257E-05,
+                       2.34128788E-09, -1.61994987E-13, -2.72255069E+04,
+                      -5.99724509E+01])))
+
+#-------------------------------------------------------------------------------
+# Reaction data
+#-------------------------------------------------------------------------------
+
+
+
+#  Reaction index: Chemkin #1; RMG #72
+#  Template reaction: Surface_Adsorption_Dissociative
+#  Flux pairs: C2H4(2), C2H3X(74); C2H4(2), HX(75);
+#  Exact match found for rate rule [C-H;VacantSite1;VacantSite2]
+#  Euclidian distance = 0
+#  Multiplied by reaction path degeneracy 4.0
+#  family: Surface_Adsorption_Dissociative
+
+# surface1 Reaction 1
+surface_reaction('C2H4(2) + X(1) + X(1) <=> C2H3X(74) + HX(75)', stick(1.240000e-04, 0.0, 6.4),
+                 id='surface1-1')
+#  Reaction index: Chemkin #2; RMG #130
+#  Template reaction: Surface_Dissociation
+#  Flux pairs: C2H3X(74), C2H2X(104); C2H3X(74), HX(75);
+#  Exact match found for rate rule [Combined;VacantSite]
+#  Euclidian distance = 0
+#  family: Surface_Dissociation
+
+# surface1 Reaction 2
+surface_reaction('X(1) + C2H3X(74) <=> C2H2X(104) + HX(75)', [1.000000e+21, 0.0, 5.429],
+                 id='surface1-2')
+#  Reaction index: Chemkin #3; RMG #74
+#  Template reaction: Surface_Adsorption_Dissociative
+#  Flux pairs: C4H8-1(3), C2H5X(78); C4H8-1(3), C2H3X(74);
+#  Exact match found for rate rule [C-C;VacantSite1;VacantSite2]
+#  Euclidian distance = 0
+#  family: Surface_Adsorption_Dissociative
+
+# surface1 Reaction 3
+surface_reaction('X(1) + X(1) + C4H8-1(3) <=> C2H5X(78) + C2H3X(74)', stick(6.595000e-04, 0.0, 9.0),
+                 id='surface1-3')
+#  Reaction index: Chemkin #4; RMG #137
+#  Template reaction: Surface_EleyRideal_Addition_Multiple_Bond
+#  Flux pairs: C2H4(2), C2H5X(78); HX(75), C2H5X(78);
+#  Estimated using template [*H;R=R] for rate rule [*H;C=C]
+#  Euclidian distance = 1.0
+#  Multiplied by reaction path degeneracy 2.0
+#  family: Surface_EleyRideal_Addition_Multiple_Bond
+
+# surface1 Reaction 4
+surface_reaction('C2H4(2) + HX(75) <=> C2H5X(78)', stick(1.000000e-01, 0.0, 7.17),
+                 id='surface1-4')
+#  Reaction index: Chemkin #5; RMG #145
+#  Template reaction: Surface_Dissociation
+#  Flux pairs: C2H5X(78), C2H4X(113); C2H5X(78), HX(75);
+#  Exact match found for rate rule [Combined;VacantSite]
+#  Euclidian distance = 0
+#  Multiplied by reaction path degeneracy 2.0
+#  family: Surface_Dissociation
+
+# surface1 Reaction 5
+surface_reaction('X(1) + C2H5X(78) <=> C2H4X(113) + HX(75)', [2.000000e+21, 0.0, 20.618],
+                 id='surface1-5')
+#  Reaction index: Chemkin #6; RMG #152
+#  Template reaction: Surface_Abstraction
+#  Flux pairs: C2H3X(74), C2H5X(78); C2H4X(113), C2H2X(104);
+#  Exact match found for rate rule [Abstracting;R-H]
+#  Euclidian distance = 0
+#  family: Surface_Abstraction
+
+# surface1 Reaction 6
+surface_reaction('C2H4X(113) + C2H3X(74) <=> C2H2X(104) + C2H5X(78)', [5.000000e+21, 0.0, 9.56],
+                 id='surface1-6')
+#  Reaction index: Chemkin #7; RMG #156
+#  Template reaction: Surface_Dissociation
+#  Flux pairs: C2H4X(113), C2H3X(121); C2H4X(113), HX(75);
+#  Exact match found for rate rule [Combined;VacantSite]
+#  Euclidian distance = 0
+#  family: Surface_Dissociation
+
+# surface1 Reaction 7
+surface_reaction('X(1) + C2H4X(113) <=> C2H3X(121) + HX(75)', [1.000000e+21, 0.0, 3.521],
+                 id='surface1-7')
+#  Reaction index: Chemkin #8; RMG #159
+#  Template reaction: Surface_Abstraction
+#  Flux pairs: C2H4X(113), C2H3X(74); C2H2X(104), C2H3X(121);
+#  Exact match found for rate rule [Abstracting;R-H]
+#  Euclidian distance = 0
+#  family: Surface_Abstraction
+
+# surface1 Reaction 8
+surface_reaction('C2H2X(104) + C2H4X(113) <=> C2H3X(74) + C2H3X(121)', [5.000000e+21, 0.0, 9.56],
+                 id='surface1-8')
+#  Reaction index: Chemkin #9; RMG #163
+#  Template reaction: Surface_Abstraction
+#  Flux pairs: C2H4X(113), C2H5X(78); C2H4X(113), C2H3X(121);
+#  Exact match found for rate rule [Abstracting;R-H]
+#  Euclidian distance = 0
+#  family: Surface_Abstraction
+
+# surface1 Reaction 9
+surface_reaction('C2H4X(113) + C2H4X(113) <=> C2H5X(78) + C2H3X(121)', [5.000000e+21, 0.0, 9.56],
+                 id='surface1-9')
+#  Reaction index: Chemkin #10; RMG #139
+#  Template reaction: Surface_EleyRideal_Addition_Multiple_Bond
+#  Flux pairs: C4H8-1(3), C4H9X(109); HX(75), C4H9X(109);
+#  Exact match found for rate rule [*H;R=R]
+#  Euclidian distance = 0
+#  family: Surface_EleyRideal_Addition_Multiple_Bond
+
+# surface1 Reaction 10
+surface_reaction('C4H8-1(3) + HX(75) <=> C4H9X(109)', stick(5.000000e-02, 0.0, 7.17),
+                 id='surface1-10')
+#  Reaction index: Chemkin #11; RMG #146
+#  Template reaction: Surface_EleyRideal_Addition_Multiple_Bond
+#  Flux pairs: C2H4(2), C4H9X(109); C2H5X(78), C4H9X(109);
+#  Estimated using template [*C2;R=R] for rate rule [*C2;C=C]
+#  Euclidian distance = 1.0
+#  Multiplied by reaction path degeneracy 2.0
+#  family: Surface_EleyRideal_Addition_Multiple_Bond
+
+# surface1 Reaction 11
+surface_reaction('C2H4(2) + C2H5X(78) <=> C4H9X(109)', stick(1.000000e-02, 0.0, 16.41),
+                 id='surface1-11')
+#  Reaction index: Chemkin #12; RMG #138
+#  Template reaction: Surface_EleyRideal_Addition_Multiple_Bond
+#  Flux pairs: C4H8-1(3), C4H9X(108); HX(75), C4H9X(108);
+#  Exact match found for rate rule [*H;R=R]
+#  Euclidian distance = 0
+#  family: Surface_EleyRideal_Addition_Multiple_Bond
+
+# surface1 Reaction 12
+surface_reaction('C4H8-1(3) + HX(75) <=> C4H9X(108)', stick(5.000000e-02, 0.0, 7.17),
+                 id='surface1-12')
+#  Reaction index: Chemkin #13; RMG #140
+#  Template reaction: Surface_EleyRideal_Addition_Multiple_Bond
+#  Flux pairs: C4H8-2(4), C4H9X(108); HX(75), C4H9X(108);
+#  Exact match found for rate rule [*H;R=R]
+#  Euclidian distance = 0
+#  Multiplied by reaction path degeneracy 2.0
+#  family: Surface_EleyRideal_Addition_Multiple_Bond
+
+# surface1 Reaction 13
+surface_reaction('C4H8-2(4) + HX(75) <=> C4H9X(108)', stick(1.000000e-01, 0.0, 7.17),
+                 id='surface1-13')
+#  Reaction index: Chemkin #14; RMG #161
+#  Template reaction: Surface_Dissociation
+#  Flux pairs: C4H9X(108), C2H5X(78); C4H9X(108), C2H4X(113);
+#  Exact match found for rate rule [Combined;VacantSite]
+#  Euclidian distance = 0
+#  family: Surface_Dissociation
+
+# surface1 Reaction 14
+surface_reaction('X(1) + C4H9X(108) <=> C2H4X(113) + C2H5X(78)', [1.000000e+21, 0.0, 29.528],
+                 id='surface1-14')
+#  Reaction index: Chemkin #15; RMG #172
+#  Template reaction: Surface_Migration
+#  Flux pairs: C4H9X(109), C4H9X(108);
+#  Exact match found for rate rule [*nbutane]
+#  Euclidian distance = 0
+#  Multiplied by reaction path degeneracy 2.0
+#  family: Surface_Migration
+
+# surface1 Reaction 15
+surface_reaction('C4H9X(109) <=> C4H9X(108)', [1.467200e+13, 0.0, 14.18],
+                 id='surface1-15')
+#  Reaction index: Chemkin #16; RMG #194
+#  Template reaction: Surface_Migration
+#  Flux pairs: C4H9X(108), C4H9X(142);
+#  Exact match found for rate rule [*C]
+#  Euclidian distance = 0
+#  family: Surface_Migration
+
+# surface1 Reaction 16
+surface_reaction('C4H9X(108) <=> C4H9X(142)', [7.336000e+12, 0.0, 14.18],
+                 id='surface1-16')
+#  Reaction index: Chemkin #17; RMG #219
+#  Template reaction: Surface_EleyRideal_Addition_Multiple_Bond
+#  Flux pairs: HX(75), C4H9X(142); C4H8(154), C4H9X(142);
+#  Exact match found for rate rule [*H;R=R]
+#  Euclidian distance = 0
+#  family: Surface_EleyRideal_Addition_Multiple_Bond
+
+# surface1 Reaction 17
+surface_reaction('C4H8(154) + HX(75) <=> C4H9X(142)', stick(5.000000e-02, 0.0, 7.17),
+                 id='surface1-17')
+#  Reaction index: Chemkin #18; RMG #220
+#  Template reaction: Surface_Migration
+#  Flux pairs: C4H9X(142), C4H9X(155);
+#  Exact match found for rate rule [*C]
+#  Euclidian distance = 0
+#  family: Surface_Migration
+
+# surface1 Reaction 18
+surface_reaction('C4H9X(142) <=> C4H9X(155)', [7.336000e+12, 0.0, 14.18],
+                 id='surface1-18')
+#  Reaction index: Chemkin #19; RMG #290
+#  Template reaction: Surface_EleyRideal_Addition_Multiple_Bond
+#  Flux pairs: C4H8(154), C4H9X(155); HX(75), C4H9X(155);
+#  Exact match found for rate rule [*H;R=R]
+#  Euclidian distance = 0
+#  family: Surface_EleyRideal_Addition_Multiple_Bond
+
+# surface1 Reaction 19
+surface_reaction('C4H8(154) + HX(75) <=> C4H9X(155)', stick(5.000000e-02, 0.0, 7.17),
+                 id='surface1-19')
+#  Reaction index: Chemkin #20; RMG #149
+#  Template reaction: Surface_EleyRideal_Addition_Multiple_Bond
+#  Flux pairs: C4H8-2(4), SX(116); C2H5X(78), SX(116);
+#  Exact match found for rate rule [*C2;R=R]
+#  Euclidian distance = 0
+#  Multiplied by reaction path degeneracy 2.0
+#  family: Surface_EleyRideal_Addition_Multiple_Bond
+
+# surface1 Reaction 20
+surface_reaction('C4H8-2(4) + C2H5X(78) <=> SX(116)', stick(1.000000e-02, 0.0, 16.41),
+                 id='surface1-20')
+#  Reaction index: Chemkin #21; RMG #211
+#  Template reaction: Surface_Dissociation
+#  Flux pairs: SX(116), C4H9X(108); SX(116), C2H4X(113);
+#  Exact match found for rate rule [Combined;VacantSite]
+#  Euclidian distance = 0
+#  family: Surface_Dissociation
+
+# surface1 Reaction 21
+surface_reaction('X(1) + SX(116) <=> C2H4X(113) + C4H9X(108)', [1.000000e+21, 0.0, 33.966],
+                 id='surface1-21')
+#  Reaction index: Chemkin #22; RMG #330
+#  Template reaction: Surface_EleyRideal_Addition_Multiple_Bond
+#  Flux pairs: HX(75), SX(116); C6H12(224), SX(116);
+#  Exact match found for rate rule [*H;R=R]
+#  Euclidian distance = 0
+#  family: Surface_EleyRideal_Addition_Multiple_Bond
+
+# surface1 Reaction 22
+surface_reaction('C6H12(224) + HX(75) <=> SX(116)', stick(5.000000e-02, 0.0, 7.17),
+                 id='surface1-22')
+#  Reaction index: Chemkin #23; RMG #333
+#  Template reaction: Surface_Migration
+#  Flux pairs: SX(116), SX(226);
+#  Exact match found for rate rule [*C]
+#  Euclidian distance = 0
+#  family: Surface_Migration
+
+# surface1 Reaction 23
+surface_reaction('SX(116) <=> SX(226)', [7.336000e+12, 0.0, 14.18],
+                 id='surface1-23')
+#  Reaction index: Chemkin #24; RMG #441
+#  Template reaction: Surface_EleyRideal_Addition_Multiple_Bond
+#  Flux pairs: C6H12(224), SX(226); HX(75), SX(226);
+#  Exact match found for rate rule [*H;R=R]
+#  Euclidian distance = 0
+#  family: Surface_EleyRideal_Addition_Multiple_Bond
+
+# surface1 Reaction 24
+surface_reaction('C6H12(224) + HX(75) <=> SX(226)', stick(5.000000e-02, 0.0, 7.17),
+                 id='surface1-24')
+#  Reaction index: Chemkin #25; RMG #490
+#  Template reaction: Surface_EleyRideal_Addition_Multiple_Bond
+#  Flux pairs: HX(75), SX(226); C6H12(303), SX(226);
+#  Exact match found for rate rule [*H;R=R]
+#  Euclidian distance = 0
+#  family: Surface_EleyRideal_Addition_Multiple_Bond
+
+# surface1 Reaction 25
+surface_reaction('C6H12(303) + HX(75) <=> SX(226)', stick(5.000000e-02, 0.0, 7.17),
+                 id='surface1-25')
+#  Reaction index: Chemkin #26; RMG #148
+#  Template reaction: Surface_EleyRideal_Addition_Multiple_Bond
+#  Flux pairs: C4H8-1(3), SX(115); C2H5X(78), SX(115);
+#  Exact match found for rate rule [*C2;R=R]
+#  Euclidian distance = 0
+#  family: Surface_EleyRideal_Addition_Multiple_Bond
+
+# surface1 Reaction 26
+surface_reaction('C4H8-1(3) + C2H5X(78) <=> SX(115)', stick(5.000000e-03, 0.0, 16.41),
+                 id='surface1-26')
+#  Reaction index: Chemkin #27; RMG #492
+#  Template reaction: Surface_Migration
+#  Flux pairs: SX(226), SX(115);
+#  Exact match found for rate rule [*C]
+#  Euclidian distance = 0
+#  Multiplied by reaction path degeneracy 3.0
+#  family: Surface_Migration
+
+# surface1 Reaction 27
+surface_reaction('SX(226) <=> SX(115)', [2.200800e+13, 0.0, 14.18],
+                 id='surface1-27')
+#  Reaction index: Chemkin #28; RMG #580
+#  Template reaction: Surface_EleyRideal_Addition_Multiple_Bond
+#  Flux pairs: C6H12(303), SX(115); HX(75), SX(115);
+#  Exact match found for rate rule [*H;R=R]
+#  Euclidian distance = 0
+#  family: Surface_EleyRideal_Addition_Multiple_Bond
+
+# surface1 Reaction 28
+surface_reaction('C6H12(303) + HX(75) <=> SX(115)', stick(5.000000e-02, 0.0, 7.17),
+                 id='surface1-28')
+#  Reaction index: Chemkin #29; RMG #202
+#  Template reaction: Surface_Adsorption_Dissociative
+#  Flux pairs: C6H12(148), C4H9X(108); C6H12(148), C2H3X(74);
+#  Exact match found for rate rule [C-C;VacantSite1;VacantSite2]
+#  Euclidian distance = 0
+#  family: Surface_Adsorption_Dissociative
+
+# surface1 Reaction 29
+surface_reaction('X(1) + X(1) + C6H12(148) <=> C2H3X(74) + C4H9X(108)', stick(6.595000e-04, 0.0, 9.0),
+                 id='surface1-29')
+#  Reaction index: Chemkin #30; RMG #331
+#  Template reaction: Surface_EleyRideal_Addition_Multiple_Bond
+#  Flux pairs: HX(75), SX(116); C6H12(148), SX(116);
+#  Exact match found for rate rule [*H;R=R]
+#  Euclidian distance = 0
+#  family: Surface_EleyRideal_Addition_Multiple_Bond
+
+# surface1 Reaction 30
+surface_reaction('C6H12(148) + HX(75) <=> SX(116)', stick(5.000000e-02, 0.0, 7.17),
+                 id='surface1-30')
+#  Reaction index: Chemkin #31; RMG #198
+#  Template reaction: Surface_EleyRideal_Addition_Multiple_Bond
+#  Flux pairs: C2H4(2), SX(144); C4H9X(108), SX(144);
+#  Estimated using template [*C;R=R] for rate rule [*C;C=C]
+#  Euclidian distance = 1.0
+#  Multiplied by reaction path degeneracy 2.0
+#  family: Surface_EleyRideal_Addition_Multiple_Bond
+
+# surface1 Reaction 31
+surface_reaction('C2H4(2) + C4H9X(108) <=> SX(144)', stick(2.000000e-03, 0.0, 16.41),
+                 id='surface1-31')
+#  Reaction index: Chemkin #32; RMG #334
+#  Template reaction: Surface_Migration
+#  Flux pairs: SX(116), SX(144);
+#  Exact match found for rate rule [*C]
+#  Euclidian distance = 0
+#  Multiplied by reaction path degeneracy 3.0
+#  family: Surface_Migration
+
+# surface1 Reaction 32
+surface_reaction('SX(116) <=> SX(144)', [2.200800e+13, 0.0, 14.18],
+                 id='surface1-32')
+#  Reaction index: Chemkin #33; RMG #762
+#  Template reaction: Surface_EleyRideal_Addition_Multiple_Bond
+#  Flux pairs: C6H12(148), SX(144); HX(75), SX(144);
+#  Exact match found for rate rule [*H;R=R]
+#  Euclidian distance = 0
+#  family: Surface_EleyRideal_Addition_Multiple_Bond
+
+# surface1 Reaction 33
+surface_reaction('C6H12(148) + HX(75) <=> SX(144)', stick(5.000000e-02, 0.0, 7.17),
+                 id='surface1-33')
+#  Reaction index: Chemkin #34; RMG #292
+#  Template reaction: Surface_EleyRideal_Addition_Multiple_Bond
+#  Flux pairs: C4H8(154), SX(196); C2H5X(78), SX(196);
+#  Exact match found for rate rule [*C2;R=R]
+#  Euclidian distance = 0
+#  family: Surface_EleyRideal_Addition_Multiple_Bond
+
+# surface1 Reaction 34
+surface_reaction('C2H5X(78) + C4H8(154) <=> SX(196)', stick(5.000000e-03, 0.0, 16.41),
+                 id='surface1-34')
+#  Reaction index: Chemkin #35; RMG #491
+#  Template reaction: Surface_Migration
+#  Flux pairs: SX(226), SX(196);
+#  Exact match found for rate rule [*C]
+#  Euclidian distance = 0
+#  Multiplied by reaction path degeneracy 2.0
+#  family: Surface_Migration
+
+# surface1 Reaction 35
+surface_reaction('SX(226) <=> SX(196)', [1.467200e+13, 0.0, 14.18],
+                 id='surface1-35')
+#  Reaction index: Chemkin #36; RMG #291
+#  Template reaction: Surface_EleyRideal_Addition_Multiple_Bond
+#  Flux pairs: C4H8(154), SX(195); C2H5X(78), SX(195);
+#  Exact match found for rate rule [*C2;R=R]
+#  Euclidian distance = 0
+#  family: Surface_EleyRideal_Addition_Multiple_Bond
+
+# surface1 Reaction 36
+surface_reaction('C2H5X(78) + C4H8(154) <=> SX(195)', stick(5.000000e-03, 0.0, 16.41),
+                 id='surface1-36')
+#  Reaction index: Chemkin #37; RMG #906
+#  Template reaction: Surface_Migration
+#  Flux pairs: SX(196), SX(195);
+#  Exact match found for rate rule [*C]
+#  Euclidian distance = 0
+#  family: Surface_Migration
+
+# surface1 Reaction 37
+surface_reaction('SX(196) <=> SX(195)', [7.336000e+12, 0.0, 14.18],
+                 id='surface1-37')
+#  Reaction index: Chemkin #38; RMG #943
+#  Template reaction: Surface_EleyRideal_Addition_Multiple_Bond
+#  Flux pairs: HX(75), SX(195); C6H12(534), SX(195);
+#  Exact match found for rate rule [*H;R=R]
+#  Euclidian distance = 0
+#  family: Surface_EleyRideal_Addition_Multiple_Bond
+
+# surface1 Reaction 38
+surface_reaction('C6H12(534) + HX(75) <=> SX(195)', stick(5.000000e-02, 0.0, 7.17),
+                 id='surface1-38')
+#  Reaction index: Chemkin #39; RMG #332
+#  Template reaction: Surface_Migration
+#  Flux pairs: SX(116), SX(225);
+#  Exact match found for rate rule [*C]
+#  Euclidian distance = 0
+#  family: Surface_Migration
+
+# surface1 Reaction 39
+surface_reaction('SX(116) <=> SX(225)', [7.336000e+12, 0.0, 14.18],
+                 id='surface1-39')
+#  Reaction index: Chemkin #40; RMG #945
+#  Template reaction: Surface_Migration
+#  Flux pairs: SX(195), SX(225);
+#  Exact match found for rate rule [*C]
+#  Euclidian distance = 0
+#  Multiplied by reaction path degeneracy 2.0
+#  family: Surface_Migration
+
+# surface1 Reaction 40
+surface_reaction('SX(195) <=> SX(225)', [1.467200e+13, 0.0, 14.18],
+                 id='surface1-40')
+#  Reaction index: Chemkin #41; RMG #1051
+#  Template reaction: Surface_EleyRideal_Addition_Multiple_Bond
+#  Flux pairs: C6H12(534), SX(225); HX(75), SX(225);
+#  Exact match found for rate rule [*H;R=R]
+#  Euclidian distance = 0
+#  family: Surface_EleyRideal_Addition_Multiple_Bond
+
+# surface1 Reaction 41
+surface_reaction('C6H12(534) + HX(75) <=> SX(225)', stick(5.000000e-02, 0.0, 7.17),
+                 id='surface1-41')
+#  Reaction index: Chemkin #42; RMG #944
+#  Template reaction: Surface_EleyRideal_Addition_Multiple_Bond
+#  Flux pairs: HX(75), SX(195); C6H12(535), SX(195);
+#  Exact match found for rate rule [*H;R=R]
+#  Euclidian distance = 0
+#  family: Surface_EleyRideal_Addition_Multiple_Bond
+
+# surface1 Reaction 42
+surface_reaction('HX(75) + C6H12(535) <=> SX(195)', stick(5.000000e-02, 0.0, 7.17),
+                 id='surface1-42')
+#  Reaction index: Chemkin #43; RMG #946
+#  Template reaction: Surface_Migration
+#  Flux pairs: SX(195), SX(536);
+#  Exact match found for rate rule [*C]
+#  Euclidian distance = 0
+#  Multiplied by reaction path degeneracy 6.0
+#  family: Surface_Migration
+
+# surface1 Reaction 43
+surface_reaction('SX(195) <=> SX(536)', [4.401600e+13, 0.0, 14.18],
+                 id='surface1-43')
+#  Reaction index: Chemkin #44; RMG #1302
+#  Template reaction: Surface_EleyRideal_Addition_Multiple_Bond
+#  Flux pairs: C6H12(535), SX(536); HX(75), SX(536);
+#  Exact match found for rate rule [*H;R=R]
+#  Euclidian distance = 0
+#  family: Surface_EleyRideal_Addition_Multiple_Bond
+
+# surface1 Reaction 44
+surface_reaction('HX(75) + C6H12(535) <=> SX(536)', stick(5.000000e-02, 0.0, 7.17),
+                 id='surface1-44')
+#  Reaction index: Chemkin #45; RMG #1177
+#  Template reaction: Surface_EleyRideal_Addition_Multiple_Bond
+#  Flux pairs: HX(75), SX(225); C6H12(645), SX(225);
+#  Exact match found for rate rule [*H;R=R]
+#  Euclidian distance = 0
+#  family: Surface_EleyRideal_Addition_Multiple_Bond
+
+# surface1 Reaction 45
+surface_reaction('C6H12(645) + HX(75) <=> SX(225)', stick(5.000000e-02, 0.0, 7.17),
+                 id='surface1-45')
+#  Reaction index: Chemkin #46; RMG #236
+#  Template reaction: Surface_Dissociation
+#  Flux pairs: SX(168), C4H9X(142); SX(168), C2H4X(113);
+#  Exact match found for rate rule [Combined;VacantSite]
+#  Euclidian distance = 0
+#  family: Surface_Dissociation
+
+# surface1 Reaction 46
+surface_reaction('X(1) + SX(168) <=> C2H4X(113) + C4H9X(142)', [1.000000e+21, 0.0, 35.454],
+                 id='surface1-46')
+#  Reaction index: Chemkin #47; RMG #1179
+#  Template reaction: Surface_Migration
+#  Flux pairs: SX(225), SX(168);
+#  Exact match found for rate rule [*C]
+#  Euclidian distance = 0
+#  Multiplied by reaction path degeneracy 2.0
+#  family: Surface_Migration
+
+# surface1 Reaction 47
+surface_reaction('SX(225) <=> SX(168)', [1.467200e+13, 0.0, 14.18],
+                 id='surface1-47')
+#  Reaction index: Chemkin #48; RMG #1581
+#  Template reaction: Surface_EleyRideal_Addition_Multiple_Bond
+#  Flux pairs: C6H12(645), SX(168); HX(75), SX(168);
+#  Exact match found for rate rule [*H;R=R]
+#  Euclidian distance = 0
+#  family: Surface_EleyRideal_Addition_Multiple_Bond
+
+# surface1 Reaction 48
+surface_reaction('C6H12(645) + HX(75) <=> SX(168)', stick(5.000000e-02, 0.0, 7.17),
+                 id='surface1-48')
+#  Reaction index: Chemkin #49; RMG #228
+#  Template reaction: Surface_Adsorption_Dissociative
+#  Flux pairs: C6H12(162), C4H9X(142); C6H12(162), C2H3X(74);
+#  Exact match found for rate rule [C-C;VacantSite1;VacantSite2]
+#  Euclidian distance = 0
+#  family: Surface_Adsorption_Dissociative
+
+# surface1 Reaction 49
+surface_reaction('X(1) + X(1) + C6H12(162) <=> C2H3X(74) + C4H9X(142)', stick(6.595000e-04, 0.0, 9.0),
+                 id='surface1-49')
+#  Reaction index: Chemkin #50; RMG #1770
+#  Template reaction: Surface_EleyRideal_Addition_Multiple_Bond
+#  Flux pairs: HX(75), SX(168); C6H12(162), SX(168);
+#  Exact match found for rate rule [*H;R=R]
+#  Euclidian distance = 0
+#  family: Surface_EleyRideal_Addition_Multiple_Bond
+
+# surface1 Reaction 50
+surface_reaction('C6H12(162) + HX(75) <=> SX(168)', stick(5.000000e-02, 0.0, 7.17),
+                 id='surface1-50')
+#  Reaction index: Chemkin #51; RMG #224
+#  Template reaction: Surface_EleyRideal_Addition_Multiple_Bond
+#  Flux pairs: C2H4(2), SX(158); C4H9X(142), SX(158);
+#  Estimated using template [*C;R=R] for rate rule [*C;C=C]
+#  Euclidian distance = 1.0
+#  Multiplied by reaction path degeneracy 2.0
+#  family: Surface_EleyRideal_Addition_Multiple_Bond
+
+# surface1 Reaction 51
+surface_reaction('C2H4(2) + C4H9X(142) <=> SX(158)', stick(2.000000e-03, 0.0, 16.41),
+                 id='surface1-51')
+#  Reaction index: Chemkin #52; RMG #1772
+#  Template reaction: Surface_Migration
+#  Flux pairs: SX(168), SX(158);
+#  Exact match found for rate rule [*C]
+#  Euclidian distance = 0
+#  Multiplied by reaction path degeneracy 3.0
+#  family: Surface_Migration
+
+# surface1 Reaction 52
+surface_reaction('SX(168) <=> SX(158)', [2.200800e+13, 0.0, 14.18],
+                 id='surface1-52')
+#  Reaction index: Chemkin #53; RMG #1894
+#  Template reaction: Surface_EleyRideal_Addition_Multiple_Bond
+#  Flux pairs: C6H12(162), SX(158); HX(75), SX(158);
+#  Exact match found for rate rule [*H;R=R]
+#  Euclidian distance = 0
+#  family: Surface_EleyRideal_Addition_Multiple_Bond
+
+# surface1 Reaction 53
+surface_reaction('C6H12(162) + HX(75) <=> SX(158)', stick(5.000000e-02, 0.0, 7.17),
+                 id='surface1-53')

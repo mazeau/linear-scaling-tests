@@ -1,0 +1,38 @@
+Using Theano backend.
+:root:Moving /scratch/westgroup/mazeau/linear-scaling-tests/ethylene/binding_energies/c-5.000h-2.250/RMG.log to /scratch/westgroup/mazeau/linear-scaling-tests/ethylene/binding_energies/c-5.000h-2.250/RMG_backup.log
+
+Traceback (most recent call last):
+  File "/scratch/westgroup/mazeau/Cat/RMG-Py/rmg.py", line 173, in <module>
+    main()
+  File "/scratch/westgroup/mazeau/Cat/RMG-Py/rmg.py", line 158, in main
+    cProfile.runctx(command, global_vars, local_vars, stats_file)
+  File "/home/mazeau.e/anaconda2/envs/rmg_env3/lib/python2.7/cProfile.py", line 49, in runctx
+    prof = prof.runctx(statement, globals, locals)
+  File "/home/mazeau.e/anaconda2/envs/rmg_env3/lib/python2.7/cProfile.py", line 140, in runctx
+    exec cmd in globals, locals
+  File "<string>", line 1, in <module>
+  File "/scratch/westgroup/mazeau/Cat/RMG-Py/rmgpy/rmg/main.py", line 850, in execute
+    trimolecularReact=self.trimolecularReact)
+  File "/scratch/westgroup/mazeau/Cat/RMG-Py/rmgpy/rmg/model.py", line 690, in enlarge
+    self.processNewReactions([rxn], spc)
+  File "/scratch/westgroup/mazeau/Cat/RMG-Py/rmgpy/rmg/model.py", line 812, in processNewReactions
+    rxn, isNew = self.makeNewReaction(rxn)
+  File "/scratch/westgroup/mazeau/Cat/RMG-Py/rmgpy/rmg/model.py", line 505, in makeNewReaction
+    products  = [self.makeNewSpecies(product)[0]  for product  in forward.products ]
+  File "/scratch/westgroup/mazeau/Cat/RMG-Py/rmgpy/rmg/model.py", line 373, in makeNewSpecies
+    submit(spec,self.solventName)
+  File "/scratch/westgroup/mazeau/Cat/RMG-Py/rmgpy/thermo/thermoengine.py", line 188, in submit
+    spc.thermo = submit_(evaluator, spc, solventName= solventName)
+  File "/scratch/westgroup/mazeau/Cat/RMG-Py/rmgpy/scoop_framework/util.py", line 171, in submit_
+    return func(*args, **kwargs)
+  File "/scratch/westgroup/mazeau/Cat/RMG-Py/rmgpy/thermo/thermoengine.py", line 174, in evaluator
+    thermo = generateThermoData(spc,solventName=solventName)
+  File "/scratch/westgroup/mazeau/Cat/RMG-Py/rmgpy/thermo/thermoengine.py", line 138, in generateThermoData
+    thermo0 = thermodb.getThermoData(spc) 
+  File "/scratch/westgroup/mazeau/Cat/RMG-Py/rmgpy/data/thermo.py", line 1130, in getThermoData
+    thermo0 = self.getThermoDataForSurfaceSpecies(species)
+  File "/scratch/westgroup/mazeau/Cat/RMG-Py/rmgpy/data/thermo.py", line 1411, in getThermoDataForSurfaceSpecies
+    self.__addGroupThermoData(adsorptionThermo, self.groups['adsorptionPt'], molecule, {})
+  File "/scratch/westgroup/mazeau/Cat/RMG-Py/rmgpy/data/thermo.py", line 2183, in __addGroupThermoData
+    raise DatabaseError('Unable to determine thermo parameters for {0}: no data for node {1} or any of its ancestors.'.format(molecule, node0) )
+rmgpy.exceptions.DatabaseError: Unable to determine thermo parameters for <Molecule "C=C(C=C[Pt])C(=C)CC">: no data for node R* or any of its ancestors.
