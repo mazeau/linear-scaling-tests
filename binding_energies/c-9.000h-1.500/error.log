@@ -1,6 +1,5 @@
 Using Theano backend.
+:root:Removing old /scratch/westgroup/mazeau/linear-scaling-tests/ethylene/binding_energies/c-9.000h-1.500/RMG_backup.log
 :root:Moving /scratch/westgroup/mazeau/linear-scaling-tests/ethylene/binding_energies/c-9.000h-1.500/RMG.log to /scratch/westgroup/mazeau/linear-scaling-tests/ethylene/binding_energies/c-9.000h-1.500/RMG_backup.log
 
-slurmstepd: error: Job 7398259 exceeded memory limit (61928280 > 61865984), being killed
-slurmstepd: error: Exceeded job memory limit
-slurmstepd: error: *** JOB 7398259 ON c3040 CANCELLED AT 2019-10-23T21:14:24 ***
+/var/spool/slurm/d/job7522936/slurm_script: line 12: 61442 Killed                  python $RMGpy/rmg.py -p -t 00:23:59:59 input.py

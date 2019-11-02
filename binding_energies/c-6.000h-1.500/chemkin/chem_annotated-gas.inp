@@ -25,20 +25,125 @@ SPECIES
     C2H4(2)             ! C2H4(2)
     C4H8-1(3)           ! C4H8-1(3)
     C4H8-2(4)           ! C4H8-2(4)
-    H(6)                ! H(6)
-    C6H12-1(7)          ! C6H12-1(7)
-    C6H12-2(8)          ! C6H12-2(8)
-    C6H12-3(9)          ! C6H12-3(9)
-    C6H12(10)           ! C6H12-1-3(10)
-    C6H12(11)           ! C6H12-2-3(11)
-    C3H6(75)            ! C3H6(75)
-    C5H10(106)          ! C5H10j(106)
-    H2(190)             ! H2(190)
-    C2H6(343)           ! C2H6(343)
-    S(1199)             ! CC=CC(C)CC(1199)
-    S(2696)             ! C=CC(=CC)C(C)CC(2696)
-    S(8513)             ! C=CC(=CC)C(C)C(C)CC(8513)
-    S(13797)            ! C6H12aa(13797)
+    C4H6(7)             ! C4H6(7)
+    C6H8(9)             ! C6H8(9)
+    C3H6(32)            ! C3H6(32)
+    H2(68)              ! H2(68)
+    C4H6a(79)           ! C4H6a(79)
+    C6H10(111)          ! C6H10k(111)
+    C6H10(123)          ! C6H10z(123)
+    C4H8(160)           ! isobutene(160)
+    C6H10(161)          ! C6H10y(161)
+    C8H12(229)          ! C=CCCC(=C)C=C(229)
+    C8H12(244)          ! C=CC=CCCC=C(244)
+    C5H8h(257)          ! C5H8h(257)
+    C7H12(260)          ! C=CCCCC=C(260)
+    C7H12(262)          ! C=CCC(=C)CC(262)
+    C7H12(264)          ! C=CCCC(=C)C(264)
+    C5H8c(275)          ! C5H8c(275)
+    C5H8g(292)          ! C5H8g(292)
+    C7H12(295)          ! C=CCCC=CC(295)
+    CH4(367)            ! CH4(367)
+    C5H10(369)          ! C5H10g(369)
+    C5H10(370)          ! C5H10l(370)
+    C5H10(371)          ! C5H10k(371)
+    C2H6(374)           ! C2H6(374)
+    C6H12(379)          ! C6H12q(379)
+    C6H12(380)          ! C=CC(C)CC(380)
+    C6H12(383)          ! C6H12x(383)
+    C3H8(386)           ! C3H8(386)
+    C4H10(387)          ! nbutane(387)
+    C7H12(481)          ! C=CC(=C)CCC(481)
+    S(796)              ! C=CCCC(=C)C(=C)CCC=C(796)
+    S(811)              ! C=CCCC(=C)C(=C)CC(811)
+    C9H14(934)          ! C=CCCC(C=C)C=C(934)
+    C8H14(940)          ! C=CC(C=C)CCC(940)
+    S(1151)             ! C=CCCCCC(1151)
+    S(1152)             ! C=CC(C)CCC(1152)
+    S(1160)             ! C5H12a(1160)
+    S(1168)             ! C=CCCC(=C)C(=C)CCC(1168)
+    S(1177)             ! C6H14a(1177)
+    S(1194)             ! C6H12y(1194)
+    S(1199)             ! ibutane(1199)
+    S(1200)             ! C5H12b(1200)
+    S(1219)             ! C6H14d(1219)
+    S(1220)             ! C6H14c(1220)
+    S(1855)             ! C=CCCC(C=C)C(=C)C(1855)
+    S(4339)             ! C=CC=CCCCC=C(4339)
+    S(24149)            ! CCCCC(C)C(24149)
+    S(24256)            ! CCCCCCCC(24256)
+    S(24276)            ! C6H14e(24276)
+    S(24294)            ! CCCC(C)CC(24294)
+    S(24295)            ! CCC(C)C(C)C(24295)
+    S(24454)            ! CCCCC(C)CC(24454)
+    S(24455)            ! CCC(C)C(C)CC(24455)
+    S(24484)            ! CC(C)CC(C)C(24484)
+    S(24634)            ! CCCCCC(C)C(24634)
+    S(24635)            ! CCC(C)CC(C)C(24635)
+    S(24701)            ! C6H14b(24701)
+    S(24720)            ! CCCC(C)(C)C(24720)
+    S(24721)            ! CC(C)C(C)(C)C(24721)
+    S(24880)            ! CCCCC(C)(C)C(24880)
+    S(24881)            ! CCC(C)C(C)(C)C(24881)
+    S(26397)            ! CCC(C)(C)CC(26397)
+    S(26416)            ! CCCC(C)(C)CC(26416)
+    S(26576)            ! CCCCC(C)(C)CC(26576)
+    S(26760)            ! CCCCCC(C)CC(26760)
+    S(27015)            ! CCCC(C)CCC(27015)
+    S(27174)            ! CCCCC(C)CCC(27174)
+    S(27175)            ! CCCC(C)C(C)CC(27175)
+    S(27184)            ! CCCC(C)C(C)(C)CC(27184)
+    S(27185)            ! CCCC(C)CC(C)CC(27185)
+    S(27187)            ! CCCC(C)C(C)CCC(27187)
+    S(27357)            ! CCCCCCCCC(27357)
+    S(27362)            ! CCCCCC(C)C(C)C(27362)
+    S(27364)            ! CCCCCC(C)(C)CC(27364)
+    S(27365)            ! CCCCCCC(C)CC(27365)
+    S(27367)            ! CCCCCC(C)CCC(27367)
+    S(27368)            ! CCCCCCCCCC(27368)
+    S(27423)            ! CCC(CC)CC(27423)
+    S(27442)            ! CCCC(CC)CC(27442)
+    S(27602)            ! CCCCC(CC)CC(27602)
+    S(27615)            ! CCCC(C)C(CC)CC(27615)
+    S(27616)            ! CCCCCC(CC)CC(27616)
+    S(27617)            ! CCC(CC)C(CC)CC(27617)
+    S(28838)            ! CCCC(CC)CCC(28838)
+    S(29011)            ! CCCC(C)C(CC)CCC(29011)
+    S(29012)            ! CCCCCC(CC)CCC(29012)
+    S(29013)            ! CCCC(CC)C(CC)CC(29013)
+    S(29018)            ! CCCC(CC)C(CC)CCC(29018)
+    S(29208)            ! CCCC(C)CC(C)CCC(29208)
+    S(29209)            ! CCCCCCC(C)CCC(29209)
+    S(29210)            ! CCCC(C)CC(CC)CC(29210)
+    S(29215)            ! CCCC(C)CC(CC)CCC(29215)
+    S(29444)            ! CCCCC(C)CCCC(29444)
+    S(29445)            ! CCCCC(C)C(C)CC(29445)
+    S(29457)            ! CCCCC(C)C(C)CCC(29457)
+    S(29458)            ! CCCCCC(C)CCCC(29458)
+    S(29459)            ! CCCCC(C)C(CC)CC(29459)
+    S(29464)            ! CCCCC(C)C(CC)CCC(29464)
+    S(29466)            ! CCCCC(C)C(C)CCCC(29466)
+    S(29839)            ! CCCCCCC(CC)CC(29839)
+    S(29890)            ! CCCC(C)C(CCC)CCC(29890)
+    S(30063)            ! CCCC(C)C(CCC)C(C)CCC(30063)
+    S(30064)            ! CCCCCC(CCC)C(C)CCC(30064)
+    S(30072)            ! CCCCC(C)C(CCC)C(C)CCC(30072)
+    S(30287)            ! CCCC(C)CC(C)C(C)CCC(30287)
+    S(30538)            ! CCCCCC(CCC)CCCCC(30538)
+    S(30574)            ! CCCCCC(CC)C(C)CCC(30574)
+    S(31228)            ! CCCCC(CC)C(C)CCC(31228)
+    S(31248)            ! CCCC(C)CC(CC)C(C)CCC(31248)
+    S(31343)            ! CCCCCCCCCCC(31343)
+    S(32150)            ! CCCCCCC(C)(C)CC(32150)
+    S(32156)            ! CCCCCCC(CC)CCC(32156)
+    S(32157)            ! CCCCCCC(C)CCCC(32157)
+    S(32520)            ! CCCCCC(CC)CCCC(32520)
+    S(33384)            ! CCCCC(CCC)CCC(33384)
+    S(33385)            ! CCCC(CCC)C(C)CC(33385)
+    S(34796)            ! CCCCCC(CCCC)C(C)CCC(34796)
+    S(35676)            ! CCCCCC(C)C(C)CC(35676)
+    S(38200)            ! CCCCCC(C)(C)CCC(38200)
+    S(41107)            ! CCCCCC(C)(CCC)CCCC(41107)
 END
 
 
@@ -95,94 +200,895 @@ C4H8-2(4)               H   8C   4          G   100.000  5000.000 1157.79      1
 -4.86276511E+03-7.52715109E+00 2.51998327E+00 2.76812799E-02 9.43783469E-07    3
 -1.25009101E-08 4.67144666E-12-3.34374767E+03 1.30195623E+01                   4
 
+! Thermo library: DFT_QCI_thermo
+C4H6(7)                 H   6C   4          G   100.000  5000.000  946.05      1
+ 1.24693720E+01 1.00553901E-02-2.41206872E-06 4.57077303E-10-3.93160571E-14    2
+ 8.01077795E+03-4.36374720E+01 2.80599310E+00 1.02584471E-02 6.17260255E-05    3
+-9.01642687E-08 3.59116961E-11 1.16584972E+04 1.20621434E+01                   4
+
+! Thermo group additivity estimation: group(Cds-Cds(Cds-Cds)H) + group(Cds-Cds(Cds-Cds)H) + group(Cds-Cds(Cds-Cds)H) + group(Cds-Cds(Cds-Cds)H) + group
+! (Cds-CdsHH) + group(Cds-CdsHH)
+C6H8(9)                 H   8C   6          G   100.000  5000.000  941.22      1
+ 1.69619680E+01 1.57221707E-02-4.10118367E-06 6.95736344E-10-5.26521484E-14    2
+ 1.29061672E+04-6.44097553E+01 1.38427980E+00 4.14411503E-02 1.94287417E-05    3
+-6.16688700E-08 2.86503633E-11 1.76317461E+04 1.93257509E+01                   4
+
+! Thermo library: DFT_QCI_thermo
+C3H6(32)                H   6C   3          G   100.000  5000.000  983.75      1
+ 5.36755173E+00 1.70743019E-02-6.35107626E-06 1.16619529E-09-8.27620279E-14    2
+-4.87138326E+02-4.54467529E+00 3.31912102E+00 8.17958674E-03 3.34736123E-05    3
+-4.36193684E-08 1.58213364E-11 7.49325328E+02 9.54025058E+00                   4
+
 ! Thermo library: primaryThermoLibrary
-H(6)                    H   1               G   100.000  5000.000 3459.60      1
- 2.49999999E+00 9.20455546E-12-3.58608293E-15 6.15198922E-19-3.92041801E-23    2
- 2.54742178E+04-4.44972842E-01 2.50000000E+00 9.24384602E-15-1.36779837E-17    3
- 6.66184769E-21-1.00106912E-24 2.54742178E+04-4.44972896E-01                   4
+H2(68)                  H   2               G   100.000  5000.000 1959.08      1
+ 2.78816583E+00 5.87640942E-04 1.59010417E-07-5.52739026E-11 4.34310984E-15    2
+-5.96144270E+02 1.12732655E-01 3.43536412E+00 2.12710353E-04-2.78625043E-07    3
+ 3.40267167E-10-7.76031998E-14-1.03135984E+03-3.90841732E+00                   4
 
 ! Thermo library: CH
-C6H12-1(7)              H  12C   6          G   100.000  5000.000 2065.44      1
+C4H6a(79)               H   6C   4          G   100.000  5000.000  950.38      1
+ 9.72156091E+00 1.36879055E-02-3.93842260E-06 7.58710118E-10-6.16013131E-14    2
+ 1.41795804E+04-3.06164436E+01 3.41327601E+00-4.60830638E-03 9.57205603E-05    3
+-1.18800574E-07 4.44495312E-11 1.74039828E+04 1.01517556E+01                   4
+
+! Thermo library: CH
+C6H10(111)              H  10C   6          G   100.000  5000.000 1036.89      1
+ 1.16601041E+01 3.10397815E-02-1.26024374E-05 2.38495409E-09-1.70150727E-13    2
+ 4.16633351E+03-3.30972272E+01 1.50874221E+00 4.27939676E-02 1.00407781E-05    3
+-3.76644958E-08 1.56320088E-11 7.74480595E+03 2.33493905E+01                   4
+
+! Thermo library: CH
+C6H10(123)              H  10C   6          G   100.000  5000.000 1020.63      1
+ 1.33828218E+01 2.83661253E-02-1.07663110E-05 1.95749020E-09-1.36589418E-13    2
+ 3.23173845E+03-4.20963085E+01 9.97427413E-01 5.59777045E-02-2.05880600E-05    3
+-1.17182304E-08 8.13452041E-12 6.84996860E+03 2.32490569E+01                   4
+
+! Thermo library: DFT_QCI_thermo
+C4H8(160)               H   8C   4          G   100.000  5000.000 1061.33      1
+ 6.48672669E+00 2.49943921E-02-9.83283171E-06 1.79343299E-09-1.24008235E-13    2
+-5.62452310E+03-1.00316397E+01 2.52504770E+00 2.64752782E-02 7.08359238E-06    3
+-2.07731462E-08 8.00430055E-12-4.02607130E+03 1.28857274E+01                   4
+
+! Thermo library: CH
+C6H10(161)              H  10C   6          G   100.000  5000.000 1020.63      1
+ 1.33828218E+01 2.83661253E-02-1.07663110E-05 1.95749020E-09-1.36589418E-13    2
+ 2.68926840E+03-4.14511818E+01 9.97427413E-01 5.59777045E-02-2.05880600E-05    3
+-1.17182304E-08 8.13452041E-12 6.30749855E+03 2.38941836E+01                   4
+
+! Thermo group additivity estimation: group(Cs-(Cds-Cds)CsHH) + group(Cs-(Cds-Cds)CsHH) + group(Cds-Cds(Cds-Cds)Cs) + group(Cds-CdsCsH) + group(Cds-Cds
+! (Cds-Cds)H) + group(Cds-CdsHH) + group(Cds-CdsHH) + group(Cds-CdsHH)
+C8H12(229)              H  12C   8          G   100.000  5000.000 1002.94      1
+ 1.77276883E+01 3.45993801E-02-1.29781828E-05 2.37500136E-09-1.67643536E-13    2
+ 8.67334638E+03-6.28559377E+01 1.69489980E-02 7.28189377E-02-2.16585698E-05    3
+-2.40807783E-08 1.44597041E-11 1.38562447E+04 3.07679077E+01                   4
+
+! Thermo group additivity estimation: group(Cs-(Cds-Cds)CsHH) + group(Cs-(Cds-Cds)CsHH) + group(Cds-CdsCsH) + group(Cds-CdsCsH) + group(Cds-Cds(Cds-
+! Cds)H) + group(Cds-Cds(Cds-Cds)H) + group(Cds-CdsHH) + group(Cds-CdsHH)
+C8H12(244)              H  12C   8          G   100.000  5000.000 1005.34      1
+ 1.70020327E+01 3.54850644E-02-1.34528637E-05 2.47700296E-09-1.75378433E-13    2
+ 8.95581482E+03-5.83136097E+01 1.86706594E-01 6.87128585E-02-1.27834364E-05    3
+-3.12867866E-08 1.65065107E-11 1.40386710E+04 3.13641644E+01                   4
+
+! Thermo library: CH
+C5H8h(257)              H   8C   5          G   100.000  5000.000 1945.28      1
+ 1.57976301E+01 1.77513582E-02-7.48362302E-06 1.34081097E-09-8.82587923E-14    2
+ 4.86605187E+03-5.96402586E+01 1.54057150E+00 4.70674891E-02-3.00891500E-05    3
+ 9.08792775E-09-1.08388618E-12 1.04128608E+04 1.86285770E+01                   4
+
+! Thermo group additivity estimation: group(Cs-CsCsHH) + group(Cs-(Cds-Cds)CsHH) + group(Cs-(Cds-Cds)CsHH) + group(Cds-CdsCsH) + group(Cds-CdsCsH) +
+! group(Cds-CdsHH) + group(Cds-CdsHH)
+C7H12(260)              H  12C   7          G   100.000  5000.000 1072.04      1
+ 1.28661532E+01 3.85784978E-02-1.55014561E-05 2.86935600E-09-2.00451385E-13    2
+ 9.66694499E+02-3.74015701E+01 7.34369533E-01 6.01626595E-02-1.25662011E-05    3
+-1.95620583E-08 9.83589598E-12 4.92869796E+03 2.83182178E+01                   4
+
+! Thermo group additivity estimation: group(Cs-(Cds-Cds)CsHH) + group(Cs-(Cds-Cds)(Cds-Cds)HH) + group(Cs-CsHHH) + group(Cds-CdsCsCs) + group(Cds-
+! CdsCsH) + group(Cds-CdsHH) + group(Cds-CdsHH)
+C7H12(262)              H  12C   7          G   100.000  5000.000 1044.52      1
+ 1.34764727E+01 3.73792242E-02-1.47395219E-05 2.71950205E-09-1.90466279E-13    2
+-6.96739574E+02-4.06108760E+01 6.90395995E-01 6.05209126E-02-1.08892064E-05    3
+-2.34065671E-08 1.17276344E-11 3.38297442E+03 2.83745539E+01                   4
+
+! Thermo group additivity estimation: group(Cs-(Cds-Cds)CsHH) + group(Cs-(Cds-Cds)CsHH) + group(Cs-(Cds-Cds)HHH) + group(Cds-CdsCsCs) + group(Cds-
+! CdsCsH) + group(Cds-CdsHH) + group(Cds-CdsHH)
+C7H12(264)              H  12C   7          G   100.000  5000.000 1131.99      1
+ 1.29982914E+01 3.85892124E-02-1.55301333E-05 2.84554471E-09-1.96328801E-13    2
+-8.48502352E+02-3.83715994E+01 5.84283501E-01 6.47608593E-02-2.67633524E-05    3
+-4.34737531E-09 4.44182478E-12 3.09569841E+03 2.80653782E+01                   4
+
+! Thermo library: CH
+C5H8c(275)              H   8C   5          G   100.000  5000.000 1004.86      1
+ 1.01246420E+01 2.42323877E-02-9.24886971E-06 1.70115950E-09-1.20059732E-13    2
+ 4.23624320E+03-2.86745770E+01 1.98273955E+00 3.49998332E-02 6.98515281E-06    3
+-3.05031334E-08 1.32246652E-11 6.96521034E+03 1.60818191E+01                   4
+
+! Thermo library: CH
+C5H8g(292)              H   8C   5          G   100.000  5000.000 1049.25      1
+ 1.14809937E+01 2.45641673E-02-1.08867259E-05 2.16707025E-09-1.59145781E-13    2
+ 3.42314914E+03-3.72078866E+01 2.01062155E+00 3.15407187E-02 2.07789480E-05    3
+-4.44088985E-08 1.72419112E-11 7.01383967E+03 1.65768346E+01                   4
+
+! Thermo group additivity estimation: group(Cs-(Cds-Cds)CsHH) + group(Cs-(Cds-Cds)CsHH) + group(Cs-(Cds-Cds)HHH) + group(Cds-CdsCsH) + group(Cds-CdsCsH)
+! + group(Cds-CdsCsH) + group(Cds-CdsHH)
+C7H12(295)              H  12C   7          G   100.000  5000.000 1118.33      1
+ 1.21603701E+01 3.96569985E-02-1.61063018E-05 2.97092237E-09-2.05965892E-13    2
+-3.39677256E+02-3.33473621E+01 7.68978174E-01 6.04854802E-02-1.73306455E-05    3
+-1.22231984E-08 6.75038633E-12 3.45359644E+03 2.84516256E+01                   4
+
+! Thermo library: primaryThermoLibrary
+CH4(367)                H   4C   1          G   100.000  5000.000 1084.12      1
+ 9.08265721E-01 1.14540858E-02-4.57173828E-06 8.29191671E-10-5.66314895E-14    2
+-9.71997444E+03 1.39930944E+01 4.20541524E+00-5.35557362E-03 2.51123265E-05    3
+-2.13762843E-08 5.97523937E-12-1.01619433E+04-9.21279283E-01                   4
+
+! Thermo library: CH
+C5H10(369)              H  10C   5          G   100.000  5000.000 1883.68      1
+ 1.47438472E+01 2.72460315E-02-1.23172689E-05 2.21660273E-09-1.44084857E-13    2
+-1.17269008E+04-5.66226025E+01 2.29195787E+00 4.21076449E-02-1.49304794E-05    3
+-1.22102583E-10 5.99441346E-13-4.98138150E+03 1.67887076E+01                   4
+
+! Thermo library: CH
+C5H10(370)              H  10C   5          G   100.000  5000.000  960.03      1
+ 1.12167303E+01 2.64314616E-02-9.01591566E-06 1.60298644E-09-1.13436933E-13    2
+-8.80144986E+03-3.36443365E+01 1.92494941E+00 3.23872757E-02 3.28626489E-05    3
+-6.30221575E-08 2.59714460E-11-5.50776492E+03 1.86664331E+01                   4
+
+! Thermo library: CH
+C5H10(371)              H  10C   5          G   100.000  5000.000 1065.88      1
+ 8.87931728E+00 3.15047857E-02-1.26438740E-05 2.33666558E-09-1.63001335E-13    2
+-9.04475166E+03-2.06827600E+01 1.83973645E+00 3.88165649E-02 3.95415802E-06    3
+-2.48620336E-08 1.01608534E-11-6.45875726E+03 1.88194915E+01                   4
+
+! Thermo library: thermo_DFT_CCSDTF12_BAC
+C2H6(374)               H   6C   2          G   100.000  5000.000 1012.42      1
+ 2.82848257E+00 1.73040568E-02-6.73334245E-06 1.23742024E-09-8.65676410E-14    2
+-1.19978080E+04 5.93811707E+00 3.72239291E+00 1.65083841E-03 3.44175530E-05    3
+-3.76858229E-08 1.24450657E-11-1.15575901E+04 4.68247999E+00                   4
+
+! Thermo library: CH
+C6H12(379)              H  12C   6          G   100.000  5000.000 2065.44      1
  2.13486140E+01 2.79136045E-02-1.23596487E-05 2.17527434E-09-1.38347372E-13    2
 -1.80997789E+04-9.33598720E+01 1.68598658E+00 5.58664307E-02-2.53057821E-05    3
  3.98016615E-09-6.94904807E-14-7.81739466E+03 2.09919882E+01                   4
 
-! Thermo library: CH
-C6H12-2(8)              H  12C   6          G   100.000  5000.000 1829.14      1
- 1.55815550E+01 3.16049972E-02-1.22495396E-05 2.11773097E-09-1.37578189E-13    2
--1.49903266E+04-5.71784952E+01 7.23497206E-01 6.40962986E-02-3.88937857E-05    3
- 1.18285810E-08-1.46479639E-12-9.55473307E+03 2.34752956E+01                   4
-
-! Thermo library: CH
-C6H12-3(9)              H  12C   6          G   100.000  5000.000 1839.14      1
- 1.56639911E+01 3.11245214E-02-1.20299805E-05 2.07631491E-09-1.34696441E-13    2
--1.50295162E+04-5.75746881E+01 7.39766525E-01 6.35836379E-02-3.85035731E-05    3
- 1.16726754E-08-1.43915861E-12-9.53996498E+03 2.35193792E+01                   4
-
 ! Thermo group additivity estimation: group(Cs-(Cds-Cds)CsCsH) + group(Cs-CsCsHH) + group(Cs-CsHHH) + group(Cs-CsHHH) + group(Cds-CdsCsH) + group(Cds-
 ! CdsHH)
-C6H12(10)               H  12C   6          G   100.000  5000.000 1018.92      1
+C6H12(380)              H  12C   6          G   100.000  5000.000 1018.92      1
  1.16698119E+01 3.59250755E-02-1.39120664E-05 2.55991991E-09-1.79822160E-13    2
 -1.21450086E+04-3.34751762E+01 1.21827324E+00 4.88303598E-02 8.49335826E-06    3
 -3.91899735E-08 1.67107196E-11-8.55522126E+03 2.43074946E+01                   4
 
 ! Thermo library: CH
-C6H12(11)               H  12C   6          G   100.000  5000.000 1917.57      1
- 1.85703860E+01 3.37500613E-02-1.61580314E-05 2.95111967E-09-1.92346931E-13    2
--1.99376584E+04-7.94569206E+01 2.29989638E+00 4.93347109E-02-1.39908418E-05    3
--2.79410381E-09 1.20747058E-12-1.03230301E+04 1.84311611E+01                   4
+C6H12(383)              H  12C   6          G   100.000  5000.000 3144.72      1
+ 2.63049846E+01 2.09689465E-02-8.89163385E-06 1.47783715E-09-8.83519412E-14    2
+-2.26006402E+04-1.22203751E+02 1.62486600E+00 5.81706891E-02-2.94074668E-05    3
+ 6.41453677E-09-5.27511383E-13-9.95070725E+03 2.05730324E+01                   4
 
 ! Thermo library: DFT_QCI_thermo
-C3H6(75)                H   6C   3          G   100.000  5000.000  983.75      1
- 5.36755173E+00 1.70743019E-02-6.35107626E-06 1.16619529E-09-8.27620279E-14    2
--4.87138326E+02-4.54467529E+00 3.31912102E+00 8.17958674E-03 3.34736123E-05    3
--4.36193684E-08 1.58213364E-11 7.49325328E+02 9.54025058E+00                   4
+C3H8(386)               H   8C   3          G   100.000  5000.000  989.99      1
+ 5.60440043E+00 2.19528785E-02-8.22080610E-06 1.50103993E-09-1.05635358E-13    2
+-1.58394038E+04-6.22623300E+00 3.06336167E+00 1.29214561E-02 3.47032808E-05    3
+-4.70946154E-08 1.71384141E-11-1.43905789E+04 1.07835592E+01                   4
+
+! Thermo library: DFT_QCI_thermo
+C4H10(387)              H  10C   4          G   100.000  5000.000 1147.60      1
+ 6.78903089E+00 3.03598162E-02-1.21262050E-05 2.19945025E-09-1.50289312E-13    2
+-1.91057969E+04-1.17329103E+01 2.16918413E+00 3.43904632E-02-1.61564236E-06    3
+-1.30726562E-08 5.17350451E-12-1.72505136E+04 1.46546701E+01                   4
+
+! Thermo group additivity estimation: group(Cs-CsCsHH) + group(Cs-(Cds-Cds)CsHH) + group(Cs-CsHHH) + group(Cds-Cds(Cds-Cds)Cs) + group(Cds-Cds(Cds-
+! Cds)H) + group(Cds-CdsHH) + group(Cds-CdsHH)
+C7H12(481)              H  12C   7          G   100.000  5000.000  999.68      1
+ 1.58208064E+01 3.35710199E-02-1.25070130E-05 2.27563528E-09-1.59971208E-13    2
+-3.25538740E+03-5.52328098E+01 4.29571406E-01 6.49379719E-02-1.42316263E-05    3
+-2.68110632E-08 1.46756236E-11 1.33179837E+03 2.65680971E+01                   4
+
+! Thermo group additivity estimation: group(Cs-(Cds-Cds)CsHH) + group(Cs-(Cds-Cds)CsHH) + group(Cs-(Cds-Cds)CsHH) + group(Cs-(Cds-Cds)CsHH) + group(Cds-
+! Cds(Cds-Cds)Cs) + group(Cds-Cds(Cds-Cds)Cs) + group(Cds-CdsCsH) + group(Cds-CdsCsH) + group(Cds-CdsHH) + group(Cds-CdsHH) + group(Cds-CdsHH) + group
+! (Cds-CdsHH)
+S(796)                  H  18C  12          G   100.000  5000.000 1095.01      1
+ 2.54000781E+01 5.57453621E-02-2.19004326E-05 3.99438837E-09-2.76438212E-13    2
+ 8.47151992E+03-9.77534119E+01-2.74660311E+00 1.29765084E-01-8.38469326E-05    3
+ 1.76910140E-08 2.07998997E-12 1.63622171E+04 4.84763299E+01                   4
+
+! Thermo group additivity estimation: group(Cs-(Cds-Cds)CsHH) + group(Cs-(Cds-Cds)CsHH) + group(Cs-(Cds-Cds)CsHH) + group(Cs-CsHHH) + group(Cds-Cds(Cds-
+! Cds)Cs) + group(Cds-Cds(Cds-Cds)Cs) + group(Cds-CdsCsH) + group(Cds-CdsHH) + group(Cds-CdsHH) + group(Cds-CdsHH)
+S(811)                  H  16C  10          G   100.000  5000.000 1050.23      1
+ 2.15402055E+01 4.80180651E-02-1.85864175E-05 3.38935389E-09-2.35755397E-13    2
+ 1.39391206E+02-8.06155283E+01-1.54493814E+00 1.05468860E-01-5.71170539E-05    3
+ 2.19606261E-10 7.09552345E-12 6.66890775E+03 3.98893243E+01                   4
+
+! Thermo group additivity estimation: group(Cs-(Cds-Cds)(Cds-Cds)CsH) + group(Cs-CsCsHH) + group(Cs-(Cds-Cds)CsHH) + group(Cds-CdsCsH) + group(Cds-
+! CdsCsH) + group(Cds-CdsCsH) + group(Cds-CdsHH) + group(Cds-CdsHH) + group(Cds-CdsHH)
+C9H14(934)              H  14C   9          G   100.000  5000.000 1612.52      1
+ 1.86032334E+01 4.40295851E-02-1.77102356E-05 3.16114133E-09-2.11187981E-13    2
+ 7.41461050E+03-6.63097534E+01-5.64342106E-01 9.15768180E-02-6.19399952E-05    3
+ 2.14472540E-08-3.04622983E-12 1.35961850E+04 3.53208107E+01                   4
+
+! Thermo group additivity estimation: group(Cs-(Cds-Cds)(Cds-Cds)CsH) + group(Cs-CsCsHH) + group(Cs-CsCsHH) + group(Cs-CsHHH) + group(Cds-CdsCsH) +
+! group(Cds-CdsCsH) + group(Cds-CdsHH) + group(Cds-CdsHH)
+C8H14(940)              H  14C   8          G   100.000  5000.000 1677.55      1
+ 1.69619765E+01 4.26415171E-02-1.70655808E-05 3.02620199E-09-2.00882094E-13    2
+-4.66181826E+03-6.02477324E+01-1.23162603E-01 8.33797247E-02-5.34920083E-05    3
+ 1.75022071E-08-2.35819003E-12 1.07043157E+03 3.10169622E+01                   4
+
+! Thermo group additivity estimation: group(Cs-CsCsHH) + group(Cs-CsCsHH) + group(Cs-CsCsHH) + group(Cs-(Cds-Cds)CsHH) + group(Cs-CsHHH) + group(Cds-
+! CdsCsH) + group(Cds-CdsHH)
+S(1151)                 H  14C   7          G   100.000  5000.000 1137.87      1
+ 1.29448813E+01 4.42102095E-02-1.78572583E-05 3.27300063E-09-2.25635477E-13    2
+-1.45781742E+04-3.81015599E+01 3.77000199E-01 6.84581137E-02-2.35458993E-05    3
+-8.78916695E-09 5.80698771E-12-1.04276840E+04 2.98245651E+01                   4
+
+! Thermo group additivity estimation: group(Cs-(Cds-Cds)CsCsH) + group(Cs-CsCsHH) + group(Cs-CsCsHH) + group(Cs-CsHHH) + group(Cs-CsHHH) + group(Cds-
+! CdsCsH) + group(Cds-CdsHH)
+S(1152)                 H  14C   7          G   100.000  5000.000 1054.67      1
+ 1.32840013E+01 4.31737590E-02-1.70613062E-05 3.13615581E-09-2.18574261E-13    2
+-1.55902553E+04-4.03721053E+01 4.65448694E-01 6.48479495E-02-9.56906733E-06    3
+-2.58210160E-08 1.23868753E-11-1.13879550E+04 2.92560896E+01                   4
 
 ! Thermo library: CH
-C5H10(106)              H  10C   5          G   100.000  5000.000 1893.09      1
- 1.47224340E+01 2.74694228E-02-1.26411130E-05 2.28536389E-09-1.48647100E-13    2
--1.31148306E+04-5.73135407E+01 2.46381073E+00 4.04325284E-02-1.26603968E-05    3
--1.31821688E-09 8.04023533E-13-6.15501999E+03 1.57743430E+01                   4
+S(1160)                 H  12C   5          G   100.000  5000.000 1083.72      1
+ 8.53683820E+00 3.80814435E-02-1.53303035E-05 2.81977580E-09-1.95507768E-13    2
+-2.27551513E+04-1.95975419E+01 1.61174582E+00 4.32467983E-02 5.74950528E-06    3
+-2.75134571E-08 1.08080045E-11-2.00565292E+04 1.98944429E+01                   4
 
-! Thermo library: primaryThermoLibrary
-H2(190)                 H   2               G   100.000  5000.000 1959.08      1
- 2.78816583E+00 5.87640942E-04 1.59010417E-07-5.52739026E-11 4.34310984E-15    2
--5.96144270E+02 1.12732655E-01 3.43536412E+00 2.12710353E-04-2.78625043E-07    3
- 3.40267167E-10-7.76031998E-14-1.03135984E+03-3.90841732E+00                   4
-
-! Thermo library: thermo_DFT_CCSDTF12_BAC
-C2H6(343)               H   6C   2          G   100.000  5000.000 1012.42      1
- 2.82848257E+00 1.73040568E-02-6.73334245E-06 1.23742024E-09-8.65676410E-14    2
--1.19978080E+04 5.93811707E+00 3.72239291E+00 1.65083841E-03 3.44175530E-05    3
--3.76858229E-08 1.24450657E-11-1.15575901E+04 4.68247999E+00                   4
-
-! Thermo group additivity estimation: group(Cs-(Cds-Cds)CsCsH) + group(Cs-CsCsHH) + group(Cs-CsHHH) + group(Cs-CsHHH) + group(Cs-(Cds-Cds)HHH) + group
-! (Cds-CdsCsH) + group(Cds-CdsCsH)
-S(1199)                 H  14C   7          G   100.000  5000.000 1090.00      1
- 1.24944622E+01 4.43831854E-02-1.77370739E-05 3.25370355E-09-2.25367081E-13    2
--1.68574517E+04-3.65319236E+01 5.01228217E-01 6.51680271E-02-1.43763342E-05    3
--1.83514389E-08 9.21379506E-12-1.28631224E+04 2.86914180E+01                   4
-
-! Thermo group additivity estimation: group(Cs-(Cds-Cds)CsCsH) + group(Cs-CsCsHH) + group(Cs-CsHHH) + group(Cs-CsHHH) + group(Cs-(Cds-Cds)HHH) + group
-! (Cds-Cds(Cds-Cds)Cs) + group(Cds-CdsCsH) + group(Cds-Cds(Cds-Cds)H) + group(Cds-CdsHH)
-S(2696)                 H  16C   9          G   100.000  5000.000 1045.36      1
- 1.88524410E+01 4.78384477E-02-1.84642904E-05 3.35851209E-09-2.33152120E-13    2
--1.25416455E+04-6.89040739E+01-9.69892472E-01 9.38724514E-02-4.17376100E-05    3
--9.08243278E-09 9.26693571E-12-6.76829345E+03 3.53983992E+01                   4
-
-! Thermo group additivity estimation: group(Cs-CsCsCsH) + group(Cs-(Cds-Cds)CsCsH) + longDistanceInteraction_noncyclic(CsCs-ST) + group(Cs-CsCsHH) +
-! longDistanceInteraction_noncyclic(CsCs-ST) + group(Cs-CsHHH) + group(Cs-CsHHH) + group(Cs-CsHHH) + group(Cs-(Cds-Cds)HHH) + group(Cds-Cds(Cds-Cds)Cs)
-! + group(Cds-CdsCsH) + group(Cds-Cds(Cds-Cds)H) + group(Cds-CdsHH)
-S(8513)                 H  20C  11          G   100.000  5000.000 1079.59      1
- 2.28899744E+01 6.06758690E-02-2.36661837E-05 4.29745094E-09-2.96663382E-13    2
--2.00170738E+04-8.77374414E+01-2.43125049E+00 1.23023324E-01-6.65668300E-05    3
- 3.78761922E-09 6.07422900E-12-1.27158147E+04 4.48557354E+01                   4
+! Thermo group additivity estimation: group(Cs-CsCsHH) + group(Cs-(Cds-Cds)CsHH) + group(Cs-(Cds-Cds)CsHH) + group(Cs-(Cds-Cds)CsHH) + group(Cs-CsHHH) +
+! group(Cds-Cds(Cds-Cds)Cs) + group(Cds-Cds(Cds-Cds)Cs) + group(Cds-CdsCsH) + group(Cds-CdsHH) + group(Cds-CdsHH) + group(Cds-CdsHH)
+S(1168)                 H  18C  11          G   100.000  5000.000 1098.23      1
+ 2.34928702E+01 5.47178154E-02-2.14298317E-05 3.89517297E-09-2.68779359E-13    2
+-3.45717709E+03-8.94354947E+01-2.33422004E+00 1.21887322E-01-7.64335550E-05    3
+ 1.49829050E-08 2.28389276E-12 3.83778150E+03 4.49705057E+01                   4
 
 ! Thermo library: CH
-S(13797)                H  12C   6          G   100.000  5000.000 1669.48      1
- 1.41707554E+01 3.61096226E-02-1.60799521E-05 2.93994576E-09-1.95627554E-13    2
--1.55549272E+04-5.16608415E+01 1.53174148E+00 5.28581860E-02-1.89682696E-05    3
--7.62455342E-10 1.08593390E-12-9.44873727E+03 2.14414196E+01                   4
+S(1177)                 H  14C   6          G   100.000  5000.000 1048.16      1
+ 1.11354266E+01 4.25244017E-02-1.65829595E-05 3.01864905E-09-2.09013581E-13    2
+-2.62988561E+04-3.13529752E+01 8.83603407E-01 5.70449582E-02-2.15511769E-06    3
+-2.85512365E-08 1.26618641E-11-2.27982664E+04 2.50352381E+01                   4
+
+! Thermo library: CH
+S(1194)                 H  12C   6          G   100.000  5000.000  727.96      1
+ 3.15400112E+00 5.47777314E-02-2.60055290E-05 5.04732853E-09-3.55800709E-13    2
+-9.01059211E+03 1.22525714E+01 9.39440133E-01 7.36827282E-02-7.88408848E-05    3
+ 6.61457863E-08-2.57040766E-11-8.86666114E+03 2.10074400E+01                   4
+
+! Thermo library: DFT_QCI_thermo
+S(1199)                 H  10C   4          G   100.000  5000.000  987.08      1
+ 8.84811268E+00 2.61183046E-02-9.57929598E-06 1.72895160E-09-1.21006821E-13    2
+-2.06283634E+04-2.38575760E+01 2.18594095E+00 3.04312883E-02 1.83387931E-05    3
+-4.04090927E-08 1.64481872E-11-1.82080408E+04 1.37947641E+01                   4
+
+! Thermo library: CH
+S(1200)                 H  12C   5          G   100.000  5000.000 1035.89      1
+ 7.87936773E+00 3.91979316E-02-1.52647178E-05 2.77213157E-09-1.91665486E-13    2
+-2.33548825E+04-1.66693711E+01 1.72369892E+00 4.01626686E-02 1.63603121E-05    3
+-3.88326196E-08 1.49780300E-11-2.08560016E+04 1.91510657E+01                   4
+
+! Thermo library: CH
+S(1219)                 H  14C   6          G   100.000  5000.000 1002.79      1
+ 1.14867705E+01 4.22488291E-02-1.59010927E-05 2.87000033E-09-1.99356317E-13    2
+-2.73489440E+04-3.43661848E+01 9.62511884E-01 5.35099673E-02 1.32037900E-05    3
+-4.70268617E-08 1.98557427E-11-2.36936864E+04 2.41377511E+01                   4
+
+! Thermo library: CH
+S(1220)                 H  14C   6          G   100.000  5000.000  979.30      1
+ 1.04141051E+01 4.37548510E-02-1.59118175E-05 2.82122166E-09-1.94532762E-13    2
+-2.71755416E+04-3.03122062E+01 1.15761484E+00 4.88425073E-02 2.64137737E-05    3
+-6.01104569E-08 2.45806956E-11-2.37935343E+04 2.21623322E+01                   4
+
+! Thermo group additivity estimation: group(Cs-(Cds-Cds)(Cds-Cds)CsH) + group(Cs-CsCsHH) + group(Cs-(Cds-Cds)CsHH) + group(Cs-(Cds-Cds)HHH) + group(Cds-
+! CdsCsCs) + group(Cds-CdsCsH) + group(Cds-CdsCsH) + group(Cds-CdsHH) + group(Cds-CdsHH) + group(Cds-CdsHH)
+S(1855)                 H  16C  10          G   100.000  5000.000 1423.43      1
+ 1.67121827E+01 5.69463096E-02-2.39442437E-05 4.40115288E-09-3.00767956E-13    2
+ 3.87554017E+03-5.33329903E+01-9.64998750E-01 1.06621285E-01-7.62914575E-05    3
+ 2.89181323E-08-4.60674413E-12 8.90797740E+03 3.81904336E+01                   4
+
+! Thermo group additivity estimation: group(Cs-CsCsHH) + group(Cs-(Cds-Cds)CsHH) + group(Cs-(Cds-Cds)CsHH) + group(Cds-CdsCsH) + group(Cds-CdsCsH) +
+! group(Cds-Cds(Cds-Cds)H) + group(Cds-Cds(Cds-Cds)H) + group(Cds-CdsHH) + group(Cds-CdsHH)
+S(4339)                 H  14C   9          G   100.000  5000.000 1033.76      1
+ 1.85555439E+01 4.28306026E-02-1.66554054E-05 3.06539570E-09-2.15112108E-13    2
+ 5.53819046E+03-6.48648690E+01-5.65335332E-01 8.47310838E-02-3.08977113E-05    3
+-1.77732609E-08 1.20851089E-11 1.12058940E+04 3.63093306E+01                   4
+
+! Thermo group additivity estimation: group(Cs-CsCsCsH) + group(Cs-CsCsHH) + longDistanceInteraction_noncyclic(CsCs-ST) + group(Cs-CsCsHH) + group(Cs-
+! CsCsHH) + group(Cs-CsHHH) + group(Cs-CsHHH) + group(Cs-CsHHH)
+S(24149)                H  16C   7          G   100.000  5000.000 1120.69      1
+ 1.31589528E+01 4.92569317E-02-1.97080319E-05 3.59805544E-09-2.47725029E-13    2
+-3.08030385E+04-4.13873017E+01 1.06339491E-01 7.34420479E-02-2.20939297E-05    3
+-1.28197435E-08 7.39373087E-12-2.64706183E+04 2.93479113E+01                   4
+
+! Thermo group additivity estimation: group(Cs-CsCsHH) + group(Cs-CsCsHH) + group(Cs-CsCsHH) + group(Cs-CsCsHH) + group(Cs-CsCsHH) + group(Cs-CsCsHH) +
+! group(Cs-CsHHH) + group(Cs-CsHHH)
+S(24256)                H  18C   8          G   100.000  5000.000 1950.39      1
+ 2.30699897E+01 4.49237816E-02-1.71567286E-05 2.91725571E-09-1.86477663E-13    2
+-3.79533974E+04-9.67898571E+01-8.85253472E-01 9.40525134E-02-5.49401942E-05    3
+ 1.58319910E-08-1.84186830E-12-2.86089074E+04 3.47833460E+01                   4
+
+! Thermo library: CH
+S(24276)                H  14C   6          G   100.000  5000.000 1237.11      1
+ 1.03159905E+01 4.66440696E-02-1.96015321E-05 3.61730433E-09-2.48224262E-13    2
+-2.71926741E+04-2.90957696E+01 9.36204265E-01 5.80630250E-02-1.05197660E-05    3
+-1.36320323E-08 5.73438090E-12-2.34249411E+04 2.40002576E+01                   4
+
+! Thermo group additivity estimation: group(Cs-CsCsCsH) + group(Cs-CsCsHH) + longDistanceInteraction_noncyclic(CsCs-ST) + group(Cs-CsCsHH) +
+! longDistanceInteraction_noncyclic(CsCs-ST) + group(Cs-CsCsHH) + group(Cs-CsHHH) + group(Cs-CsHHH) + group(Cs-CsHHH)
+S(24294)                H  16C   7          G   100.000  5000.000 1120.69      1
+ 1.31589528E+01 4.92569317E-02-1.97080319E-05 3.59805544E-09-2.47725029E-13    2
+-3.04004633E+04-4.06941546E+01 1.06339491E-01 7.34420479E-02-2.20939297E-05    3
+-1.28197435E-08 7.39373087E-12-2.60680432E+04 3.00410584E+01                   4
+
+! Thermo group additivity estimation: group(Cs-CsCsCsH) + longDistanceInteraction_noncyclic(CsCs-TT) + group(Cs-CsCsCsH) +
+! longDistanceInteraction_noncyclic(CsCs-TT) + group(Cs-CsCsHH) + longDistanceInteraction_noncyclic(CsCs-ST) + group(Cs-CsHHH) + group(Cs-CsHHH) + group
+! (Cs-CsHHH) + group(Cs-CsHHH)
+S(24295)                H  16C   7          G   100.000  5000.000 1058.24      1
+ 1.34327135E+01 4.84569089E-02-1.90870718E-05 3.49343735E-09-2.42554508E-13    2
+-3.11457174E+04-4.33795342E+01 1.91141557E-01 7.01355402E-02-9.59838786E-06    3
+-2.78201475E-08 1.31404368E-11-2.67544868E+04 2.87592153E+01                   4
+
+! Thermo group additivity estimation: group(Cs-CsCsCsH) + group(Cs-CsCsHH) + longDistanceInteraction_noncyclic(CsCs-ST) + group(Cs-CsCsHH) + group(Cs-
+! CsCsHH) + longDistanceInteraction_noncyclic(CsCs-ST) + group(Cs-CsCsHH) + group(Cs-CsHHH) + group(Cs-CsHHH) + group(Cs-CsHHH)
+S(24454)                H  18C   8          G   100.000  5000.000 1206.86      1
+ 1.56711370E+01 5.50966005E-02-2.20915345E-05 4.00127562E-09-2.72607063E-13    2
+-3.42643584E+04-5.27253224E+01-6.89609402E-01 8.98708288E-02-4.11358366E-05    3
+ 1.16625302E-09 3.08116522E-12-2.88987652E+04 3.51508275E+01                   4
+
+! Thermo group additivity estimation: group(Cs-CsCsCsH) + longDistanceInteraction_noncyclic(CsCs-TT) + group(Cs-CsCsCsH) +
+! longDistanceInteraction_noncyclic(CsCs-TT) + group(Cs-CsCsHH) + longDistanceInteraction_noncyclic(CsCs-ST) + group(Cs-CsCsHH) +
+! longDistanceInteraction_noncyclic(CsCs-ST) + group(Cs-CsHHH) + group(Cs-CsHHH) + group(Cs-CsHHH) + group(Cs-CsHHH)
+S(24455)                H  18C   8          G   100.000  5000.000 1103.64      1
+ 1.53084896E+01 5.52866759E-02-2.20051288E-05 4.01682589E-09-2.77031625E-13    2
+-3.43071659E+04-5.24592556E+01-5.78595688E-01 8.63233750E-02-2.81114488E-05    3
+-1.40871769E-08 8.76045900E-12-2.91838807E+04 3.30771920E+01                   4
+
+! Thermo group additivity estimation: group(Cs-CsCsCsH) + group(Cs-CsCsCsH) + group(Cs-CsCsHH) + longDistanceInteraction_noncyclic(CsCs-ST) +
+! longDistanceInteraction_noncyclic(CsCs-ST) + group(Cs-CsHHH) + group(Cs-CsHHH) + group(Cs-CsHHH) + group(Cs-CsHHH)
+S(24484)                H  16C   7          G   100.000  5000.000 1058.24      1
+ 1.34327135E+01 4.84569089E-02-1.90870718E-05 3.49343735E-09-2.42554508E-13    2
+-3.15482926E+04-4.47658285E+01 1.91141557E-01 7.01355402E-02-9.59838786E-06    3
+-2.78201475E-08 1.31404368E-11-2.71570619E+04 2.73729209E+01                   4
+
+! Thermo group additivity estimation: group(Cs-CsCsCsH) + group(Cs-CsCsHH) + longDistanceInteraction_noncyclic(CsCs-ST) + group(Cs-CsCsHH) + group(Cs-
+! CsCsHH) + group(Cs-CsCsHH) + group(Cs-CsHHH) + group(Cs-CsHHH) + group(Cs-CsHHH)
+S(24634)                H  18C   8          G   100.000  5000.000 1206.86      1
+ 1.56711370E+01 5.50966005E-02-2.20915345E-05 4.00127562E-09-2.72607063E-13    2
+-3.46669336E+04-5.34184695E+01-6.89609402E-01 8.98708288E-02-4.11358366E-05    3
+ 1.16625302E-09 3.08116522E-12-2.93013403E+04 3.44576804E+01                   4
+
+! Thermo group additivity estimation: group(Cs-CsCsCsH) + group(Cs-CsCsCsH) + group(Cs-CsCsHH) + longDistanceInteraction_noncyclic(CsCs-ST) +
+! longDistanceInteraction_noncyclic(CsCs-ST) + group(Cs-CsCsHH) + longDistanceInteraction_noncyclic(CsCs-ST) + group(Cs-CsHHH) + group(Cs-CsHHH) + group
+! (Cs-CsHHH) + group(Cs-CsHHH)
+S(24635)                H  18C   8          G   100.000  5000.000 1103.64      1
+ 1.53084896E+01 5.52866759E-02-2.20051288E-05 4.01682589E-09-2.77031625E-13    2
+-3.47097411E+04-5.17661085E+01-5.78595688E-01 8.63233750E-02-2.81114488E-05    3
+-1.40871769E-08 8.76045900E-12-2.95864558E+04 3.37703392E+01                   4
+
+! Thermo library: CH
+S(24701)                H  14C   6          G   100.000  5000.000  999.60      1
+ 8.28885191E+00 4.86579196E-02-1.80934696E-05 3.19040633E-09-2.16940675E-13    2
+-2.75238301E+04-2.00273110E+01 1.13914864E+00 5.18713751E-02 1.51948225E-05    3
+-4.44277431E-08 1.80491646E-11-2.48256356E+04 2.08096782E+01                   4
+
+! Thermo group additivity estimation: group(Cs-CsCsCsCs) + group(Cs-CsCsHH) + longDistanceInteraction_noncyclic(CsCs-SQ) + group(Cs-CsCsHH) + group(Cs-
+! CsHHH) + group(Cs-CsHHH) + group(Cs-CsHHH) + group(Cs-CsHHH)
+S(24720)                H  16C   7          G   100.000  5000.000 1061.43      1
+ 1.51223127E+01 4.71509266E-02-1.90189712E-05 3.54030946E-09-2.48611077E-13    2
+-3.25121706E+04-5.56486209E+01 3.06074192E-02 7.21522684E-02-9.30982935E-06    3
+-3.08471494E-08 1.45137215E-11-2.75130205E+04 2.65172733E+01                   4
+
+! Thermo group additivity estimation: group(Cs-CsCsCsCs) + group(Cs-CsCsCsH) + longDistanceInteraction_noncyclic(CsCs-TQ) + group(Cs-CsHHH) + group(Cs-
+! CsHHH) + group(Cs-CsHHH) + group(Cs-CsHHH) + group(Cs-CsHHH)
+S(24721)                H  16C   7          G   100.000  5000.000 1029.26      1
+ 1.56960840E+01 4.58727233E-02-1.81350582E-05 3.37574304E-09-2.38601225E-13    2
+-3.29919040E+04-6.00440255E+01 9.78185888E-02 6.90196312E-02 2.74200925E-06    3
+-4.55183582E-08 2.02289188E-11-2.77960873E+04 2.53006933E+01                   4
+
+! Thermo group additivity estimation: group(Cs-CsCsCsCs) + group(Cs-CsCsHH) + longDistanceInteraction_noncyclic(CsCs-SQ) + group(Cs-CsCsHH) + group(Cs-
+! CsCsHH) + group(Cs-CsHHH) + group(Cs-CsHHH) + group(Cs-CsHHH) + group(Cs-CsHHH)
+S(24880)                H  18C   8          G   100.000  5000.000 1100.04      1
+ 1.69619925E+01 5.40401412E-02-2.19705259E-05 4.07147661E-09-2.83725073E-13    2
+-3.60603627E+04-6.38306892E+01-7.32832528E-01 8.82674786E-02-2.75778060E-05    3
+-1.74171002E-08 1.02557589E-11-3.03452636E+04 3.15057124E+01                   4
+
+! Thermo group additivity estimation: group(Cs-CsCsCsCs) + group(Cs-CsCsCsH) + longDistanceInteraction_noncyclic(CsCs-TQ) + group(Cs-CsCsHH) +
+! longDistanceInteraction_noncyclic(CsCs-ST) + group(Cs-CsHHH) + group(Cs-CsHHH) + group(Cs-CsHHH) + group(Cs-CsHHH) + group(Cs-CsHHH)
+S(24881)                H  18C   8          G   100.000  5000.000 1056.45      1
+ 1.73313034E+01 5.30880556E-02-2.12660347E-05 3.94782944E-09-2.77019288E-13    2
+-3.60442247E+04-6.63677535E+01-6.54906190E-01 8.50324836E-02-1.52861258E-05    3
+-3.22211130E-08 1.59481329E-11-3.02262465E+04 3.09423039E+01                   4
+
+! Thermo group additivity estimation: group(Cs-CsCsCsCs) + group(Cs-CsCsHH) + longDistanceInteraction_noncyclic(CsCs-SQ) + group(Cs-CsCsHH) +
+! longDistanceInteraction_noncyclic(CsCs-SQ) + group(Cs-CsHHH) + group(Cs-CsHHH) + group(Cs-CsHHH) + group(Cs-CsHHH)
+S(26397)                H  16C   7          G   100.000  5000.000 1061.43      1
+ 1.51223127E+01 4.71509266E-02-1.90189712E-05 3.54030946E-09-2.48611077E-13    2
+-3.17070203E+04-5.52431558E+01 3.06074192E-02 7.21522684E-02-9.30982935E-06    3
+-3.08471494E-08 1.45137215E-11-2.67078702E+04 2.69227384E+01                   4
+
+! Thermo group additivity estimation: group(Cs-CsCsCsCs) + group(Cs-CsCsHH) + longDistanceInteraction_noncyclic(CsCs-SQ) + group(Cs-CsCsHH) +
+! longDistanceInteraction_noncyclic(CsCs-SQ) + group(Cs-CsCsHH) + group(Cs-CsHHH) + group(Cs-CsHHH) + group(Cs-CsHHH) + group(Cs-CsHHH)
+S(26416)                H  18C   8          G   100.000  5000.000 1100.04      1
+ 1.69619925E+01 5.40401412E-02-2.19705259E-05 4.07147661E-09-2.83725073E-13    2
+-3.52552123E+04-6.27320769E+01-7.32832528E-01 8.82674786E-02-2.75778060E-05    3
+-1.74171002E-08 1.02557589E-11-2.95401132E+04 3.26043247E+01                   4
+
+! Thermo group additivity estimation: group(Cs-CsCsCsCs) + group(Cs-CsCsHH) + longDistanceInteraction_noncyclic(CsCs-SQ) + group(Cs-CsCsHH) +
+! longDistanceInteraction_noncyclic(CsCs-SQ) + group(Cs-CsCsHH) + group(Cs-CsCsHH) + group(Cs-CsHHH) + group(Cs-CsHHH) + group(Cs-CsHHH) + group(Cs-
+! CsHHH)
+S(26576)                H  20C   9          G   100.000  5000.000 1152.20      1
+ 1.91310669E+01 6.04110991E-02-2.46398602E-05 4.53877984E-09-3.13713323E-13    2
+-3.89564186E+04-7.27964363E+01-1.51324110E+00 1.04547432E-01-4.62550757E-05    3
+-3.69412445E-09 5.97263674E-12-3.23715698E+04 3.76559812E+01                   4
+
+! Thermo group additivity estimation: group(Cs-CsCsCsH) + group(Cs-CsCsHH) + longDistanceInteraction_noncyclic(CsCs-ST) + group(Cs-CsCsHH) + group(Cs-
+! CsCsHH) + group(Cs-CsCsHH) + longDistanceInteraction_noncyclic(CsCs-ST) + group(Cs-CsCsHH) + group(Cs-CsHHH) + group(Cs-CsHHH) + group(Cs-CsHHH)
+S(26760)                H  20C   9          G   100.000  5000.000 1873.81      1
+ 2.54105323E+01 5.04976718E-02-1.91488122E-05 3.25803308E-09-2.09002343E-13    2
+-4.18795259E+04-1.06755568E+02-1.70265900E+00 1.08377038E-01-6.54826377E-05    3
+ 1.97430742E-08-2.40844770E-12-3.17187353E+04 4.10757380E+01                   4
+
+! Thermo group additivity estimation: group(Cs-CsCsCsH) + group(Cs-CsCsHH) + longDistanceInteraction_noncyclic(CsCs-ST) + group(Cs-CsCsHH) +
+! longDistanceInteraction_noncyclic(CsCs-ST) + group(Cs-CsCsHH) + group(Cs-CsCsHH) + group(Cs-CsHHH) + group(Cs-CsHHH) + group(Cs-CsHHH)
+S(27015)                H  18C   8          G   100.000  5000.000 1206.86      1
+ 1.56711370E+01 5.50966005E-02-2.20915345E-05 4.00127562E-09-2.72607063E-13    2
+-3.42643584E+04-5.34184695E+01-6.89609402E-01 8.98708288E-02-4.11358366E-05    3
+ 1.16625302E-09 3.08116522E-12-2.88987652E+04 3.44576804E+01                   4
+
+! Thermo group additivity estimation: group(Cs-CsCsCsH) + group(Cs-CsCsHH) + longDistanceInteraction_noncyclic(CsCs-ST) + group(Cs-CsCsHH) +
+! longDistanceInteraction_noncyclic(CsCs-ST) + group(Cs-CsCsHH) + group(Cs-CsCsHH) + group(Cs-CsCsHH) + group(Cs-CsHHH) + group(Cs-CsHHH) + group(Cs-
+! CsHHH)
+S(27174)                H  20C   9          G   100.000  5000.000 1873.81      1
+ 2.54105323E+01 5.04976718E-02-1.91488122E-05 3.25803308E-09-2.09002343E-13    2
+-4.18795259E+04-1.06755568E+02-1.70265900E+00 1.08377038E-01-6.54826377E-05    3
+ 1.97430742E-08-2.40844770E-12-3.17187353E+04 4.10757380E+01                   4
+
+! Thermo group additivity estimation: group(Cs-CsCsCsH) + longDistanceInteraction_noncyclic(CsCs-TT) + group(Cs-CsCsCsH) +
+! longDistanceInteraction_noncyclic(CsCs-TT) + group(Cs-CsCsHH) + longDistanceInteraction_noncyclic(CsCs-ST) + group(Cs-CsCsHH) +
+! longDistanceInteraction_noncyclic(CsCs-ST) + group(Cs-CsCsHH) + group(Cs-CsHHH) + group(Cs-CsHHH) + group(Cs-CsHHH) + group(Cs-CsHHH)
+S(27175)                H  20C   9          G   100.000  5000.000 1169.53      1
+ 1.76223896E+01 6.14286442E-02-2.45492727E-05 4.45571100E-09-3.04733326E-13    2
+-3.80752990E+04-6.19642580E+01-1.37135293E+00 1.02735714E-01-4.71895055E-05    3
+ 6.73673010E-11 4.33007819E-12-3.20147818E+04 3.95603227E+01                   4
+
+! Thermo group additivity estimation: group(Cs-CsCsCsCs) + group(Cs-CsCsCsH) + longDistanceInteraction_noncyclic(CsCs-TQ) + group(Cs-CsCsHH) +
+! longDistanceInteraction_noncyclic(CsCs-SQ) + group(Cs-CsCsHH) + longDistanceInteraction_noncyclic(CsCs-ST) + group(Cs-CsCsHH) + group(Cs-CsHHH) +
+! group(Cs-CsHHH) + group(Cs-CsHHH) + group(Cs-CsHHH) + group(Cs-CsHHH)
+S(27184)                H  22C  10          G   100.000  5000.000 1133.25      1
+ 2.12229430E+01 6.65291630E-02-2.69840511E-05 4.96803268E-09-3.43850277E-13    2
+-4.24328813E+04-8.28441011E+01-2.19790373E+00 1.17432416E-01-5.23163265E-05    3
+-4.86355084E-09 7.28148934E-12-3.50848560E+04 4.20769580E+01                   4
+
+! Thermo group additivity estimation: group(Cs-CsCsCsH) + group(Cs-CsCsCsH) + group(Cs-CsCsHH) + longDistanceInteraction_noncyclic(CsCs-ST) +
+! longDistanceInteraction_noncyclic(CsCs-ST) + group(Cs-CsCsHH) + longDistanceInteraction_noncyclic(CsCs-ST) + group(Cs-CsCsHH) +
+! longDistanceInteraction_noncyclic(CsCs-ST) + group(Cs-CsCsHH) + group(Cs-CsHHH) + group(Cs-CsHHH) + group(Cs-CsHHH) + group(Cs-CsHHH)
+S(27185)                H  22C  10          G   100.000  5000.000 1299.84      1
+ 2.12074205E+01 6.56289243E-02-2.60595620E-05 4.66464606E-09-3.14226021E-13    2
+-4.24568491E+04-8.01616304E+01-2.22029643E+00 1.19690246E-01-6.76359035E-05    3
+ 1.53154186E-08-3.09930326E-13-3.48430007E+04 4.48672082E+01                   4
+
+! Thermo group additivity estimation: group(Cs-CsCsCsH) + longDistanceInteraction_noncyclic(CsCs-TT) + group(Cs-CsCsCsH) +
+! longDistanceInteraction_noncyclic(CsCs-TT) + group(Cs-CsCsHH) + longDistanceInteraction_noncyclic(CsCs-ST) + group(Cs-CsCsHH) +
+! longDistanceInteraction_noncyclic(CsCs-ST) + group(Cs-CsCsHH) + group(Cs-CsCsHH) + group(Cs-CsHHH) + group(Cs-CsHHH) + group(Cs-CsHHH) + group(Cs-
+! CsHHH)
+S(27187)                H  22C  10          G   100.000  5000.000 1299.84      1
+ 2.12074205E+01 6.56289243E-02-2.60595620E-05 4.66464606E-09-3.14226021E-13    2
+-4.24568491E+04-8.08547775E+01-2.22029643E+00 1.19690246E-01-6.76359035E-05    3
+ 1.53154186E-08-3.09930326E-13-3.48430007E+04 4.41740610E+01                   4
+
+! Thermo group additivity estimation: group(Cs-CsCsHH) + group(Cs-CsCsHH) + group(Cs-CsCsHH) + group(Cs-CsCsHH) + group(Cs-CsCsHH) + group(Cs-CsCsHH) +
+! group(Cs-CsCsHH) + group(Cs-CsHHH) + group(Cs-CsHHH)
+S(27357)                H  20C   9          G   100.000  5000.000 1842.89      1
+ 2.27910969E+01 5.47881799E-02-2.15936270E-05 3.76275623E-09-2.45529748E-13    2
+-4.03598329E+04-9.18966157E+01-1.37037582E+00 1.07230334E-01-6.42780006E-05    3
+ 1.92037335E-08-2.34018195E-12-3.14543747E+04 3.94394695E+01                   4
+
+! Thermo group additivity estimation: group(Cs-CsCsCsH) + longDistanceInteraction_noncyclic(CsCs-TT) + group(Cs-CsCsCsH) +
+! longDistanceInteraction_noncyclic(CsCs-TT) + group(Cs-CsCsHH) + longDistanceInteraction_noncyclic(CsCs-ST) + group(Cs-CsCsHH) + group(Cs-CsCsHH) +
+! group(Cs-CsCsHH) + group(Cs-CsHHH) + group(Cs-CsHHH) + group(Cs-CsHHH) + group(Cs-CsHHH)
+S(27362)                H  22C  10          G   100.000  5000.000 1299.84      1
+ 2.12074205E+01 6.56289243E-02-2.60595620E-05 4.66464606E-09-3.14226021E-13    2
+-4.28594243E+04-8.08547775E+01-2.22029643E+00 1.19690246E-01-6.76359035E-05    3
+ 1.53154186E-08-3.09930326E-13-3.52455759E+04 4.41740610E+01                   4
+
+! Thermo group additivity estimation: group(Cs-CsCsCsCs) + group(Cs-CsCsHH) + longDistanceInteraction_noncyclic(CsCs-SQ) + group(Cs-CsCsHH) +
+! longDistanceInteraction_noncyclic(CsCs-SQ) + group(Cs-CsCsHH) + group(Cs-CsCsHH) + group(Cs-CsCsHH) + group(Cs-CsHHH) + group(Cs-CsHHH) + group(Cs-
+! CsHHH) + group(Cs-CsHHH)
+S(27364)                H  22C  10          G   100.000  5000.000 1234.79      1
+ 2.19952839E+01 6.57103568E-02-2.67345378E-05 4.87757449E-09-3.33482253E-13    2
+-4.29890983E+04-8.68489911E+01-2.32452208E+00 1.21123103E-01-6.56604482E-05    3
+ 1.05668075E-08 1.61780259E-12-3.52015610E+04 4.28231221E+01                   4
+
+! Thermo group additivity estimation: group(Cs-CsCsCsH) + group(Cs-CsCsHH) + longDistanceInteraction_noncyclic(CsCs-ST) + group(Cs-CsCsHH) +
+! longDistanceInteraction_noncyclic(CsCs-ST) + group(Cs-CsCsHH) + group(Cs-CsCsHH) + group(Cs-CsCsHH) + group(Cs-CsCsHH) + group(Cs-CsHHH) + group(Cs-
+! CsHHH) + group(Cs-CsHHH)
+S(27365)                H  22C  10          G   100.000  5000.000 1793.77      1
+ 2.54706551E+01 5.99302565E-02-2.33878126E-05 4.06464869E-09-2.65277164E-13    2
+-4.44891810E+04-1.04571130E+02-2.19595354E+00 1.21625503E-01-7.49793829E-05    3
+ 2.32391144E-08-2.93766241E-12-3.45637326E+04 4.50702418E+01                   4
+
+! Thermo group additivity estimation: group(Cs-CsCsCsH) + group(Cs-CsCsHH) + longDistanceInteraction_noncyclic(CsCs-ST) + group(Cs-CsCsHH) +
+! longDistanceInteraction_noncyclic(CsCs-ST) + group(Cs-CsCsHH) + group(Cs-CsCsHH) + group(Cs-CsCsHH) + group(Cs-CsCsHH) + group(Cs-CsHHH) + group(Cs-
+! CsHHH) + group(Cs-CsHHH)
+S(27367)                H  22C  10          G   100.000  5000.000 1793.77      1
+ 2.54706551E+01 5.99302565E-02-2.33878126E-05 4.06464869E-09-2.65277164E-13    2
+-4.44891810E+04-1.04571130E+02-2.19595354E+00 1.21625503E-01-7.49793829E-05    3
+ 2.32391144E-08-2.93766241E-12-3.45637326E+04 4.50702418E+01                   4
+
+! Thermo group additivity estimation: group(Cs-CsCsHH) + group(Cs-CsCsHH) + group(Cs-CsCsHH) + group(Cs-CsCsHH) + group(Cs-CsCsHH) + group(Cs-CsCsHH) +
+! group(Cs-CsCsHH) + group(Cs-CsCsHH) + group(Cs-CsHHH) + group(Cs-CsHHH)
+S(27368)                H  22C  10          G   100.000  5000.000 1753.74      1
+ 2.27562749E+01 6.43989451E-02-2.59402712E-05 4.59541085E-09-3.03992073E-13    2
+-4.29383112E+04-8.91915753E+01-1.87595607E+00 1.20581277E-01-7.39939940E-05    3
+ 2.28626031E-08-2.90803314E-12-3.42986299E+04 4.34818026E+01                   4
+
+! Thermo group additivity estimation: group(Cs-CsCsCsH) + group(Cs-CsCsHH) + longDistanceInteraction_noncyclic(CsCs-ST) + group(Cs-CsCsHH) +
+! longDistanceInteraction_noncyclic(CsCs-ST) + group(Cs-CsCsHH) + longDistanceInteraction_noncyclic(CsCs-ST) + group(Cs-CsHHH) + group(Cs-CsHHH) + group
+! (Cs-CsHHH)
+S(27423)                H  16C   7          G   100.000  5000.000 1120.69      1
+ 1.31589528E+01 4.92569317E-02-1.97080319E-05 3.59805544E-09-2.47725029E-13    2
+-2.99978881E+04-4.24859140E+01 1.06339491E-01 7.34420479E-02-2.20939297E-05    3
+-1.28197435E-08 7.39373087E-12-2.56654680E+04 2.82492990E+01                   4
+
+! Thermo group additivity estimation: group(Cs-CsCsCsH) + group(Cs-CsCsHH) + longDistanceInteraction_noncyclic(CsCs-ST) + group(Cs-CsCsHH) +
+! longDistanceInteraction_noncyclic(CsCs-ST) + group(Cs-CsCsHH) + longDistanceInteraction_noncyclic(CsCs-ST) + group(Cs-CsCsHH) + group(Cs-CsHHH) +
+! group(Cs-CsHHH) + group(Cs-CsHHH)
+S(27442)                H  18C   8          G   100.000  5000.000 1206.86      1
+ 1.56711370E+01 5.50966005E-02-2.20915345E-05 4.00127562E-09-2.72607063E-13    2
+-3.38617833E+04-5.34184695E+01-6.89609402E-01 8.98708288E-02-4.11358366E-05    3
+ 1.16625302E-09 3.08116522E-12-2.84961900E+04 3.44576804E+01                   4
+
+! Thermo group additivity estimation: group(Cs-CsCsCsH) + group(Cs-CsCsHH) + longDistanceInteraction_noncyclic(CsCs-ST) + group(Cs-CsCsHH) + group(Cs-
+! CsCsHH) + longDistanceInteraction_noncyclic(CsCs-ST) + group(Cs-CsCsHH) + longDistanceInteraction_noncyclic(CsCs-ST) + group(Cs-CsCsHH) + group(Cs-
+! CsHHH) + group(Cs-CsHHH) + group(Cs-CsHHH)
+S(27602)                H  20C   9          G   100.000  5000.000 1873.81      1
+ 2.54105323E+01 5.04976718E-02-1.91488122E-05 3.25803308E-09-2.09002343E-13    2
+-4.14769507E+04-1.07448716E+02-1.70265900E+00 1.08377038E-01-6.54826377E-05    3
+ 1.97430742E-08-2.40844770E-12-3.13161602E+04 4.03825908E+01                   4
+
+! Thermo group additivity estimation: group(Cs-CsCsCsH) + longDistanceInteraction_noncyclic(CsCs-TT) + group(Cs-CsCsCsH) +
+! longDistanceInteraction_noncyclic(CsCs-TT) + group(Cs-CsCsHH) + longDistanceInteraction_noncyclic(CsCs-ST) + group(Cs-CsCsHH) +
+! longDistanceInteraction_noncyclic(CsCs-ST) + group(Cs-CsCsHH) + longDistanceInteraction_noncyclic(CsCs-ST) + group(Cs-CsCsHH) + group(Cs-CsHHH) +
+! group(Cs-CsHHH) + group(Cs-CsHHH) + group(Cs-CsHHH)
+S(27615)                H  22C  10          G   100.000  5000.000 1299.84      1
+ 2.12074205E+01 6.56289243E-02-2.60595620E-05 4.66464606E-09-3.14226021E-13    2
+-4.20542739E+04-8.08547775E+01-2.22029643E+00 1.19690246E-01-6.76359035E-05    3
+ 1.53154186E-08-3.09930326E-13-3.44404256E+04 4.41740610E+01                   4
+
+! Thermo group additivity estimation: group(Cs-CsCsCsH) + group(Cs-CsCsHH) + longDistanceInteraction_noncyclic(CsCs-ST) + group(Cs-CsCsHH) + group(Cs-
+! CsCsHH) + longDistanceInteraction_noncyclic(CsCs-ST) + group(Cs-CsCsHH) + longDistanceInteraction_noncyclic(CsCs-ST) + group(Cs-CsCsHH) + group(Cs-
+! CsCsHH) + group(Cs-CsHHH) + group(Cs-CsHHH) + group(Cs-CsHHH)
+S(27616)                H  22C  10          G   100.000  5000.000 1793.77      1
+ 2.54706551E+01 5.99302565E-02-2.33878126E-05 4.06464869E-09-2.65277164E-13    2
+-4.40866058E+04-1.05264278E+02-2.19595354E+00 1.21625503E-01-7.49793829E-05    3
+ 2.32391144E-08-2.93766241E-12-3.41611574E+04 4.43770946E+01                   4
+
+! Thermo group additivity estimation: group(Cs-CsCsCsH) + longDistanceInteraction_noncyclic(CsCs-TT) + group(Cs-CsCsCsH) +
+! longDistanceInteraction_noncyclic(CsCs-TT) + group(Cs-CsCsHH) + longDistanceInteraction_noncyclic(CsCs-ST) + group(Cs-CsCsHH) +
+! longDistanceInteraction_noncyclic(CsCs-ST) + group(Cs-CsCsHH) + longDistanceInteraction_noncyclic(CsCs-ST) + group(Cs-CsCsHH) +
+! longDistanceInteraction_noncyclic(CsCs-ST) + group(Cs-CsHHH) + group(Cs-CsHHH) + group(Cs-CsHHH) + group(Cs-CsHHH)
+S(27617)                H  22C  10          G   100.000  5000.000 1299.84      1
+ 2.12074205E+01 6.56289243E-02-2.60595620E-05 4.66464606E-09-3.14226021E-13    2
+-4.16516987E+04-8.22410719E+01-2.22029643E+00 1.19690246E-01-6.76359035E-05    3
+ 1.53154186E-08-3.09930326E-13-3.40378504E+04 4.27877666E+01                   4
+
+! Thermo group additivity estimation: group(Cs-CsCsCsH) + group(Cs-CsCsHH) + longDistanceInteraction_noncyclic(CsCs-ST) + group(Cs-CsCsHH) +
+! longDistanceInteraction_noncyclic(CsCs-ST) + group(Cs-CsCsHH) + longDistanceInteraction_noncyclic(CsCs-ST) + group(Cs-CsCsHH) + group(Cs-CsCsHH) +
+! group(Cs-CsHHH) + group(Cs-CsHHH) + group(Cs-CsHHH)
+S(28838)                H  20C   9          G   100.000  5000.000 1873.81      1
+ 2.54105323E+01 5.04976718E-02-1.91488122E-05 3.25803308E-09-2.09002343E-13    2
+-4.14769507E+04-1.07448716E+02-1.70265900E+00 1.08377038E-01-6.54826377E-05    3
+ 1.97430742E-08-2.40844770E-12-3.13161602E+04 4.03825908E+01                   4
+
+! Thermo group additivity estimation: group(Cs-CsCsCsH) + longDistanceInteraction_noncyclic(CsCs-TT) + group(Cs-CsCsCsH) +
+! longDistanceInteraction_noncyclic(CsCs-TT) + group(Cs-CsCsHH) + longDistanceInteraction_noncyclic(CsCs-ST) + group(Cs-CsCsHH) +
+! longDistanceInteraction_noncyclic(CsCs-ST) + group(Cs-CsCsHH) + longDistanceInteraction_noncyclic(CsCs-ST) + group(Cs-CsCsHH) + group(Cs-CsCsHH) +
+! group(Cs-CsHHH) + group(Cs-CsHHH) + group(Cs-CsHHH) + group(Cs-CsHHH)
+S(29011)                H  24C  11          G   100.000  5000.000 1761.44      1
+ 2.83386088E+01 6.48098556E-02-2.50516890E-05 4.33907740E-09-2.82939567E-13    2
+-4.83184516E+04-1.19041402E+02-3.02181480E+00 1.36025061E-01-8.56966629E-05    3
+ 2.72918088E-08-3.54059544E-12-3.72705170E+04 5.00087380E+01                   4
+
+! Thermo group additivity estimation: group(Cs-CsCsCsH) + group(Cs-CsCsHH) + longDistanceInteraction_noncyclic(CsCs-ST) + group(Cs-CsCsHH) +
+! longDistanceInteraction_noncyclic(CsCs-ST) + group(Cs-CsCsHH) + group(Cs-CsCsHH) + group(Cs-CsCsHH) + longDistanceInteraction_noncyclic(CsCs-ST) +
+! group(Cs-CsCsHH) + group(Cs-CsCsHH) + group(Cs-CsHHH) + group(Cs-CsHHH) + group(Cs-CsHHH)
+S(29012)                H  24C  11          G   100.000  5000.000 1725.29      1
+ 2.56677380E+01 6.92275839E-02-2.75829635E-05 4.86610407E-09-3.21417196E-13    2
+-4.67954454E+04-1.03230635E+02-2.70500737E+00 1.35008599E-01-8.47744056E-05    3
+ 2.69654290E-08-3.52368931E-12-3.70052324E+04 4.91257325E+01                   4
+
+! Thermo group additivity estimation: group(Cs-CsCsCsH) + longDistanceInteraction_noncyclic(CsCs-TT) + group(Cs-CsCsCsH) +
+! longDistanceInteraction_noncyclic(CsCs-TT) + group(Cs-CsCsHH) + longDistanceInteraction_noncyclic(CsCs-ST) + group(Cs-CsCsHH) +
+! longDistanceInteraction_noncyclic(CsCs-ST) + group(Cs-CsCsHH) + longDistanceInteraction_noncyclic(CsCs-ST) + group(Cs-CsCsHH) +
+! longDistanceInteraction_noncyclic(CsCs-ST) + group(Cs-CsCsHH) + group(Cs-CsHHH) + group(Cs-CsHHH) + group(Cs-CsHHH) + group(Cs-CsHHH)
+S(29013)                H  24C  11          G   100.000  5000.000 1761.44      1
+ 2.83386088E+01 6.48098556E-02-2.50516890E-05 4.33907740E-09-2.82939567E-13    2
+-4.79158764E+04-1.19734549E+02-3.02181480E+00 1.36025061E-01-8.56966629E-05    3
+ 2.72918088E-08-3.54059544E-12-3.68679418E+04 4.93155908E+01                   4
+
+! Thermo group additivity estimation: group(Cs-CsCsCsH) + longDistanceInteraction_noncyclic(CsCs-TT) + group(Cs-CsCsCsH) +
+! longDistanceInteraction_noncyclic(CsCs-TT) + group(Cs-CsCsHH) + longDistanceInteraction_noncyclic(CsCs-ST) + group(Cs-CsCsHH) +
+! longDistanceInteraction_noncyclic(CsCs-ST) + group(Cs-CsCsHH) + longDistanceInteraction_noncyclic(CsCs-ST) + group(Cs-CsCsHH) +
+! longDistanceInteraction_noncyclic(CsCs-ST) + group(Cs-CsCsHH) + group(Cs-CsCsHH) + group(Cs-CsHHH) + group(Cs-CsHHH) + group(Cs-CsHHH) + group(Cs-
+! CsHHH)
+S(29018)                H  26C  12          G   100.000  5000.000 1706.12      1
+ 2.86753608E+01 7.39163372E-02-2.91537479E-05 5.12121320E-09-3.37632267E-13    2
+-5.07022350E+04-1.19214228E+02-3.53306819E+00 1.49428743E-01-9.55430870E-05    3
+ 3.10627596E-08-4.13886663E-12-3.97119042E+04 5.33793907E+01                   4
+
+! Thermo group additivity estimation: group(Cs-CsCsCsH) + group(Cs-CsCsCsH) + group(Cs-CsCsHH) + longDistanceInteraction_noncyclic(CsCs-ST) +
+! longDistanceInteraction_noncyclic(CsCs-ST) + group(Cs-CsCsHH) + longDistanceInteraction_noncyclic(CsCs-ST) + group(Cs-CsCsHH) +
+! longDistanceInteraction_noncyclic(CsCs-ST) + group(Cs-CsCsHH) + group(Cs-CsCsHH) + group(Cs-CsHHH) + group(Cs-CsHHH) + group(Cs-CsHHH) + group(Cs-
+! CsHHH)
+S(29208)                H  24C  11          G   100.000  5000.000 1761.44      1
+ 2.83386088E+01 6.48098556E-02-2.50516890E-05 4.33907740E-09-2.82939567E-13    2
+-4.87210268E+04-1.19734549E+02-3.02181480E+00 1.36025061E-01-8.56966629E-05    3
+ 2.72918088E-08-3.54059544E-12-3.76730922E+04 4.93155908E+01                   4
+
+! Thermo group additivity estimation: group(Cs-CsCsCsH) + group(Cs-CsCsHH) + longDistanceInteraction_noncyclic(CsCs-ST) + group(Cs-CsCsHH) +
+! longDistanceInteraction_noncyclic(CsCs-ST) + group(Cs-CsCsHH) + group(Cs-CsCsHH) + group(Cs-CsCsHH) + group(Cs-CsCsHH) + group(Cs-CsCsHH) + group(Cs-
+! CsHHH) + group(Cs-CsHHH) + group(Cs-CsHHH)
+S(29209)                H  24C  11          G   100.000  5000.000 1725.29      1
+ 2.56677380E+01 6.92275839E-02-2.75829635E-05 4.86610407E-09-3.21417196E-13    2
+-4.71980205E+04-1.03230635E+02-2.70500737E+00 1.35008599E-01-8.47744056E-05    3
+ 2.69654290E-08-3.52368931E-12-3.74078076E+04 4.91257325E+01                   4
+
+! Thermo group additivity estimation: group(Cs-CsCsCsH) + group(Cs-CsCsCsH) + group(Cs-CsCsHH) + longDistanceInteraction_noncyclic(CsCs-ST) +
+! longDistanceInteraction_noncyclic(CsCs-ST) + group(Cs-CsCsHH) + longDistanceInteraction_noncyclic(CsCs-ST) + group(Cs-CsCsHH) +
+! longDistanceInteraction_noncyclic(CsCs-ST) + group(Cs-CsCsHH) + longDistanceInteraction_noncyclic(CsCs-ST) + group(Cs-CsCsHH) + group(Cs-CsHHH) +
+! group(Cs-CsHHH) + group(Cs-CsHHH) + group(Cs-CsHHH)
+S(29210)                H  24C  11          G   100.000  5000.000 1761.44      1
+ 2.83386088E+01 6.48098556E-02-2.50516890E-05 4.33907740E-09-2.82939567E-13    2
+-4.83184516E+04-1.19734549E+02-3.02181480E+00 1.36025061E-01-8.56966629E-05    3
+ 2.72918088E-08-3.54059544E-12-3.72705170E+04 4.93155908E+01                   4
+
+! Thermo group additivity estimation: group(Cs-CsCsCsH) + group(Cs-CsCsCsH) + group(Cs-CsCsHH) + longDistanceInteraction_noncyclic(CsCs-ST) +
+! longDistanceInteraction_noncyclic(CsCs-ST) + group(Cs-CsCsHH) + longDistanceInteraction_noncyclic(CsCs-ST) + group(Cs-CsCsHH) +
+! longDistanceInteraction_noncyclic(CsCs-ST) + group(Cs-CsCsHH) + longDistanceInteraction_noncyclic(CsCs-ST) + group(Cs-CsCsHH) + group(Cs-CsCsHH) +
+! group(Cs-CsHHH) + group(Cs-CsHHH) + group(Cs-CsHHH) + group(Cs-CsHHH)
+S(29215)                H  26C  12          G   100.000  5000.000 1706.12      1
+ 2.86753608E+01 7.39163372E-02-2.91537479E-05 5.12121320E-09-3.37632267E-13    2
+-5.11048101E+04-1.18521081E+02-3.53306819E+00 1.49428743E-01-9.55430870E-05    3
+ 3.10627596E-08-4.13886663E-12-4.01144794E+04 5.40725379E+01                   4
+
+! Thermo group additivity estimation: group(Cs-CsCsCsH) + group(Cs-CsCsHH) + longDistanceInteraction_noncyclic(CsCs-ST) + group(Cs-CsCsHH) +
+! longDistanceInteraction_noncyclic(CsCs-ST) + group(Cs-CsCsHH) + group(Cs-CsCsHH) + group(Cs-CsCsHH) + group(Cs-CsCsHH) + group(Cs-CsHHH) + group(Cs-
+! CsHHH) + group(Cs-CsHHH)
+S(29444)                H  22C  10          G   100.000  5000.000 1793.77      1
+ 2.54706551E+01 5.99302565E-02-2.33878126E-05 4.06464869E-09-2.65277164E-13    2
+-4.44891810E+04-1.05264278E+02-2.19595354E+00 1.21625503E-01-7.49793829E-05    3
+ 2.32391144E-08-2.93766241E-12-3.45637326E+04 4.43770946E+01                   4
+
+! Thermo group additivity estimation: group(Cs-CsCsCsH) + longDistanceInteraction_noncyclic(CsCs-TT) + group(Cs-CsCsCsH) +
+! longDistanceInteraction_noncyclic(CsCs-TT) + group(Cs-CsCsHH) + longDistanceInteraction_noncyclic(CsCs-ST) + group(Cs-CsCsHH) +
+! longDistanceInteraction_noncyclic(CsCs-ST) + group(Cs-CsCsHH) + group(Cs-CsCsHH) + group(Cs-CsHHH) + group(Cs-CsHHH) + group(Cs-CsHHH) + group(Cs-
+! CsHHH)
+S(29445)                H  22C  10          G   100.000  5000.000 1299.84      1
+ 2.12074205E+01 6.56289243E-02-2.60595620E-05 4.66464606E-09-3.14226021E-13    2
+-4.24568491E+04-8.01616304E+01-2.22029643E+00 1.19690246E-01-6.76359035E-05    3
+ 1.53154186E-08-3.09930326E-13-3.48430007E+04 4.48672082E+01                   4
+
+! Thermo group additivity estimation: group(Cs-CsCsCsH) + longDistanceInteraction_noncyclic(CsCs-TT) + group(Cs-CsCsCsH) +
+! longDistanceInteraction_noncyclic(CsCs-TT) + group(Cs-CsCsHH) + longDistanceInteraction_noncyclic(CsCs-ST) + group(Cs-CsCsHH) +
+! longDistanceInteraction_noncyclic(CsCs-ST) + group(Cs-CsCsHH) + group(Cs-CsCsHH) + group(Cs-CsCsHH) + group(Cs-CsHHH) + group(Cs-CsHHH) + group(Cs-
+! CsHHH) + group(Cs-CsHHH)
+S(29457)                H  24C  11          G   100.000  5000.000 1761.44      1
+ 2.83386088E+01 6.48098556E-02-2.50516890E-05 4.33907740E-09-2.82939567E-13    2
+-4.87210268E+04-1.19041402E+02-3.02181480E+00 1.36025061E-01-8.56966629E-05    3
+ 2.72918088E-08-3.54059544E-12-3.76730922E+04 5.00087380E+01                   4
+
+! Thermo group additivity estimation: group(Cs-CsCsCsH) + group(Cs-CsCsHH) + longDistanceInteraction_noncyclic(CsCs-ST) + group(Cs-CsCsHH) +
+! longDistanceInteraction_noncyclic(CsCs-ST) + group(Cs-CsCsHH) + group(Cs-CsCsHH) + group(Cs-CsCsHH) + group(Cs-CsCsHH) + group(Cs-CsCsHH) + group(Cs-
+! CsHHH) + group(Cs-CsHHH) + group(Cs-CsHHH)
+S(29458)                H  24C  11          G   100.000  5000.000 1725.29      1
+ 2.56677380E+01 6.92275839E-02-2.75829635E-05 4.86610407E-09-3.21417196E-13    2
+-4.71980205E+04-1.03230635E+02-2.70500737E+00 1.35008599E-01-8.47744056E-05    3
+ 2.69654290E-08-3.52368931E-12-3.74078076E+04 4.91257325E+01                   4
+
+! Thermo group additivity estimation: group(Cs-CsCsCsH) + longDistanceInteraction_noncyclic(CsCs-TT) + group(Cs-CsCsCsH) +
+! longDistanceInteraction_noncyclic(CsCs-TT) + group(Cs-CsCsHH) + longDistanceInteraction_noncyclic(CsCs-ST) + group(Cs-CsCsHH) +
+! longDistanceInteraction_noncyclic(CsCs-ST) + group(Cs-CsCsHH) + longDistanceInteraction_noncyclic(CsCs-ST) + group(Cs-CsCsHH) + group(Cs-CsCsHH) +
+! group(Cs-CsHHH) + group(Cs-CsHHH) + group(Cs-CsHHH) + group(Cs-CsHHH)
+S(29459)                H  24C  11          G   100.000  5000.000 1761.44      1
+ 2.83386088E+01 6.48098556E-02-2.50516890E-05 4.33907740E-09-2.82939567E-13    2
+-4.83184516E+04-1.19734549E+02-3.02181480E+00 1.36025061E-01-8.56966629E-05    3
+ 2.72918088E-08-3.54059544E-12-3.72705170E+04 4.93155908E+01                   4
+
+! Thermo group additivity estimation: group(Cs-CsCsCsH) + longDistanceInteraction_noncyclic(CsCs-TT) + group(Cs-CsCsCsH) +
+! longDistanceInteraction_noncyclic(CsCs-TT) + group(Cs-CsCsHH) + longDistanceInteraction_noncyclic(CsCs-ST) + group(Cs-CsCsHH) +
+! longDistanceInteraction_noncyclic(CsCs-ST) + group(Cs-CsCsHH) + longDistanceInteraction_noncyclic(CsCs-ST) + group(Cs-CsCsHH) + group(Cs-CsCsHH) +
+! group(Cs-CsCsHH) + group(Cs-CsHHH) + group(Cs-CsHHH) + group(Cs-CsHHH) + group(Cs-CsHHH)
+S(29464)                H  26C  12          G   100.000  5000.000 1706.12      1
+ 2.86753608E+01 7.39163372E-02-2.91537479E-05 5.12121320E-09-3.37632267E-13    2
+-5.11048101E+04-1.18521081E+02-3.53306819E+00 1.49428743E-01-9.55430870E-05    3
+ 3.10627596E-08-4.13886663E-12-4.01144794E+04 5.40725379E+01                   4
+
+! Thermo group additivity estimation: group(Cs-CsCsCsH) + longDistanceInteraction_noncyclic(CsCs-TT) + group(Cs-CsCsCsH) +
+! longDistanceInteraction_noncyclic(CsCs-TT) + group(Cs-CsCsHH) + longDistanceInteraction_noncyclic(CsCs-ST) + group(Cs-CsCsHH) +
+! longDistanceInteraction_noncyclic(CsCs-ST) + group(Cs-CsCsHH) + group(Cs-CsCsHH) + group(Cs-CsCsHH) + group(Cs-CsCsHH) + group(Cs-CsHHH) + group(Cs-
+! CsHHH) + group(Cs-CsHHH) + group(Cs-CsHHH)
+S(29466)                H  26C  12          G   100.000  5000.000 1706.12      1
+ 2.86753608E+01 7.39163372E-02-2.91537479E-05 5.12121320E-09-3.37632267E-13    2
+-5.15073853E+04-1.19214228E+02-3.53306819E+00 1.49428743E-01-9.55430870E-05    3
+ 3.10627596E-08-4.13886663E-12-4.05170546E+04 5.33793907E+01                   4
+
+! Thermo group additivity estimation: group(Cs-CsCsCsH) + group(Cs-CsCsHH) + longDistanceInteraction_noncyclic(CsCs-ST) + group(Cs-CsCsHH) + group(Cs-
+! CsCsHH) + group(Cs-CsCsHH) + group(Cs-CsCsHH) + longDistanceInteraction_noncyclic(CsCs-ST) + group(Cs-CsCsHH) + longDistanceInteraction_noncyclic
+! (CsCs-ST) + group(Cs-CsCsHH) + group(Cs-CsHHH) + group(Cs-CsHHH) + group(Cs-CsHHH)
+S(29839)                H  24C  11          G   100.000  5000.000 1725.29      1
+ 2.56677380E+01 6.92275839E-02-2.75829635E-05 4.86610407E-09-3.21417196E-13    2
+-4.67954454E+04-1.03923782E+02-2.70500737E+00 1.35008599E-01-8.47744056E-05    3
+ 2.69654290E-08-3.52368931E-12-3.70052324E+04 4.84325853E+01                   4
+
+! Thermo group additivity estimation: group(Cs-CsCsCsH) + longDistanceInteraction_noncyclic(CsCs-TT) + group(Cs-CsCsCsH) +
+! longDistanceInteraction_noncyclic(CsCs-TT) + group(Cs-CsCsHH) + longDistanceInteraction_noncyclic(CsCs-ST) + group(Cs-CsCsHH) +
+! longDistanceInteraction_noncyclic(CsCs-ST) + group(Cs-CsCsHH) + longDistanceInteraction_noncyclic(CsCs-ST) + group(Cs-CsCsHH) + group(Cs-CsCsHH) +
+! group(Cs-CsCsHH) + group(Cs-CsHHH) + group(Cs-CsHHH) + group(Cs-CsHHH) + group(Cs-CsHHH)
+S(29890)                H  26C  12          G   100.000  5000.000 1706.12      1
+ 2.86753608E+01 7.39163372E-02-2.91537479E-05 5.12121320E-09-3.37632267E-13    2
+-5.11048101E+04-1.19214228E+02-3.53306819E+00 1.49428743E-01-9.55430870E-05    3
+ 3.10627596E-08-4.13886663E-12-4.01144794E+04 5.33793907E+01                   4
+
+! Thermo group additivity estimation: group(Cs-CsCsCsH) + longDistanceInteraction_noncyclic(CsCs-T(TTS)) +
+! longDistanceInteraction_noncyclic(CsCs-T(TTS)) + group(Cs-CsCsCsH) + longDistanceInteraction_noncyclic(CsCs-TT) + group(Cs-CsCsCsH) +
+! longDistanceInteraction_noncyclic(CsCs-TT) + group(Cs-CsCsHH) + longDistanceInteraction_noncyclic(CsCs-ST) + group(Cs-CsCsHH) +
+! longDistanceInteraction_noncyclic(CsCs-ST) + group(Cs-CsCsHH) + longDistanceInteraction_noncyclic(CsCs-ST) + group(Cs-CsCsHH) + group(Cs-CsCsHH) +
+! group(Cs-CsCsHH) + group(Cs-CsHHH) + group(Cs-CsHHH) + group(Cs-CsHHH) + group(Cs-CsHHH) + group(Cs-CsHHH)
+S(30063)                H  30C  14          G   100.000  5000.000 1650.94      1
+ 3.22167259E+01 8.74594462E-02-3.47112213E-05 6.13591467E-09-4.06942732E-13    2
+-5.79143959E+04-1.35153766E+02-4.88293094E+00 1.77346785E-01-1.16380444E-04    3
+ 3.91147868E-08-5.40089568E-12-4.56645324E+04 6.24303593E+01                   4
+
+! Thermo group additivity estimation: group(Cs-CsCsCsH) + longDistanceInteraction_noncyclic(CsCs-TT) + group(Cs-CsCsCsH) +
+! longDistanceInteraction_noncyclic(CsCs-TT) + group(Cs-CsCsHH) + longDistanceInteraction_noncyclic(CsCs-ST) + group(Cs-CsCsHH) +
+! longDistanceInteraction_noncyclic(CsCs-ST) + group(Cs-CsCsHH) + longDistanceInteraction_noncyclic(CsCs-ST) + group(Cs-CsCsHH) + group(Cs-CsCsHH) +
+! group(Cs-CsCsHH) + group(Cs-CsCsHH) + group(Cs-CsCsHH) + group(Cs-CsHHH) + group(Cs-CsHHH) + group(Cs-CsHHH) + group(Cs-CsHHH)
+S(30064)                H  30C  14          G   100.000  5000.000 1614.36      1
+ 2.95535404E+01 9.19271719E-02-3.72936228E-05 6.67843496E-09-4.46899050E-13    2
+-5.68238909E+04-1.18740228E+02-4.58828169E+00 1.76523311E-01-1.15897806E-04    3
+ 3.91391633E-08-5.47382082E-12-4.58005603E+04 6.23258305E+01                   4
+
+! Thermo group additivity estimation: group(Cs-CsCsCsH) + longDistanceInteraction_noncyclic(CsCs-T(TTS)) +
+! longDistanceInteraction_noncyclic(CsCs-T(TTS)) + group(Cs-CsCsCsH) + longDistanceInteraction_noncyclic(CsCs-TT) + group(Cs-CsCsCsH) +
+! longDistanceInteraction_noncyclic(CsCs-TT) + group(Cs-CsCsHH) + longDistanceInteraction_noncyclic(CsCs-ST) + group(Cs-CsCsHH) +
+! longDistanceInteraction_noncyclic(CsCs-ST) + group(Cs-CsCsHH) + longDistanceInteraction_noncyclic(CsCs-ST) + group(Cs-CsCsHH) + group(Cs-CsCsHH) +
+! group(Cs-CsCsHH) + group(Cs-CsCsHH) + group(Cs-CsHHH) + group(Cs-CsHHH) + group(Cs-CsHHH) + group(Cs-CsHHH) + group(Cs-CsHHH)
+S(30072)                H  32C  15          G   100.000  5000.000 1613.71      1
+ 3.27401839E+01 9.63515249E-02-3.87268628E-05 6.90345390E-09-4.60760221E-13    2
+-6.08213968E+04-1.35066924E+02-5.41406774E+00 1.90926521E-01-1.26637412E-04    3
+ 4.32215551E-08-6.08723718E-12-4.85073859E+04 6.72635602E+01                   4
+
+! Thermo group additivity estimation: group(Cs-CsCsCsH) + longDistanceInteraction_noncyclic(CsCs-TT) + group(Cs-CsCsCsH) +
+! longDistanceInteraction_noncyclic(CsCs-TT) + group(Cs-CsCsCsH) + group(Cs-CsCsHH) + longDistanceInteraction_noncyclic(CsCs-ST) +
+! longDistanceInteraction_noncyclic(CsCs-ST) + group(Cs-CsCsHH) + longDistanceInteraction_noncyclic(CsCs-ST) + group(Cs-CsCsHH) +
+! longDistanceInteraction_noncyclic(CsCs-ST) + group(Cs-CsCsHH) + group(Cs-CsCsHH) + group(Cs-CsHHH) + group(Cs-CsHHH) + group(Cs-CsHHH) + group(Cs-
+! CsHHH) + group(Cs-CsHHH)
+S(30287)                H  28C  13          G   100.000  5000.000 1692.35      1
+ 3.17372790E+01 7.85255146E-02-3.06833856E-05 5.36736343E-09-3.53149143E-13    2
+-5.58445290E+04-1.34126280E+02-4.36049330E+00 1.63844196E-01-1.06303815E-04    3
+ 3.51560684E-08-4.75358175E-12-4.36263452E+04 5.90168011E+01                   4
+
+! Thermo group additivity estimation: group(Cs-CsCsCsH) + group(Cs-CsCsHH) + longDistanceInteraction_noncyclic(CsCs-ST) + group(Cs-CsCsHH) +
+! longDistanceInteraction_noncyclic(CsCs-ST) + group(Cs-CsCsHH) + longDistanceInteraction_noncyclic(CsCs-ST) + group(Cs-CsCsHH) + group(Cs-CsCsHH) +
+! group(Cs-CsCsHH) + group(Cs-CsCsHH) + group(Cs-CsCsHH) + group(Cs-CsCsHH) + group(Cs-CsCsHH) + group(Cs-CsHHH) + group(Cs-CsHHH) + group(Cs-CsHHH)
+S(30538)                H  30C  14          G   100.000  5000.000 1570.66      1
+ 2.68369975E+01 9.65050180E-02-3.99464137E-05 7.23863858E-09-4.88381857E-13    2
+-5.53166795E+04-1.03427293E+02-4.30728128E+00 1.75820014E-01-1.15693094E-04    3
+ 3.93892606E-08-5.60574723E-12-4.55332473E+04 6.08874192E+01                   4
+
+! Thermo group additivity estimation: group(Cs-CsCsCsH) + longDistanceInteraction_noncyclic(CsCs-TT) + group(Cs-CsCsCsH) +
+! longDistanceInteraction_noncyclic(CsCs-TT) + group(Cs-CsCsHH) + longDistanceInteraction_noncyclic(CsCs-ST) + group(Cs-CsCsHH) +
+! longDistanceInteraction_noncyclic(CsCs-ST) + group(Cs-CsCsHH) + longDistanceInteraction_noncyclic(CsCs-ST) + group(Cs-CsCsHH) + group(Cs-CsCsHH) +
+! group(Cs-CsCsHH) + group(Cs-CsCsHH) + group(Cs-CsHHH) + group(Cs-CsHHH) + group(Cs-CsHHH) + group(Cs-CsHHH)
+S(30574)                H  28C  13          G   100.000  5000.000 1657.42      1
+ 2.90838970E+01 8.29529885E-02-3.32341918E-05 5.90113067E-09-3.92306155E-13    2
+-5.39430486E+04-1.18443459E+02-4.05566154E+00 1.62931528E-01-1.05616344E-04    3
+ 3.50154736E-08-4.78381500E-12-4.29577983E+04 5.81799704E+01                   4
+
+! Thermo group additivity estimation: group(Cs-CsCsCsH) + longDistanceInteraction_noncyclic(CsCs-TT) + group(Cs-CsCsCsH) +
+! longDistanceInteraction_noncyclic(CsCs-TT) + group(Cs-CsCsHH) + longDistanceInteraction_noncyclic(CsCs-ST) + group(Cs-CsCsHH) +
+! longDistanceInteraction_noncyclic(CsCs-ST) + group(Cs-CsCsHH) + group(Cs-CsCsHH) + longDistanceInteraction_noncyclic(CsCs-ST) + group(Cs-CsCsHH) +
+! group(Cs-CsCsHH) + group(Cs-CsHHH) + group(Cs-CsHHH) + group(Cs-CsHHH) + group(Cs-CsHHH)
+S(31228)                H  26C  12          G   100.000  5000.000 1706.12      1
+ 2.86753608E+01 7.39163372E-02-2.91537479E-05 5.12121320E-09-3.37632267E-13    2
+-5.11048101E+04-1.18521081E+02-3.53306819E+00 1.49428743E-01-9.55430870E-05    3
+ 3.10627596E-08-4.13886663E-12-4.01144794E+04 5.40725379E+01                   4
+
+! Thermo group additivity estimation: group(Cs-CsCsCsH) + longDistanceInteraction_noncyclic(CsCs-TT) + group(Cs-CsCsCsH) +
+! longDistanceInteraction_noncyclic(CsCs-TT) + group(Cs-CsCsCsH) + group(Cs-CsCsHH) + longDistanceInteraction_noncyclic(CsCs-ST) +
+! longDistanceInteraction_noncyclic(CsCs-ST) + group(Cs-CsCsHH) + longDistanceInteraction_noncyclic(CsCs-ST) + group(Cs-CsCsHH) +
+! longDistanceInteraction_noncyclic(CsCs-ST) + group(Cs-CsCsHH) + longDistanceInteraction_noncyclic(CsCs-ST) + group(Cs-CsCsHH) + group(Cs-CsCsHH) +
+! group(Cs-CsHHH) + group(Cs-CsHHH) + group(Cs-CsHHH) + group(Cs-CsHHH) + group(Cs-CsHHH)
+S(31248)                H  30C  14          G   100.000  5000.000 1650.94      1
+ 3.22167259E+01 8.74594462E-02-3.47112213E-05 6.13591467E-09-4.06942732E-13    2
+-5.83169711E+04-1.34460619E+02-4.88293094E+00 1.77346785E-01-1.16380444E-04    3
+ 3.91147868E-08-5.40089568E-12-4.60671076E+04 6.31235065E+01                   4
+
+! Thermo group additivity estimation: group(Cs-CsCsHH) + group(Cs-CsCsHH) + group(Cs-CsCsHH) + group(Cs-CsCsHH) + group(Cs-CsCsHH) + group(Cs-CsCsHH) +
+! group(Cs-CsCsHH) + group(Cs-CsCsHH) + group(Cs-CsCsHH) + group(Cs-CsHHH) + group(Cs-CsHHH)
+S(31343)                H  24C  11          G   100.000  5000.000 1679.18      1
+ 2.29021599E+01 7.38127492E-02-3.02125174E-05 5.41653437E-09-3.61842759E-13    2
+-4.56388648E+04-8.75855232E+01-2.39889802E+00 1.34083027E-01-8.40517633E-05    3
+ 2.67918349E-08-3.54425735E-12-3.71418934E+04 4.75910320E+01                   4
+
+! Thermo group additivity estimation: group(Cs-CsCsCsCs) + group(Cs-CsCsHH) + longDistanceInteraction_noncyclic(CsCs-SQ) + group(Cs-CsCsHH) +
+! longDistanceInteraction_noncyclic(CsCs-SQ) + group(Cs-CsCsHH) + group(Cs-CsCsHH) + group(Cs-CsCsHH) + group(Cs-CsCsHH) + group(Cs-CsHHH) + group(Cs-
+! CsHHH) + group(Cs-CsHHH) + group(Cs-CsHHH)
+S(32150)                H  24C  11          G   100.000  5000.000 1782.66      1
+ 3.14967029E+01 6.13587691E-02-2.38797826E-05 4.14682673E-09-2.70447930E-13    2
+-5.04365784E+04-1.39421191E+02-3.32277081E+00 1.39488152E-01-8.96210164E-05    3
+ 2.87323123E-08-3.71831885E-12-3.80223423E+04 4.86919526E+01                   4
+
+! Thermo group additivity estimation: group(Cs-CsCsCsH) + group(Cs-CsCsHH) + longDistanceInteraction_noncyclic(CsCs-ST) + group(Cs-CsCsHH) +
+! longDistanceInteraction_noncyclic(CsCs-ST) + group(Cs-CsCsHH) + longDistanceInteraction_noncyclic(CsCs-ST) + group(Cs-CsCsHH) + group(Cs-CsCsHH) +
+! group(Cs-CsCsHH) + group(Cs-CsCsHH) + group(Cs-CsCsHH) + group(Cs-CsHHH) + group(Cs-CsHHH) + group(Cs-CsHHH)
+S(32156)                H  26C  12          G   100.000  5000.000 1666.30      1
+ 2.59737599E+01 7.84120468E-02-3.17388267E-05 5.66226745E-09-3.77346261E-13    2
+-4.95802122E+04-1.02556922E+02-3.22777886E+00 1.48511304E-01-9.48421691E-05    3
+ 3.09092100E-08-4.16522868E-12-3.98485272E+04 5.32340319E+01                   4
+
+! Thermo group additivity estimation: group(Cs-CsCsCsH) + group(Cs-CsCsHH) + longDistanceInteraction_noncyclic(CsCs-ST) + group(Cs-CsCsHH) +
+! longDistanceInteraction_noncyclic(CsCs-ST) + group(Cs-CsCsHH) + group(Cs-CsCsHH) + group(Cs-CsCsHH) + group(Cs-CsCsHH) + group(Cs-CsCsHH) + group(Cs-
+! CsCsHH) + group(Cs-CsHHH) + group(Cs-CsHHH) + group(Cs-CsHHH)
+S(32157)                H  26C  12          G   100.000  5000.000 1666.30      1
+ 2.59737599E+01 7.84120468E-02-3.17388267E-05 5.66226745E-09-3.77346261E-13    2
+-4.99827873E+04-1.02556922E+02-3.22777886E+00 1.48511304E-01-9.48421691E-05    3
+ 3.09092100E-08-4.16522868E-12-4.02511023E+04 5.32340319E+01                   4
+
+! Thermo group additivity estimation: group(Cs-CsCsCsH) + group(Cs-CsCsHH) + longDistanceInteraction_noncyclic(CsCs-ST) + group(Cs-CsCsHH) +
+! longDistanceInteraction_noncyclic(CsCs-ST) + group(Cs-CsCsHH) + group(Cs-CsCsHH) + longDistanceInteraction_noncyclic(CsCs-ST) + group(Cs-CsCsHH) +
+! group(Cs-CsCsHH) + group(Cs-CsCsHH) + group(Cs-CsCsHH) + group(Cs-CsHHH) + group(Cs-CsHHH) + group(Cs-CsHHH)
+S(32520)                H  26C  12          G   100.000  5000.000 1666.30      1
+ 2.59737599E+01 7.84120468E-02-3.17388267E-05 5.66226745E-09-3.77346261E-13    2
+-4.95802122E+04-1.02556922E+02-3.22777886E+00 1.48511304E-01-9.48421691E-05    3
+ 3.09092100E-08-4.16522868E-12-3.98485272E+04 5.32340319E+01                   4
+
+! Thermo group additivity estimation: group(Cs-CsCsCsH) + group(Cs-CsCsHH) + longDistanceInteraction_noncyclic(CsCs-ST) + group(Cs-CsCsHH) +
+! longDistanceInteraction_noncyclic(CsCs-ST) + group(Cs-CsCsHH) + longDistanceInteraction_noncyclic(CsCs-ST) + group(Cs-CsCsHH) + group(Cs-CsCsHH) +
+! group(Cs-CsCsHH) + group(Cs-CsCsHH) + group(Cs-CsHHH) + group(Cs-CsHHH) + group(Cs-CsHHH)
+S(33384)                H  24C  11          G   100.000  5000.000 1725.29      1
+ 2.56677380E+01 6.92275839E-02-2.75829635E-05 4.86610407E-09-3.21417196E-13    2
+-4.67954454E+04-1.03923782E+02-2.70500737E+00 1.35008599E-01-8.47744056E-05    3
+ 2.69654290E-08-3.52368931E-12-3.70052324E+04 4.84325853E+01                   4
+
+! Thermo group additivity estimation: group(Cs-CsCsCsH) + longDistanceInteraction_noncyclic(CsCs-TT) + group(Cs-CsCsCsH) +
+! longDistanceInteraction_noncyclic(CsCs-TT) + group(Cs-CsCsHH) + longDistanceInteraction_noncyclic(CsCs-ST) + group(Cs-CsCsHH) +
+! longDistanceInteraction_noncyclic(CsCs-ST) + group(Cs-CsCsHH) + longDistanceInteraction_noncyclic(CsCs-ST) + group(Cs-CsCsHH) + group(Cs-CsCsHH) +
+! group(Cs-CsHHH) + group(Cs-CsHHH) + group(Cs-CsHHH) + group(Cs-CsHHH)
+S(33385)                H  24C  11          G   100.000  5000.000 1761.44      1
+ 2.83386088E+01 6.48098556E-02-2.50516890E-05 4.33907740E-09-2.82939567E-13    2
+-4.83184516E+04-1.19734549E+02-3.02181480E+00 1.36025061E-01-8.56966629E-05    3
+ 2.72918088E-08-3.54059544E-12-3.72705170E+04 4.93155908E+01                   4
+
+! Thermo group additivity estimation: group(Cs-CsCsCsH) + longDistanceInteraction_noncyclic(CsCs-TT) + group(Cs-CsCsCsH) +
+! longDistanceInteraction_noncyclic(CsCs-TT) + group(Cs-CsCsHH) + longDistanceInteraction_noncyclic(CsCs-ST) + group(Cs-CsCsHH) +
+! longDistanceInteraction_noncyclic(CsCs-ST) + group(Cs-CsCsHH) + longDistanceInteraction_noncyclic(CsCs-ST) + group(Cs-CsCsHH) + group(Cs-CsCsHH) +
+! group(Cs-CsCsHH) + group(Cs-CsCsHH) + group(Cs-CsCsHH) + group(Cs-CsCsHH) + group(Cs-CsHHH) + group(Cs-CsHHH) + group(Cs-CsHHH) + group(Cs-CsHHH)
+S(34796)                H  32C  15          G   100.000  5000.000 1576.06      1
+ 3.00753681E+01 1.00845782E-01-4.13331679E-05 7.45296527E-09-5.01373863E-13    2
+-5.97399957E+04-1.19354926E+02-5.12976532E+00 1.90194900E-01-1.26369752E-04    3
+ 4.34228321E-08-6.20699749E-12-4.86428392E+04 6.65055365E+01                   4
+
+! Thermo group additivity estimation: group(Cs-CsCsCsH) + longDistanceInteraction_noncyclic(CsCs-TT) + group(Cs-CsCsCsH) +
+! longDistanceInteraction_noncyclic(CsCs-TT) + group(Cs-CsCsHH) + longDistanceInteraction_noncyclic(CsCs-ST) + group(Cs-CsCsHH) +
+! longDistanceInteraction_noncyclic(CsCs-ST) + group(Cs-CsCsHH) + group(Cs-CsCsHH) + group(Cs-CsCsHH) + group(Cs-CsHHH) + group(Cs-CsHHH) + group(Cs-
+! CsHHH) + group(Cs-CsHHH)
+S(35676)                H  24C  11          G   100.000  5000.000 1761.44      1
+ 2.83386088E+01 6.48098556E-02-2.50516890E-05 4.33907740E-09-2.82939567E-13    2
+-4.87210268E+04-1.19041402E+02-3.02181480E+00 1.36025061E-01-8.56966629E-05    3
+ 2.72918088E-08-3.54059544E-12-3.76730922E+04 5.00087380E+01                   4
+
+! Thermo group additivity estimation: group(Cs-CsCsCsCs) + group(Cs-CsCsHH) + longDistanceInteraction_noncyclic(CsCs-SQ) + group(Cs-CsCsHH) +
+! longDistanceInteraction_noncyclic(CsCs-SQ) + group(Cs-CsCsHH) + group(Cs-CsCsHH) + group(Cs-CsCsHH) + group(Cs-CsCsHH) + group(Cs-CsHHH) + group(Cs-
+! CsHHH) + group(Cs-CsHHH) + group(Cs-CsHHH)
+S(38200)                H  24C  11          G   100.000  5000.000 1782.66      1
+ 3.14967029E+01 6.13587691E-02-2.38797826E-05 4.14682673E-09-2.70447930E-13    2
+-5.04365784E+04-1.39421191E+02-3.32277081E+00 1.39488152E-01-8.96210164E-05    3
+ 2.87323123E-08-3.71831885E-12-3.80223423E+04 4.86919526E+01                   4
+
+! Thermo group additivity estimation: group(Cs-CsCsCsCs) + group(Cs-CsCsHH) + longDistanceInteraction_noncyclic(CsCs-SQ) + group(Cs-CsCsHH) +
+! longDistanceInteraction_noncyclic(CsCs-SQ) + group(Cs-CsCsHH) + longDistanceInteraction_noncyclic(CsCs-SQ) + group(Cs-CsCsHH) + group(Cs-CsCsHH) +
+! group(Cs-CsCsHH) + group(Cs-CsCsHH) + group(Cs-CsCsHH) + group(Cs-CsCsHH) + group(Cs-CsHHH) + group(Cs-CsHHH) + group(Cs-CsHHH) + group(Cs-CsHHH)
+S(41107)                H  30C  14          G   100.000  5000.000 1643.98      1
+ 3.26670140E+01 8.84858484E-02-3.61038849E-05 6.47836276E-09-4.33553368E-13    2
+-5.80903312E+04-1.38126519E+02-4.86985403E+00 1.79817388E-01-1.19436458E-04    3
+ 4.02713266E-08-5.57244009E-12-4.57483387E+04 6.16275659E+01                   4
 
 END
 
@@ -190,13 +1096,13 @@ END
 
 REACTIONS    KCAL/MOLE   MOLES
 
-! Reaction index: Chemkin #1; RMG #524
-! Template reaction: R_Recombination
-! Flux pairs: H(6), H2(190); H(6), H2(190); 
-! Matched reaction 56 H + H <=> H2 in R_Recombination/training
-! This reaction matched rate rule [H_rad;H_rad]
-! family: R_Recombination
-H(6)+H(6)=H2(190)                                   5.450000e+10 0.000     1.500    
+! Reaction index: Chemkin #1; RMG #118
+! Template reaction: Intra_2+2_cycloaddition_Cd
+! Flux pairs: C4H6(7), C4H6a(79); 
+! Estimated using template [1,3-butadiene_backbone;C=C_1;C=C_2] for rate rule [1,3-butadiene_backbone;CdH2_1;CdH2_2]
+! Euclidian distance = 1.41421356237
+! family: Intra_2+2_cycloaddition_Cd
+C4H6(7)=C4H6a(79)                                   4.999980e+11 0.056     29.257   
 
 END
 
