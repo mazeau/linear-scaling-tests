@@ -31,25 +31,30 @@ SPECIES
     C8H10(114)          ! C=CC(=C)C(=C)C=C(114)
     S(192)              ! [CH2]C=C(C=C)CCC(C=C)=C[CH2](192)
     S(203)              ! C=CC1=CCC(C=C)(C=C)CC1(203)
-    C2H6(230)           ! C2H6(230)
-    S(246)              ! C=CC(=C)C(=C)C(=C)C=C(246)
-    C8H10(281)          ! [CH2]C1=CCC[CH]C1=C(281)
-    S(344)              ! [CH2]C=C(C=C)CCC(C=C)=C([CH2])C=C(344)
-    S(360)              ! C=CC1CCC(C=C)(C=C)CC=1C=C(360)
-    S(368)              ! C=CC(=C)C1(C=C)CC=C(C=C)CC1(368)
-    S(660)              ! [CH2]C1C(=C)[CH]CCC=1C=C(660)
-    S(1035)             ! C=C1C(=C)C2CC=C1CC2(1035)
-    S(1593)             ! [CH2]C1C(=C)C2C=CC=1CC2(1593)
-    S(1630)             ! C=C1C(C)=C2C=CC1CC2(1630)
-    S(1749)             ! [CH2]C=C(C=C)CCC1C2=CCC(CC2)C=1[CH2](1749)
-    S(1817)             ! [CH2]C(C=C)=C(C=C)CCC1C2=CCC(CC2)C=1[CH2](1817)
-    S(1840)             ! C=CC(=C)C1(C=C)CCC2C3=CCC(CC3)C=2C1(1840)
-    S(1849)             ! C=CC1CCC2(CC=1C=C)C(=C)C1CC=C2CC1(1849)
-    S(1855)             ! C=CC(=C)C1=CCC2(CC1)C(=C)C1CC=C2CC1(1855)
-    S(10026)            ! C=CC1=CCC2(CC1=CC)C(=C)C1CC=C2CC1(10026)
-    S(10028)            ! C=CC1=CC2(CCC1=CC)C(=C)C1CC=C2CC1(10028)
-    S(17194)            ! C=CC1=CCC(C=C)(C=C)CC1=CC(17194)
-    S(17196)            ! C=CC1=CC(C=C)(C=C)CCC1=CC(17196)
+    S(232)              ! C=CC(=C)C(=C)C(=C)C=C(232)
+    C8H10(266)          ! [CH2]C1=CCC[CH]C1=C(266)
+    S(473)              ! [CH2]C1C(=C)[CH]CCC=1C=C(473)
+    S(566)              ! C=C1C(=C)C2CC=C1CC2(566)
+    S(644)              ! [CH2]C1C(=C)C2C=CC=1CC2(644)
+    S(681)              ! C=C1C(C)=C2C=CC1CC2(681)
+    S(759)              ! [CH2]C1=C(C)C2C=CC1CC=2(759)
+    S(885)              ! CC1C2C=CC(CC=2)C=1C(885)
+    S(1007)             ! C=CC1=CC2CCC1=C(C)C2=C(1007)
+    S(1021)             ! CC1C2C=CC([CH]C=2)C=1C(1021)
+    S(1047)             ! [CH2]c1cccc(C=C)c1C(1047)
+    S(1144)             ! CC1=C2[CH]CC([CH]C2)=C1C(1144)
+    S(1148)             ! CC1=C2C=CC(C=C2)C1C(1148)
+    S(1329)             ! C=CC12C=CC(C=C1)C(C)=C2C(1329)
+    S(1464)             ! C=C1C2=CCC(=CC2)C1C(1464)
+    S(1579)             ! C=CC1C=C2CC=C1C(=C)C2C(1579)
+    S(1598)             ! C=CC1[CH]C2=CC=C1C(=C)C2C(1598)
+    S(1667)             ! C=CC1C=C2C=CC1=C(C)C2C(1667)
+    S(1855)             ! [CH2]C=C1CC2=C[CH]C1=C(C)C2C(1855)
+    S(2029)             ! C=Cc1cccc(C)c1C(2029)
+    S(2161)             ! [CH2]C1=C(C)C2=CCC1C=C2C=C(2161)
+    S(2331)             ! CC1=C2C3=CCC2C=C(C3)C1C(2331)
+    S(2442)             ! C[C]1C2=CC3CC=C(C2)C3=C1C(2442)
+    S(2789)             ! [CH2]c1ccc(C=C)c(C=C)c1C(2789)
 END
 
 
@@ -148,54 +153,24 @@ S(203)                  H  16C  12          G   100.000  5000.000  989.29      1
  1.15378770E+04-1.17506583E+02-1.49871027E+00 8.97231513E-02 3.13728211E-05    3
 -1.05849951E-07 4.65472901E-11 2.08342656E+04 3.86324941E+01                   4
 
-! Thermo library: thermo_DFT_CCSDTF12_BAC
-C2H6(230)               H   6C   2          G   100.000  5000.000 1012.42      1
- 2.82848257E+00 1.73040568E-02-6.73334245E-06 1.23742024E-09-8.65676410E-14    2
--1.19978080E+04 5.93811707E+00 3.72239291E+00 1.65083841E-03 3.44175530E-05    3
--3.76858229E-08 1.24450657E-11-1.15575901E+04 4.68247999E+00                   4
-
 ! Thermo group additivity estimation: group(Cds-Cds(Cds-Cds)(Cds-Cds)) + group(Cds-Cds(Cds-Cds)(Cds-Cds)) + group(Cds-Cds(Cds-Cds)(Cds-Cds)) + group
 ! (Cds-Cds(Cds-Cds)H) + group(Cds-Cds(Cds-Cds)H) + group(Cds-CdsHH) + group(Cds-CdsHH) + group(Cds-CdsHH) + group(Cds-CdsHH) + group(Cds-CdsHH)
-S(246)                  H  12C  10          G   100.000  5000.000 1043.18      1
+S(232)                  H  12C  10          G   100.000  5000.000 1043.18      1
  1.48527536E+01 4.77532684E-02-1.90425431E-05 3.52560547E-09-2.47266459E-13    2
  3.21023102E+04-5.02171312E+01 8.00010427E-02 7.06155121E-02-3.33970318E-06    3
 -3.75536308E-08 1.70371997E-11 3.70226034E+04 3.04877535E+01                   4
 
 ! Thermo group additivity estimation: group(Cs-CsCsHH) + group(Cs-(Cds-Cds)CsHH) + group(Cs-(Cds-Cds)CsHH) + group(Cs-(Cds-Cds)HHH) + group(Cds-Cds(Cds-
 ! Cds)Cs) + group(Cds-Cds(Cds-Cds)Cs) + group(Cds-CdsCsH) + group(Cds-CdsHH) + ring(Cyclohexane) + radical(Allyl_P) + radical(Allyl_S)
-C8H10(281)              H  10C   8          G   100.000  5000.000  977.35      1
+C8H10(266)              H  10C   8          G   100.000  5000.000  977.35      1
  1.91455428E+01 3.13148912E-02-1.18304959E-05 2.35396563E-09-1.80726910E-13    2
  2.97193129E+04-8.51181378E+01 1.20172531E+00 3.27274077E-02 9.65442570E-05    3
 -1.46972960E-07 5.73036376E-11 3.66668179E+04 1.86380248E+01                   4
 
-! Thermo group additivity estimation: group(Cs-(Cds-Cds)CsHH) + group(Cs-(Cds-Cds)CsHH) + group(Cs-(Cds-Cds)HHH) + group(Cs-(Cds-Cds)HHH) + group(Cds-
-! Cds(Cds-Cds)Cs) + group(Cds-Cds(Cds-Cds)Cs) + group(Cds-Cds(Cds-Cds)Cs) + group(Cds-CdsCsH) + group(Cds-Cds(Cds-Cds)H) + group(Cds-Cds(Cds-Cds)H) +
-! group(Cds-Cds(Cds-Cds)H) + group(Cds-CdsHH) + group(Cds-CdsHH) + group(Cds-CdsHH) + radical(C=CC=CCJ) + radical(C=CC=CCJ)
-S(344)                  H  18C  14          G   100.000  5000.000  971.82      1
- 3.25215927E+01 5.20192401E-02-1.80271576E-05 3.18287554E-09-2.22563878E-13    2
- 3.60671783E+04-1.34600770E+02-3.68195602E+00 1.43770916E-01-7.12631321E-05    3
--2.09268700E-08 2.15763987E-11 4.58078673E+04 5.29376472E+01                   4
-
-! Thermo group additivity estimation: group(Cs-(Cds-Cds)(Cds-Cds)CsCs) + group(Cs-CsCsHH) + group(Cs-(Cds-Cds)CsHH) + group(Cs-(Cds-Cds)CsHH) + group
-! (Cds-Cds(Cds-Cds)Cs) + group(Cds-Cds(Cds-Cds)Cs) + group(Cds-CdsCsH) + group(Cds-CdsCsH) + group(Cds-Cds(Cds-Cds)H) + group(Cds-Cds(Cds-Cds)H) + group
-! (Cds-CdsHH) + group(Cds-CdsHH) + group(Cds-CdsHH) + group(Cds-CdsHH) + ring(Cyclohexene)
-S(360)                  H  18C  14          G   100.000  5000.000  982.88      1
- 3.37215723E+01 5.13174993E-02-1.88319326E-05 3.55580277E-09-2.61426544E-13    2
- 1.57437712E+04-1.51249306E+02-2.97114598E+00 1.18403033E-01 4.29807506E-06    3
--9.72640059E-08 4.70359899E-11 2.69291906E+04 4.53467249E+01                   4
-
-! Thermo group additivity estimation: group(Cs-(Cds-Cds)(Cds-Cds)CsCs) + group(Cs-CsCsHH) + group(Cs-(Cds-Cds)CsHH) + group(Cs-(Cds-Cds)CsHH) + group
-! (Cds-Cds(Cds-Cds)Cs) + group(Cds-Cds(Cds-Cds)Cs) + group(Cds-CdsCsH) + group(Cds-CdsCsH) + group(Cds-Cds(Cds-Cds)H) + group(Cds-Cds(Cds-Cds)H) + group
-! (Cds-CdsHH) + group(Cds-CdsHH) + group(Cds-CdsHH) + group(Cds-CdsHH) + ring(Cyclohexene)
-S(368)                  H  18C  14          G   100.000  5000.000  982.88      1
- 3.37215723E+01 5.13174993E-02-1.88319326E-05 3.55580277E-09-2.61426544E-13    2
- 1.57437712E+04-1.51249306E+02-2.97114598E+00 1.18403033E-01 4.29807506E-06    3
--9.72640059E-08 4.70359899E-11 2.69291906E+04 4.53467249E+01                   4
-
 ! Thermo group additivity estimation: group(Cs-CsCsHH) + group(Cs-(Cds-Cds)CsHH) + group(Cs-(Cds-Cds)CsHH) + group(Cs-(Cds-Cds)HHH) + group(Cds-Cds(Cds-
 ! Cds)Cs) + group(Cds-Cds(Cds-Cds)Cs) + group(Cds-Cds(Cds-Cds)Cs) + group(Cds-Cds(Cds-Cds)H) + group(Cds-CdsHH) + group(Cds-CdsHH) + ring(Cyclohexane) +
 ! radical(Allyl_S) + radical(C=CC=CCJ)
-S(660)                  H  12C  10          G   100.000  5000.000  968.65      1
+S(473)                  H  12C  10          G   100.000  5000.000  968.65      1
  2.42145071E+01 3.63241455E-02-1.28171324E-05 2.46810154E-09-1.87634557E-13    2
  3.02280478E+04-1.09367124E+02 6.55596893E-03 5.50367595E-02 8.40309751E-05    3
 -1.50786277E-07 6.17167027E-11 3.87297379E+04 2.63275406E+01                   4
@@ -203,7 +178,7 @@ S(660)                  H  12C  10          G   100.000  5000.000  968.65      1
 ! Thermo group additivity estimation: group(Cs-(Cds-Cds)CsCsH) + group(Cs-CsCsHH) + group(Cs-(Cds-Cds)CsHH) + group(Cs-(Cds-Cds)CsHH) + group(Cds-Cds
 ! (Cds-Cds)Cs) + group(Cds-Cds(Cds-Cds)Cs) + group(Cds-Cds(Cds-Cds)(Cds-Cds)) + group(Cds-CdsCsH) + group(Cds-CdsHH) + group(Cds-CdsHH) + Estimated
 ! bicyclic component: polycyclic(s4_6_6_ane) - ring(Cyclohexane) - ring(Cyclohexane) + ring(Cyclohexene) + ring(Cyclohexene)
-S(1035)                 H  12C  10          G   100.000  5000.000  934.90      1
+S(566)                  H  12C  10          G   100.000  5000.000  934.90      1
  2.30268642E+01 2.66924504E-02-5.52368921E-06 9.11070585E-10-7.58555397E-14    2
  1.15738298E+04-1.00944658E+02 1.14949863E+00 2.56056208E-02 1.48145681E-04    3
 -2.17005632E-07 8.71671305E-11 1.98025721E+04 2.52596418E+01                   4
@@ -211,7 +186,7 @@ S(1035)                 H  12C  10          G   100.000  5000.000  934.90      1
 ! Thermo group additivity estimation: group(Cs-(Cds-Cds)(Cds-Cds)CsH) + group(Cs-CsCsHH) + group(Cs-(Cds-Cds)CsHH) + group(Cs-(Cds-Cds)HHH) + group(Cds-
 ! Cds(Cds-Cds)Cs) + group(Cds-Cds(Cds-Cds)Cs) + group(Cds-Cds(Cds-Cds)Cs) + group(Cds-CdsCsH) + group(Cds-Cds(Cds-Cds)H) + group(Cds-CdsHH) + Estimated
 ! bicyclic component: polycyclic(s4_6_6_ane) - ring(Cyclohexane) - ring(Cyclohexane) + ring(Cyclohexene) + ring(1,3-Cyclohexadiene) + radical(C=CC=CCJ)
-S(1593)                 H  11C  10          G   100.000  5000.000  927.11      1
+S(644)                  H  11C  10          G   100.000  5000.000  927.11      1
  2.31406667E+01 2.44209791E-02-4.73406672E-06 6.89776122E-10-5.41266922E-14    2
  2.37703881E+04-9.90782512E+01 5.80169242E-01 4.54991468E-02 8.45438319E-05    3
 -1.52228728E-07 6.51050039E-11 3.12309550E+04 2.57307422E+01                   4
@@ -219,96 +194,170 @@ S(1593)                 H  11C  10          G   100.000  5000.000  927.11      1
 ! Thermo group additivity estimation: group(Cs-(Cds-Cds)(Cds-Cds)CsH) + group(Cs-CsCsHH) + group(Cs-(Cds-Cds)CsHH) + group(Cs-(Cds-Cds)HHH) + group(Cds-
 ! Cds(Cds-Cds)Cs) + group(Cds-Cds(Cds-Cds)Cs) + group(Cds-Cds(Cds-Cds)Cs) + group(Cds-CdsCsH) + group(Cds-Cds(Cds-Cds)H) + group(Cds-CdsHH) + Estimated
 ! bicyclic component: polycyclic(s4_6_6_ane) - ring(Cyclohexane) - ring(Cyclohexane) + ring(1,3-Cyclohexadiene) + ring(Cyclohexene)
-S(1630)                 H  12C  10          G   100.000  5000.000  936.06      1
+S(681)                  H  12C  10          G   100.000  5000.000  936.06      1
  2.24308561E+01 2.84460946E-02-7.22714492E-06 1.19289639E-09-8.89025831E-14    2
  9.89187725E+03-9.61788204E+01 2.95830266E-01 5.44689708E-02 6.09446235E-05    3
 -1.25610619E-07 5.46763618E-11 1.70397067E+04 2.51926264E+01                   4
 
-! Thermo group additivity estimation: group(Cs-(Cds-Cds)CsCsH) + group(Cs-CsCsHH) + group(Cs-(Cds-Cds)CsHH) + group(Cs-(Cds-Cds)CsHH) + group(Cs-(Cds-
-! Cds)CsHH) + group(Cs-(Cds-Cds)CsHH) + group(Cs-(Cds-Cds)HHH) + group(Cs-(Cds-Cds)HHH) + group(Cds-CdsCsCs) + group(Cds-Cds(Cds-Cds)Cs) + group(Cds-Cds
-! (Cds-Cds)Cs) + group(Cds-Cds(Cds-Cds)Cs) + group(Cds-CdsCsH) + group(Cds-CdsCsH) + group(Cds-Cds(Cds-Cds)H) + group(Cds-CdsHH) + Estimated bicyclic
-! component: polycyclic(s4_6_6_ane) - ring(Cyclohexane) - ring(Cyclohexane) + ring(1,3-Cyclohexadiene) + ring(Cyclohexene) + radical(C=CC=CCJ) +
+! Thermo group additivity estimation: group(Cs-(Cds-Cds)(Cds-Cds)CsH) + group(Cs-(Cds-Cds)CsHH) + group(Cs-(Cds-Cds)HHH) + group(Cs-(Cds-Cds)HHH) +
+! group(Cds-CdsCsCs) + group(Cds-Cds(Cds-Cds)Cs) + group(Cds-Cds(Cds-Cds)(Cds-Cds)) + group(Cds-CdsCsH) + group(Cds-CdsCsH) + group(Cds-Cds(Cds-Cds)H) +
+! Estimated bicyclic component: polycyclic(s4_6_6_ane) - ring(Cyclohexane) - ring(Cyclohexane) + ring(1,4-Cyclohexadiene) + ring(1,3-Cyclohexadiene) +
 ! radical(C=CC=CCJ)
-S(1749)                 H  20C  16          G   100.000  5000.000  948.97      1
- 3.38721795E+01 5.64992437E-02-1.74799336E-05 3.05343775E-09-2.20570307E-13    2
- 2.91999805E+04-1.44269851E+02-2.91285966E+00 1.11977922E-01 5.22198729E-05    3
--1.56483011E-07 7.09376092E-11 4.06650802E+04 5.48930811E+01                   4
+S(759)                  H  11C  10          G   100.000  5000.000  948.23      1
+ 1.56110390E+01 3.74015703E-02-1.19924608E-05 2.08871417E-09-1.48107957E-13    2
+ 2.63640891E+04-5.55310537E+01 9.48610297E-01 4.57480578E-02 5.94433889E-05    3
+-1.07641581E-07 4.44708543E-11 3.15502157E+04 2.71111390E+01                   4
 
-! Thermo group additivity estimation: group(Cs-(Cds-Cds)CsCsH) + group(Cs-CsCsHH) + group(Cs-(Cds-Cds)CsHH) + group(Cs-(Cds-Cds)CsHH) + group(Cs-(Cds-
-! Cds)CsHH) + group(Cs-(Cds-Cds)CsHH) + group(Cs-(Cds-Cds)HHH) + group(Cs-(Cds-Cds)HHH) + group(Cds-CdsCsCs) + group(Cds-Cds(Cds-Cds)Cs) + group(Cds-Cds
-! (Cds-Cds)Cs) + group(Cds-Cds(Cds-Cds)Cs) + group(Cds-Cds(Cds-Cds)Cs) + group(Cds-CdsCsH) + group(Cds-Cds(Cds-Cds)H) + group(Cds-Cds(Cds-Cds)H) + group
-! (Cds-CdsHH) + group(Cds-CdsHH) + Estimated bicyclic component: polycyclic(s4_6_6_ane) - ring(Cyclohexane) - ring(Cyclohexane) +
-! ring(1,3-Cyclohexadiene) + ring(Cyclohexene) + radical(C=CC=CCJ) + radical(C=CC=CCJ)
-S(1817)                 H  22C  18          G   100.000  5000.000  947.01      1
- 4.04907631E+01 5.95411212E-02-1.79807682E-05 3.10681305E-09-2.24215188E-13    2
- 3.33963125E+04-1.77435036E+02-4.37830107E+00 1.40563199E-01 2.55386918E-05    3
--1.48509896E-07 7.17385926E-11 4.67597113E+04 6.22761192E+01                   4
+! Thermo group additivity estimation: group(Cs-(Cds-Cds)(Cds-Cds)CsH) + group(Cs-(Cds-Cds)CsHH) + group(Cs-(Cds-Cds)HHH) + group(Cs-(Cds-Cds)HHH) +
+! group(Cds-CdsCsCs) + group(Cds-Cds(Cds-Cds)Cs) + group(Cds-Cds(Cds-Cds)(Cds-Cds)) + group(Cds-CdsCsH) + group(Cds-CdsCsH) + group(Cds-Cds(Cds-Cds)H) +
+! Estimated bicyclic component: polycyclic(s4_6_6_ane) - ring(Cyclohexane) - ring(Cyclohexane) + ring(1,3-Cyclohexadiene) + ring(1,4-Cyclohexadiene)
+S(885)                  H  12C  10          G   100.000  5000.000  967.29      1
+ 1.50002003E+01 4.12607497E-02-1.43908124E-05 2.56962456E-09-1.81052037E-13    2
+ 1.24432657E+04-5.31901332E+01 6.54512479E-01 5.48222254E-02 3.55433413E-05    3
+-8.07551584E-08 3.39955407E-11 1.73593892E+04 2.66086089E+01                   4
 
-! Thermo group additivity estimation: group(Cs-(Cds-Cds)(Cds-Cds)CsCs) + group(Cs-(Cds-Cds)CsCsH) + group(Cs-CsCsHH) + group(Cs-CsCsHH) + group(Cs-(Cds-
-! Cds)CsHH) + group(Cs-(Cds-Cds)CsHH) + group(Cs-(Cds-Cds)CsHH) + group(Cs-(Cds-Cds)CsHH) + group(Cds-CdsCsCs) + group(Cds-Cds(Cds-Cds)Cs) + group(Cds-
-! Cds(Cds-Cds)Cs) + group(Cds-Cds(Cds-Cds)Cs) + group(Cds-CdsCsH) + group(Cds-CdsCsH) + group(Cds-Cds(Cds-Cds)H) + group(Cds-CdsHH) + group(Cds-CdsHH) +
-! group(Cds-CdsHH) + polycyclic(s2_6_6_diene_m_1) + Estimated bicyclic component: polycyclic(s4_6_6_ane) - ring(Cyclohexane) - ring(Cyclohexane) +
-! ring(1,3-Cyclohexadiene) + ring(Cyclohexene) - ring(1,3-Cyclohexadiene)
-S(1840)                 H  22C  18          G   100.000  5000.000  991.03      1
- 3.34349567E+01 7.39251422E-02-2.78775232E-05 5.24246305E-09-3.80221728E-13    2
- 1.88135569E+04-1.50118917E+02-3.60835516E+00 1.26325477E-01 3.98009956E-05    3
--1.39166107E-07 6.09928778E-11 3.09247176E+04 5.23205367E+01                   4
+! Thermo group additivity estimation: group(Cs-(Cds-Cds)(Cds-Cds)CsH) + group(Cs-CsCsHH) + group(Cs-(Cds-Cds)CsHH) + group(Cs-(Cds-Cds)HHH) + group(Cds-
+! Cds(Cds-Cds)Cs) + group(Cds-Cds(Cds-Cds)Cs) + group(Cds-Cds(Cds-Cds)Cs) + group(Cds-Cds(Cds-Cds)(Cds-Cds)) + group(Cds-CdsCsH) + group(Cds-Cds(Cds-
+! Cds)H) + group(Cds-CdsHH) + group(Cds-CdsHH) + Estimated bicyclic component: polycyclic(s4_6_6_ane) - ring(Cyclohexane) - ring(Cyclohexane) +
+! ring(Cyclohexene) + ring(1,3-Cyclohexadiene)
+S(1007)                 H  14C  12          G   100.000  5000.000  950.27      1
+ 2.34667276E+01 4.08032257E-02-1.27416508E-05 2.23646027E-09-1.61535227E-13    2
+ 1.78822140E+04-9.99436230E+01-5.57825460E-01 7.22327337E-02 4.76638561E-05    3
+-1.17323641E-07 5.15979111E-11 2.55951014E+04 3.12934768E+01                   4
 
-! Thermo group additivity estimation: group(Cs-(Cds-Cds)(Cds-Cds)CsCs) + group(Cs-(Cds-Cds)CsCsH) + group(Cs-CsCsHH) + group(Cs-CsCsHH) + group(Cs-(Cds-
-! Cds)CsHH) + group(Cs-(Cds-Cds)CsHH) + group(Cs-(Cds-Cds)CsHH) + group(Cs-(Cds-Cds)CsHH) + group(Cds-CdsCsCs) + group(Cds-CdsCsCs) + group(Cds-Cds(Cds-
-! Cds)Cs) + group(Cds-Cds(Cds-Cds)Cs) + group(Cds-CdsCsH) + group(Cds-Cds(Cds-Cds)H) + group(Cds-Cds(Cds-Cds)H) + group(Cds-CdsHH) + group(Cds-CdsHH) +
-! group(Cds-CdsHH) + polycyclic(s1_6_6_diene_1_8) + Estimated bicyclic component: polycyclic(s4_6_6_ane) - ring(Cyclohexane) - ring(Cyclohexane) +
-! ring(Cyclohexene) + ring(Cyclohexene) - ring(Cyclohexene)
-S(1849)                 H  22C  18          G   100.000  5000.000  977.97      1
- 3.47815054E+01 7.08372406E-02-2.54733561E-05 4.70819708E-09-3.40640336E-13    2
- 1.78318953E+04-1.60366202E+02-3.77762386E+00 1.29755855E-01 3.56849517E-05    3
--1.40276396E-07 6.31272791E-11 3.00981852E+04 4.89542826E+01                   4
+! Thermo group additivity estimation: group(Cs-(Cds-Cds)(Cds-Cds)CsH) + group(Cs-(Cds-Cds)CsHH) + group(Cs-(Cds-Cds)HHH) + group(Cs-(Cds-Cds)HHH) +
+! group(Cds-CdsCsCs) + group(Cds-Cds(Cds-Cds)Cs) + group(Cds-Cds(Cds-Cds)(Cds-Cds)) + group(Cds-CdsCsH) + group(Cds-CdsCsH) + group(Cds-Cds(Cds-Cds)H) +
+! Estimated bicyclic component: polycyclic(s4_6_6_ane) - ring(Cyclohexane) - ring(Cyclohexane) + ring(1,4-Cyclohexadiene) + ring(1,3-Cyclohexadiene) +
+! radical(C=CCJC=C-cyclohexadiene)
+S(1021)                 H  11C  10          G   100.000  5000.000 1381.33      1
+ 1.01895884E+01 2.28569639E-02 5.83780085E-06-2.40543758E-09 2.10736184E-13    2
+ 2.90772183E+04-1.56778076E+01-1.31192539E+00 1.01013018E-01-1.27736229E-04    3
+ 8.55666301E-08-1.99650689E-11 2.79758071E+04 2.80375735E+01                   4
 
-! Thermo group additivity estimation: group(Cs-(Cds-Cds)(Cds-Cds)CsCs) + group(Cs-(Cds-Cds)CsCsH) + group(Cs-CsCsHH) + group(Cs-CsCsHH) + group(Cs-(Cds-
-! Cds)CsHH) + group(Cs-(Cds-Cds)CsHH) + group(Cs-(Cds-Cds)CsHH) + group(Cs-(Cds-Cds)CsHH) + group(Cds-CdsCsCs) + group(Cds-CdsCsCs) + group(Cds-Cds(Cds-
-! Cds)Cs) + group(Cds-Cds(Cds-Cds)(Cds-Cds)) + group(Cds-CdsCsH) + group(Cds-CdsCsH) + group(Cds-Cds(Cds-Cds)H) + group(Cds-CdsHH) + group(Cds-CdsHH) +
-! group(Cds-CdsHH) + polycyclic(s1_6_6_diene_1_8) + Estimated bicyclic component: polycyclic(s4_6_6_ane) - ring(Cyclohexane) - ring(Cyclohexane) +
-! ring(Cyclohexene) + ring(Cyclohexene) - ring(Cyclohexene)
-S(1855)                 H  22C  18          G   100.000  5000.000  994.64      1
- 2.94106208E+01 7.98043219E-02-3.02911611E-05 5.65296314E-09-4.05913067E-13    2
- 2.15330554E+04-1.31472452E+02-3.17115987E+00 1.18957802E-01 4.92178719E-05    3
--1.40506395E-07 5.96727270E-11 3.25591966E+04 4.83866451E+01                   4
+! Thermo group additivity estimation: group(Cs-CbHHH) + group(Cs-CbHHH) + group(Cb-Cs) + group(Cb-Cs) + group(Cb-(Cds-Cds)) + group(Cb-H) + group(Cb-H)
+! + group(Cds-CdsCbH) + group(Cb-H) + group(Cds-CdsHH) + ring(Benzene) + radical(Benzyl_P) + longDistanceInteraction_cyclic(o_Csj_Cs) +
+! longDistanceInteraction_cyclic(o_vinyl_CH3)
+S(1047)                 H  11C  10          G   100.000  5000.000 1484.58      1
+ 1.82404819E+01 4.20315785E-02-1.79741071E-05 3.32949630E-09-2.28270814E-13    2
+ 2.10740105E+04-7.10534674E+01-4.56196696E-01 9.24074697E-02-6.88734636E-05    3
+ 2.61865012E-08-4.07735686E-12 2.66253293E+04 2.65347718E+01                   4
 
-! Thermo group additivity estimation: group(Cs-(Cds-Cds)(Cds-Cds)CsCs) + group(Cs-(Cds-Cds)CsCsH) + group(Cs-CsCsHH) + group(Cs-(Cds-Cds)CsHH) +
-! group(Cs-(Cds-Cds)CsHH) + group(Cs-(Cds-Cds)CsHH) + group(Cs-(Cds-Cds)CsHH) + group(Cs-(Cds-Cds)HHH) + group(Cds-CdsCsCs) + group(Cds-CdsCsCs) + group
-! (Cds-Cds(Cds-Cds)Cs) + group(Cds-Cds(Cds-Cds)(Cds-Cds)) + group(Cds-CdsCsH) + group(Cds-CdsCsH) + group(Cds-CdsCsH) + group(Cds-Cds(Cds-Cds)H) + group
-! (Cds-CdsHH) + group(Cds-CdsHH) + polycyclic(s1_6_6_diene_1_8) + Estimated bicyclic component: polycyclic(s4_6_6_ane) - ring(Cyclohexane) -
-! ring(Cyclohexane) + ring(Cyclohexene) + ring(Cyclohexene) - ring(Cyclohexene)
-S(10026)                H  22C  18          G   100.000  5000.000  999.54      1
- 2.83845425E+01 8.13945346E-02-3.11778874E-05 5.81887669E-09-4.16627188E-13    2
- 2.03725131E+04-1.26286709E+02-3.12172139E+00 1.19145369E-01 4.47292607E-05    3
--1.33222922E-07 5.64734536E-11 3.10834108E+04 4.77711898E+01                   4
+! Thermo group additivity estimation: group(Cs-(Cds-Cds)CsHH) + group(Cs-(Cds-Cds)CsHH) + group(Cs-(Cds-Cds)CsHH) + group(Cs-(Cds-Cds)CsHH) + group(Cs
+! -(Cds-Cds)HHH) + group(Cs-(Cds-Cds)HHH) + group(Cds-CdsCsCs) + group(Cds-CdsCsCs) + group(Cds-Cds(Cds-Cds)Cs) + group(Cds-Cds(Cds-Cds)Cs) + Estimated
+! bicyclic component: polycyclic(s4_6_6_ane) - ring(Cyclohexane) - ring(Cyclohexane) + ring(1,3-Cyclohexadiene) + ring(Cyclohexane) +
+! radical(C=CCJC=C-cyclohexadiene) + radical(C=CCJC=C-cyclohexadiene)
+S(1144)                 H  12C  10          G   100.000  5000.000 1353.28      1
+ 8.26344325E+00 8.75067107E-03 2.35864592E-05-6.72171617E-09 5.43464704E-13    2
+ 2.89139192E+04 3.27118999E+00-2.82907851E+00 1.33494668E-01-2.16608600E-04    3
+ 1.61817665E-07-3.98678565E-11 2.34958208E+04 2.90311387E+01                   4
 
-! Thermo group additivity estimation: group(Cs-(Cds-Cds)(Cds-Cds)(Cds-Cds)Cs) + group(Cs-(Cds-Cds)CsCsH) + group(Cs-CsCsHH) + group(Cs-CsCsHH) +
-! group(Cs-(Cds-Cds)CsHH) + group(Cs-(Cds-Cds)CsHH) + group(Cs-(Cds-Cds)CsHH) + group(Cs-(Cds-Cds)HHH) + group(Cds-CdsCsCs) + group(Cds-CdsCsCs) + group
-! (Cds-Cds(Cds-Cds)Cs) + group(Cds-Cds(Cds-Cds)(Cds-Cds)) + group(Cds-CdsCsH) + group(Cds-CdsCsH) + group(Cds-CdsCsH) + group(Cds-Cds(Cds-Cds)H) + group
-! (Cds-CdsHH) + group(Cds-CdsHH) + polycyclic(s1_6_6_diene_1_7) + Estimated bicyclic component: polycyclic(s4_6_6_ane) - ring(Cyclohexane) -
-! ring(Cyclohexane) + ring(Cyclohexene) + ring(Cyclohexene) - ring(Cyclohexene)
-S(10028)                H  22C  18          G   100.000  5000.000  989.40      1
- 2.97598157E+01 7.88538469E-02-2.96725619E-05 5.54913005E-09-4.00451136E-13    2
- 2.04891431E+04-1.33987467E+02-3.00040958E+00 1.13002896E-01 6.75774973E-05    3
--1.60390903E-07 6.69008192E-11 3.17829118E+04 4.80260996E+01                   4
+! Thermo group additivity estimation: group(Cs-(Cds-Cds)CsCsH) + group(Cs-(Cds-Cds)(Cds-Cds)CsH) + group(Cs-CsHHH) + group(Cs-(Cds-Cds)HHH) + group(Cds-
+! CdsCsCs) + group(Cds-Cds(Cds-Cds)(Cds-Cds)) + group(Cds-CdsCsH) + group(Cds-CdsCsH) + group(Cds-Cds(Cds-Cds)H) + group(Cds-Cds(Cds-Cds)H) + Estimated
+! bicyclic component: polycyclic(s4_6_6_ane) - ring(Cyclohexane) - ring(Cyclohexane) + ring(1,3-Cyclohexadiene) + ring(1,4-Cyclohexadiene)
+S(1148)                 H  12C  10          G   100.000  5000.000  953.51      1
+ 1.64234124E+01 3.82596898E-02-1.24852877E-05 2.20904047E-09-1.58058960E-13    2
+ 1.25202583E+04-6.12562002E+01 8.21214316E-01 4.73176809E-02 6.19797203E-05    3
+-1.11881066E-07 4.60176941E-11 1.80592420E+04 2.67156431E+01                   4
 
-! Thermo group additivity estimation: group(Cs-(Cds-Cds)(Cds-Cds)CsCs) + group(Cs-(Cds-Cds)CsHH) + group(Cs-(Cds-Cds)CsHH) + group(Cs-(Cds-Cds)HHH) +
-! group(Cds-Cds(Cds-Cds)Cs) + group(Cds-Cds(Cds-Cds)(Cds-Cds)) + group(Cds-CdsCsH) + group(Cds-CdsCsH) + group(Cds-CdsCsH) + group(Cds-CdsCsH) + group
-! (Cds-Cds(Cds-Cds)H) + group(Cds-CdsHH) + group(Cds-CdsHH) + group(Cds-CdsHH) + ring(Cyclohexane)
-S(17194)                H  18C  14          G   100.000  5000.000 1030.58      1
- 2.64166790E+01 6.72299172E-02-2.82206047E-05 5.47946716E-09-3.98364541E-13    2
- 1.75044697E+04-1.15598673E+02-2.12257101E+00 1.01742439E-01 3.25378450E-05    3
--1.05622433E-07 4.39697995E-11 2.74365000E+04 4.25936761E+01                   4
+! Thermo group additivity estimation: group(Cs-CsCsCsCs) + group(Cs-(Cds-Cds)(Cds-Cds)(Cds-Cds)H) + group(Cs-(Cds-Cds)HHH) + group(Cs-(Cds-Cds)HHH) +
+! group(Cds-CdsCsCs) + group(Cds-CdsCsCs) + group(Cds-CdsCsH) + group(Cds-CdsCsH) + group(Cds-CdsCsH) + group(Cds-CdsCsH) + group(Cds-CdsCsH) + group
+! (Cds-CdsHH) + Estimated bicyclic component: polycyclic(s4_6_6_ane) - ring(Cyclohexane) - ring(Cyclohexane) + ring(1,4-Cyclohexadiene) +
+! ring(1,4-Cyclohexadiene)
+S(1329)                 H  14C  12          G   100.000  5000.000 1068.15      1
+ 1.84321378E+01 5.18475023E-02-2.02877867E-05 3.70393362E-09-2.56869115E-13    2
+ 2.01373703E+04-6.58346987E+01-1.05537288E+00 9.54829757E-02-4.03613729E-05    3
+-9.48385705E-09 8.84860091E-12 2.59743294E+04 3.73012724E+01                   4
 
-! Thermo group additivity estimation: group(Cs-(Cds-Cds)(Cds-Cds)(Cds-Cds)Cs) + group(Cs-CsCsHH) + group(Cs-(Cds-Cds)CsHH) + group(Cs-(Cds-Cds)HHH) +
-! group(Cds-Cds(Cds-Cds)Cs) + group(Cds-Cds(Cds-Cds)(Cds-Cds)) + group(Cds-CdsCsH) + group(Cds-CdsCsH) + group(Cds-CdsCsH) + group(Cds-CdsCsH) + group
-! (Cds-Cds(Cds-Cds)H) + group(Cds-CdsHH) + group(Cds-CdsHH) + group(Cds-CdsHH) + ring(Cyclohexane)
-S(17196)                H  18C  14          G   100.000  5000.000 1025.58      1
- 2.68512196E+01 6.66265861E-02-2.79288129E-05 5.44120699E-09-3.97137939E-13    2
- 1.76666314E+04-1.17910878E+02-2.06802405E+00 9.91730729E-02 4.18353795E-05    3
--1.16201193E-07 4.78525703E-11 2.78185672E+04 4.29126444E+01                   4
+! Thermo group additivity estimation: group(Cs-(Cds-Cds)(Cds-Cds)CsH) + group(Cs-(Cds-Cds)(Cds-Cds)HH) + group(Cs-(Cds-Cds)(Cds-Cds)HH) + group(Cs-
+! CsHHH) + group(Cds-CdsCsCs) + group(Cds-Cds(Cds-Cds)Cs) + group(Cds-Cds(Cds-Cds)Cs) + group(Cds-CdsCsH) + group(Cds-CdsCsH) + group(Cds-CdsHH) +
+! Estimated bicyclic component: polycyclic(s4_6_6_ane) - ring(Cyclohexane) - ring(Cyclohexane) + ring(Cyclohexene) + ring(1,4-Cyclohexadiene)
+S(1464)                 H  12C  10          G   100.000  5000.000  935.11      1
+ 2.29267017E+01 2.76205204E-02-6.67579693E-06 1.09330263E-09-8.30308816E-14    2
+ 1.02358661E+04-9.59737471E+01 3.79339109E-01 5.08577586E-02 7.34866939E-05    3
+-1.39781495E-07 5.99633437E-11 1.76535888E+04 2.84064947E+01                   4
+
+! Thermo group additivity estimation: group(Cs-(Cds-Cds)(Cds-Cds)CsH) + group(Cs-(Cds-Cds)(Cds-Cds)(Cds-Cds)H) + group(Cs-(Cds-Cds)(Cds-Cds)HH) + group
+! (Cs-CsHHH) + group(Cds-CdsCsCs) + group(Cds-Cds(Cds-Cds)Cs) + group(Cds-Cds(Cds-Cds)Cs) + group(Cds-CdsCsH) + group(Cds-CdsCsH) + group(Cds-CdsCsH) +
+! group(Cds-CdsHH) + group(Cds-CdsHH) + Estimated bicyclic component: polycyclic(s4_6_6_ane) - ring(Cyclohexane) - ring(Cyclohexane) +
+! ring(1,4-Cyclohexadiene) + ring(Cyclohexene)
+S(1579)                 H  14C  12          G   100.000  5000.000  949.90      1
+ 2.38394358E+01 4.02889124E-02-1.26340650E-05 2.19263427E-09-1.56181278E-13    2
+ 1.93601609E+04-9.76953140E+01-8.82108292E-01 8.22364088E-02 1.92749790E-05    3
+-8.90859952E-08 4.19963807E-11 2.68608649E+04 3.50612260E+01                   4
+
+! Thermo group additivity estimation: group(Cs-(Cds-Cds)(Cds-Cds)CsH) + group(Cs-(Cds-Cds)(Cds-Cds)CsH) + group(Cs-(Cds-Cds)CsHH) + group(Cs-CsHHH) +
+! group(Cds-CdsCsCs) + group(Cds-Cds(Cds-Cds)Cs) + group(Cds-Cds(Cds-Cds)Cs) + group(Cds-CdsCsH) + group(Cds-Cds(Cds-Cds)H) + group(Cds-Cds(Cds-Cds)H) +
+! group(Cds-CdsHH) + group(Cds-CdsHH) + Estimated bicyclic component: polycyclic(s4_6_6_ane) - ring(Cyclohexane) - ring(Cyclohexane) +
+! ring(1,3-Cyclohexadiene) + ring(Cyclohexane) + radical(C=CCJC=C-cyclohexadiene)
+S(1598)                 H  13C  12          G   100.000  5000.000 1479.68      1
+ 1.86769277E+01 2.58006427E-02 4.77151157E-06-2.13877205E-09 1.86387653E-13    2
+ 3.42208489E+04-6.34198464E+01-3.39230301E+00 1.30367388E-01-1.46755286E-04    3
+ 8.66421178E-08-1.82790486E-11 3.58358207E+04 3.50866473E+01                   4
+
+! Thermo group additivity estimation: group(Cs-(Cds-Cds)(Cds-Cds)CsH) + group(Cs-(Cds-Cds)(Cds-Cds)(Cds-Cds)H) + group(Cs-CsHHH) + group(Cs-(Cds-
+! Cds)HHH) + group(Cds-CdsCsCs) + group(Cds-Cds(Cds-Cds)Cs) + group(Cds-Cds(Cds-Cds)Cs) + group(Cds-CdsCsH) + group(Cds-CdsCsH) + group(Cds-Cds(Cds-
+! Cds)H) + group(Cds-Cds(Cds-Cds)H) + group(Cds-CdsHH) + Estimated bicyclic component: polycyclic(s4_6_6_ane) - ring(Cyclohexane) - ring(Cyclohexane) +
+! ring(1,3-Cyclohexadiene) + ring(1,4-Cyclohexadiene)
+S(1667)                 H  14C  12          G   100.000  5000.000  956.11      1
+ 2.26728164E+01 4.22757068E-02-1.39184794E-05 2.40889853E-09-1.67676348E-13    2
+ 1.76110790E+04-9.12189024E+01-1.16000883E+00 9.32631659E-02-1.74758442E-05    3
+-4.84062172E-08 2.70547773E-11 2.43953015E+04 3.43364545E+01                   4
+
+! Thermo group additivity estimation: group(Cs-(Cds-Cds)(Cds-Cds)CsH) + group(Cs-(Cds-Cds)(Cds-Cds)HH) + group(Cs-(Cds-Cds)(Cds-Cds)HH) + group(Cs-
+! CsHHH) + group(Cs-(Cds-Cds)HHH) + group(Cs-(Cds-Cds)HHH) + group(Cds-CdsCsCs) + group(Cds-CdsCsCs) + group(Cds-Cds(Cds-Cds)Cs) + group(Cds-Cds(Cds-
+! Cds)Cs) + group(Cds-CdsCsH) + group(Cds-CdsCsH) + Estimated bicyclic component: polycyclic(s4_6_6_ane) - ring(Cyclohexane) - ring(Cyclohexane) +
+! ring(1,4-Cyclohexadiene) + ring(Cyclohexene) + radical(C=CCJC=C-cyclohexadiene) + radical(C=CC=CCJ)
+S(1855)                 H  14C  12          G   100.000  5000.000 1487.23      1
+ 1.77091955E+01 2.61303088E-02 6.42485181E-06-2.58340787E-09 2.21034925E-13    2
+ 3.27226897E+04-5.07977844E+01-3.66519900E+00 1.33897125E-01-1.52978224E-04    3
+ 9.16025147E-08-1.94325840E-11 3.35199489E+04 4.21110579E+01                   4
+
+! Thermo group additivity estimation: group(Cs-CbHHH) + group(Cs-CbHHH) + group(Cb-Cs) + group(Cb-Cs) + group(Cb-(Cds-Cds)) + group(Cb-H) + group(Cb-H)
+! + group(Cds-CdsCbH) + group(Cb-H) + group(Cds-CdsHH) + longDistanceInteraction_cyclic(o_CH3_CH3) + longDistanceInteraction_cyclic(o_CH3_CH3) +
+! longDistanceInteraction_cyclic(o_vinyl_CH3) + ring(Benzene)
+S(2029)                 H  12C  10          G   100.000  5000.000 1737.75      1
+ 2.01555995E+01 4.12475834E-02-1.68998204E-05 3.02241450E-09-2.01057612E-13    2
+ 2.52202183E+02-8.24782274E+01-4.59169651E-01 8.87002450E-02-5.78611405E-05    3
+ 1.87370675E-08-2.46188243E-12 7.41671002E+03 2.83672103E+01                   4
+
+! Thermo group additivity estimation: group(Cs-(Cds-Cds)(Cds-Cds)CsH) + group(Cs-(Cds-Cds)CsHH) + group(Cs-(Cds-Cds)HHH) + group(Cs-(Cds-Cds)HHH) +
+! group(Cds-CdsCsCs) + group(Cds-Cds(Cds-Cds)Cs) + group(Cds-Cds(Cds-Cds)(Cds-Cds)) + group(Cds-Cds(Cds-Cds)(Cds-Cds)) + group(Cds-CdsCsH) + group(Cds-
+! CdsCsH) + group(Cds-Cds(Cds-Cds)H) + group(Cds-CdsHH) + Estimated bicyclic component: polycyclic(s4_6_6_ane) - ring(Cyclohexane) - ring(Cyclohexane) +
+! ring(1,4-Cyclohexadiene) + ring(1,3-Cyclohexadiene) + radical(C=CC=CCJ)
+S(2161)                 H  13C  12          G   100.000  5000.000  967.23      1
+ 1.67163940E+01 4.96425511E-02-1.74408049E-05 3.11679058E-09-2.19464805E-13    2
+ 3.43246056E+04-5.96881854E+01 8.85608498E-02 6.35791987E-02 4.59739509E-05    3
+-9.91975145E-08 4.13733796E-11 4.01058875E+04 3.32353656E+01                   4
+
+! Thermo group additivity estimation: group(Cs-(Cds-Cds)(Cds-Cds)CsH) + group(Cs-(Cds-Cds)(Cds-Cds)CsH) + group(Cs-(Cds-Cds)CsHH) + group(Cs-(Cds-Cds
+! )(Cds-Cds)HH) + group(Cs-CsHHH) + group(Cs-(Cds-Cds)HHH) + group(Cds-CdsCsCs) + group(Cds-CdsCsCs) + group(Cds-Cds(Cds-Cds)Cs) + group(Cds-Cds(Cds-
+! Cds)Cs) + group(Cds-CdsCsH) + group(Cds-CdsCsH) + Estimated bicyclic component: polycyclic(s4_6_6_ane) - ring(Cyclohexane) - ring(Cyclohexane) +
+! ring(1,4-Cyclohexadiene) + ring(Cyclohexene) + polycyclic(s2_5_6_triene_0_3_7) + Estimated bicyclic component: polycyclic(s3_5_6_ane) -
+! ring(Cyclohexane) - ring(Cyclopentane) + ring(Cyclohexene) + ring(Cyclopentene) - ring(Cyclohexene) - ring(1,4-Cyclohexadiene) - ring(Cyclopentene)
+S(2331)                 H  14C  12          G   100.000  5000.000 1072.08      1
+ 1.79699107E+01 4.87191325E-02-1.85232627E-05 3.32874870E-09-2.28590311E-13    2
+ 1.50111915E+04-6.68318386E+01-9.78746983E-01 9.57074924E-02-5.10927358E-05    3
+ 2.95267047E-09 4.66966551E-12 2.04366660E+04 3.22581592E+01                   4
+
+! Thermo group additivity estimation: group(Cs-(Cds-Cds)(Cds-Cds)CsH) + group(Cs-(Cds-Cds)(Cds-Cds)CsH) + group(Cs-(Cds-Cds)CsHH) + group(Cs-(Cds-Cds
+! )(Cds-Cds)HH) + group(Cs-CsHHH) + group(Cs-(Cds-Cds)HHH) + group(Cds-CdsCsCs) + group(Cds-CdsCsCs) + group(Cds-Cds(Cds-Cds)Cs) + group(Cds-Cds(Cds-
+! Cds)Cs) + group(Cds-CdsCsH) + group(Cds-CdsCsH) + Estimated bicyclic component: polycyclic(s4_6_6_ane) - ring(Cyclohexane) - ring(Cyclohexane) +
+! ring(1,4-Cyclohexadiene) + ring(Cyclohexene) + polycyclic(s2_5_6_triene_0_3_7) + Estimated bicyclic component: polycyclic(s3_5_6_ane) -
+! ring(Cyclohexane) - ring(Cyclopentane) + ring(Cyclohexene) + ring(Cyclopentene) - ring(Cyclopentene) - ring(1,4-Cyclohexadiene) - ring(Cyclohexene) +
+! radical(C=CCJC=C-cyclohexadiene)
+S(2442)                 H  13C  12          G   100.000  5000.000 1230.39      1
+ 1.54902780E+01 2.71037754E-02 3.27104363E-06-1.96951571E-09 1.87223740E-13    2
+ 3.03879031E+04-4.29558310E+01-2.33680994E+00 1.34572769E-01-1.88110046E-04    3
+ 1.34433938E-07-3.41738941E-11 3.10269753E+04 3.15155933E+01                   4
+
+! Thermo group additivity estimation: group(Cs-CbHHH) + group(Cs-CbHHH) + group(Cb-Cs) + group(Cb-Cs) + group(Cb-(Cds-Cds)) + group(Cb-(Cds-Cds)) +
+! group(Cb-H) + group(Cb-H) + group(Cds-CdsCbH) + group(Cds-CdsCbH) + group(Cds-CdsHH) + group(Cds-CdsHH) + ring(Benzene) + radical(Benzyl_P) +
+! longDistanceInteraction_cyclic(o_Csj_Cs) + longDistanceInteraction_cyclic(p_Csj_C=C) + longDistanceInteraction_cyclic(o_vinyl_CH3) +
+! longDistanceInteraction_cyclic(o_vinyl_vinyl) + longDistanceInteraction_cyclic(o_vinyl_vinyl)
+S(2789)                 H  13C  12          G   100.000  5000.000 1022.95      1
+ 1.48964448E+01 6.32319899E-02-2.94349659E-05 5.71233636E-09-4.04780317E-13    2
+ 3.04800200E+04-4.86529709E+01-1.45109000E+00 1.27155511E-01-1.23169662E-04    3
+ 6.68005667E-08-1.53343050E-11 3.38245403E+04 3.05852634E+01                   4
 
 END
 
@@ -316,32 +365,50 @@ END
 
 REACTIONS    KCAL/MOLE   MOLES
 
-! Reaction index: Chemkin #1; RMG #466
+! Reaction index: Chemkin #1; RMG #434
 ! Template reaction: 1,4_Cyclic_birad_scission
-! Flux pairs: C8H10(281), C8H10(114); 
+! Flux pairs: C8H10(266), C8H10(114); 
 ! Estimated using template [RJJ] for rate rule [R6JJ]
 ! Euclidian distance = 1.0
 ! family: 1,4_Cyclic_birad_scission
-C8H10(281)=C8H10(114)                               1.000000e+13 0.000     0.000    
+C8H10(266)=C8H10(114)                               1.000000e+13 0.000     0.000    
 
-! Reaction index: Chemkin #2; RMG #1013
+! Reaction index: Chemkin #2; RMG #792
 ! Template reaction: 1,4_Cyclic_birad_scission
-! Flux pairs: S(660), S(246); 
+! Flux pairs: S(473), S(232); 
 ! Estimated using template [RJJ] for rate rule [R6JJ]
 ! Euclidian distance = 1.0
 ! family: 1,4_Cyclic_birad_scission
-S(660)=S(246)                                       1.000000e+13 0.000     0.000    
+S(473)=S(232)                                       1.000000e+13 0.000     0.000    
 
-! Reaction index: Chemkin #3; RMG #1618
+! Reaction index: Chemkin #3; RMG #1073
 ! Template reaction: Birad_recombination
-! Flux pairs: S(660), S(1035); 
+! Flux pairs: S(473), S(566); 
 ! From training reaction 1 used for R6_SSSDS;C_rad_out_H/OneDe;Cpri_rad_out_2H
 ! Exact match found for rate rule [R6_SSSDS;C_rad_out_H/OneDe;Cpri_rad_out_2H]
 ! Euclidian distance = 0
 ! family: Birad_recombination
-S(660)=S(1035)                                      2.000000e+12 0.000     1.800    
+S(473)=S(566)                                       2.000000e+12 0.000     1.800    
 
-! Reaction index: Chemkin #4; RMG #345
+! Reaction index: Chemkin #4; RMG #1325
+! Template reaction: Intra_ene_reaction
+! Flux pairs: S(566), S(681); 
+! Estimated using template [1_3_pentadiene;CH2(C)_1;unsaturated_end] for rate rule [1_3_pentadiene;CH2(C)_1;CdH2_2]
+! Euclidian distance = 1.0
+! Multiplied by reaction path degeneracy 2.0
+! family: Intra_ene_reaction
+S(566)=S(681)                                       9.660000e+08 1.162     44.283   
+
+! Reaction index: Chemkin #5; RMG #2368
+! Template reaction: H_Abstraction
+! Flux pairs: S(644), S(681); S(566), S(644); 
+! Estimated using an average for rate rule [C/H2/CdCs;C_rad/H2/Cd]
+! Euclidian distance = 0
+! Multiplied by reaction path degeneracy 2.0
+! family: H_Abstraction
+S(644)+S(566)=S(644)+S(681)                         9.040000e-03 4.340     11.200   
+
+! Reaction index: Chemkin #6; RMG #345
 ! Template reaction: 1,4_Linear_birad_scission
 ! Flux pairs: S(192), C6H8(111); S(192), C6H8(111); 
 ! Exact match found for rate rule [RJJ]
@@ -350,200 +417,497 @@ S(660)=S(1035)                                      2.000000e+12 0.000     1.800
 ! Ea raised from 0.0 to 1.4 kJ/mol to match endothermicity of reaction.
 S(192)=C6H8(111)+C6H8(111)                          5.000000e+12 0.000     0.338    
 
-! Reaction index: Chemkin #5; RMG #620
-! Template reaction: 1,4_Linear_birad_scission
-! Flux pairs: S(344), C8H10(114); S(344), C6H8(111); 
-! Exact match found for rate rule [RJJ]
-! Euclidian distance = 0
-! family: 1,4_Linear_birad_scission
-! Ea raised from 0.0 to 22.1 kJ/mol to match endothermicity of reaction.
-S(344)=C8H10(114)+C6H8(111)                         5.000000e+12 0.000     5.277    
-
-! Reaction index: Chemkin #6; RMG #644
-! Template reaction: Diels_alder_addition
-! Flux pairs: C6H8(111), S(368); C8H10(114), S(368); 
-! Estimated using template [diene_unsub_unsub_out;diene_in;ene] for rate rule [diene_unsub_unsub_out;diene_in_DeH;ene_2H_De2]
-! Euclidian distance = 2.2360679775
-! Multiplied by reaction path degeneracy 4.0
-! family: Diels_alder_addition
-C8H10(114)+C6H8(111)=S(368)                         6.152942e+08 0.441     24.113   
-
-! Reaction index: Chemkin #7; RMG #3767
-! Template reaction: Birad_recombination
-! Flux pairs: S(344), S(368); 
-! Estimated using template [R6_SSSDS;C_rad_out_single;Cpri_rad_out_2H] for rate rule [R6_SSSDS;C_rad_out_TwoDe;Cpri_rad_out_2H]
-! Euclidian distance = 2.0
-! Multiplied by reaction path degeneracy 2.0
-! family: Birad_recombination
-S(344)=S(368)                                       4.000000e+12 0.000     1.800    
-
-! Reaction index: Chemkin #8; RMG #2764
-! Template reaction: 1,4_Linear_birad_scission
-! Flux pairs: S(1817), S(1035); S(1817), C8H10(114); 
-! Exact match found for rate rule [RJJ]
-! Euclidian distance = 0
-! family: 1,4_Linear_birad_scission
-! Ea raised from 0.0 to 13.2 kJ/mol to match endothermicity of reaction.
-S(1817)=C8H10(114)+S(1035)                          5.000000e+12 0.000     3.163    
-
-! Reaction index: Chemkin #9; RMG #2805
-! Template reaction: Diels_alder_addition
-! Flux pairs: C8H10(114), S(1855); S(1035), S(1855); 
-! Estimated using template [diene_unsub_unsub_out;diene_in;ene] for rate rule [diene_unsub_unsub_out;diene_in_DeH;ene_2H_De2]
-! Euclidian distance = 2.2360679775
-! Multiplied by reaction path degeneracy 2.0
-! family: Diels_alder_addition
-C8H10(114)+S(1035)=S(1855)                          3.076471e+08 0.441     24.113   
-
-! Reaction index: Chemkin #10; RMG #7221
-! Template reaction: Birad_recombination
-! Flux pairs: S(1817), S(1855); 
-! Estimated using template [R6_SSSDS;C_rad_out_single;Cpri_rad_out_2H] for rate rule [R6_SSSDS;C_rad_out_TwoDe;Cpri_rad_out_2H]
-! Euclidian distance = 2.0
-! family: Birad_recombination
-S(1817)=S(1855)                                     2.000000e+12 0.000     1.800    
-
-! Reaction index: Chemkin #11; RMG #2787
-! Template reaction: Diels_alder_addition
-! Flux pairs: S(1035), S(1840); C8H10(114), S(1840); 
-! Estimated using template [diene_unsub_unsub_out;diene_in;ene] for rate rule [diene_unsub_unsub_out;diene_in_NdDe;ene_De2_2H]
-! Euclidian distance = 2.2360679775
-! Multiplied by reaction path degeneracy 2.0
-! family: Diels_alder_addition
-C8H10(114)+S(1035)=S(1840)                          3.076471e+08 0.441     24.113   
-
-! Reaction index: Chemkin #12; RMG #7215
-! Template reaction: Birad_recombination
-! Flux pairs: S(1817), S(1840); 
-! Estimated using template [R6_SSSDS;C_rad_out_single;Cpri_rad_out_2H] for rate rule [R6_SSSDS;C_rad_out_TwoDe;Cpri_rad_out_2H]
-! Euclidian distance = 2.0
-! family: Birad_recombination
-S(1817)=S(1840)                                     2.000000e+12 0.000     1.800    
-
-! Reaction index: Chemkin #13; RMG #8957
-! Template reaction: 6_membered_central_C-C_shift
-! Flux pairs: S(1855), S(1840); 
-! Estimated using template [1_5_unsaturated_hexane] for rate rule [1_5_hexadiene]
-! Euclidian distance = 1.0
-! family: 6_membered_central_C-C_shift
-S(1855)=S(1840)                                     6.211841e+10 0.288     35.146   
-
-! Reaction index: Chemkin #14; RMG #2796
-! Template reaction: Diels_alder_addition
-! Flux pairs: C8H10(114), S(1849); S(1035), S(1849); 
-! Estimated using template [diene_unsub_unsub_out;diene_in;ene] for rate rule [diene_unsub_unsub_out;diene_in_De2;ene_De2_2H]
-! Euclidian distance = 2.2360679775
-! Multiplied by reaction path degeneracy 2.0
-! family: Diels_alder_addition
-C8H10(114)+S(1035)=S(1849)                          3.076471e+08 0.441     24.113   
-DUPLICATE
-
-! Reaction index: Chemkin #15; RMG #2799
-! Template reaction: Diels_alder_addition
-! Flux pairs: C8H10(114), S(1849); S(1035), S(1849); 
-! Estimated using template [diene_unsub_unsub_out;diene_in;ene] for rate rule [diene_unsub_unsub_out;diene_in_De2;ene_2H_De2]
-! Euclidian distance = 2.2360679775
-! family: Diels_alder_addition
-C8H10(114)+S(1035)=S(1849)                          1.538235e+08 0.441     24.113   
-DUPLICATE
-
-! Reaction index: Chemkin #16; RMG #7190
-! Template reaction: Birad_recombination
-! Flux pairs: S(1817), S(1849); 
-! Estimated using template [R6_SSSDS;C_rad_out_single;Cpri_rad_out_2H] for rate rule [R6_SSSDS;C_rad_out_TwoDe;Cpri_rad_out_2H]
-! Euclidian distance = 2.0
-! family: Birad_recombination
-S(1817)=S(1849)                                     2.000000e+12 0.000     1.800    
-
-! Reaction index: Chemkin #17; RMG #12111
-! Template reaction: 6_membered_central_C-C_shift
-! Flux pairs: S(1849), S(1840); 
-! Estimated using template [1_5_unsaturated_hexane] for rate rule [1_5_hexadiene]
-! Euclidian distance = 1.0
-! family: 6_membered_central_C-C_shift
-S(1849)=S(1840)                                     6.211841e+10 0.288     35.146   
-
-! Reaction index: Chemkin #18; RMG #15814
-! Template reaction: Intra_ene_reaction
-! Flux pairs: S(10026), S(1849); 
-! Estimated using template [1_3_pentadiene;CH_end;CdHC_2] for rate rule [1_3_pentadiene;CH3_1;CdHC_2]
-! Euclidian distance = 1.0
-! Multiplied by reaction path degeneracy 3.0
-! family: Intra_ene_reaction
-S(10026)=S(1849)                                    6.375000e+09 0.991     10.983   
-
-! Reaction index: Chemkin #19; RMG #15816
-! Template reaction: Intra_ene_reaction
-! Flux pairs: S(10028), S(1849); 
-! Estimated using template [1_3_pentadiene;CH_end;CdHC_2] for rate rule [1_3_pentadiene;CH3_1;CdHC_2]
-! Euclidian distance = 1.0
-! Multiplied by reaction path degeneracy 3.0
-! family: Intra_ene_reaction
-S(10028)=S(1849)                                    6.375000e+09 0.991     10.983   
-
-! Reaction index: Chemkin #20; RMG #636
-! Template reaction: Diels_alder_addition
-! Flux pairs: C8H10(114), S(360); C6H8(111), S(360); 
-! Estimated using template [diene_unsub_unsub_out;diene_in;ene] for rate rule [diene_unsub_unsub_out;diene_in_De2;ene_De2_2H]
-! Euclidian distance = 2.2360679775
-! Multiplied by reaction path degeneracy 2.0
-! family: Diels_alder_addition
-C8H10(114)+C6H8(111)=S(360)                         3.076471e+08 0.441     24.113   
-
-! Reaction index: Chemkin #21; RMG #3744
-! Template reaction: Birad_recombination
-! Flux pairs: S(344), S(360); 
-! Estimated using template [R6_SSSDS;C_rad_out_single;Cpri_rad_out_2H] for rate rule [R6_SSSDS;C_rad_out_TwoDe;Cpri_rad_out_2H]
-! Euclidian distance = 2.0
-! family: Birad_recombination
-S(344)=S(360)                                       2.000000e+12 0.000     1.800    
-
-! Reaction index: Chemkin #22; RMG #4893
-! Template reaction: 6_membered_central_C-C_shift
-! Flux pairs: S(360), S(368); 
-! Estimated using template [1_5_unsaturated_hexane] for rate rule [1_5_hexadiene]
+! Reaction index: Chemkin #7; RMG #1761
+! Template reaction: intra_H_migration
+! Flux pairs: S(644), S(759); 
+! Estimated using template [R4H_SDS;C_rad_out_single;Cs_H_out_H/(NonDeC/Cs)] for rate rule [R4H_SDS;C_rad_out_2H;Cs_H_out_H/(NonDeC/Cs)]
 ! Euclidian distance = 1.0
 ! Multiplied by reaction path degeneracy 2.0
-! family: 6_membered_central_C-C_shift
-S(360)=S(368)                                       1.242368e+11 0.288     35.146   
+! family: intra_H_migration
+S(644)=S(759)                                       2.000000e+10 0.000     100.000  
 
-! Reaction index: Chemkin #23; RMG #29331
-! Template reaction: Intra_ene_reaction
-! Flux pairs: S(17194), S(360); 
-! Estimated using template [1_3_pentadiene;CH_end;CdHC_2] for rate rule [1_3_pentadiene;CH3_1;CdHC_2]
-! Euclidian distance = 1.0
-! Multiplied by reaction path degeneracy 3.0
-! family: Intra_ene_reaction
-S(17194)=S(360)                                     6.375000e+09 0.991     10.983   
-
-! Reaction index: Chemkin #24; RMG #29333
-! Template reaction: Intra_ene_reaction
-! Flux pairs: S(17196), S(360); 
-! Estimated using template [1_3_pentadiene;CH_end;CdHC_2] for rate rule [1_3_pentadiene;CH3_1;CdHC_2]
-! Euclidian distance = 1.0
-! Multiplied by reaction path degeneracy 3.0
-! family: Intra_ene_reaction
-S(17196)=S(360)                                     6.375000e+09 0.991     10.983   
-
-! Reaction index: Chemkin #25; RMG #2369
-! Template reaction: Intra_ene_reaction
-! Flux pairs: S(1035), S(1630); 
-! Estimated using template [1_3_pentadiene;CH2(C)_1;unsaturated_end] for rate rule [1_3_pentadiene;CH2(C)_1;CdH2_2]
-! Euclidian distance = 1.0
-! Multiplied by reaction path degeneracy 2.0
-! family: Intra_ene_reaction
-S(1035)=S(1630)                                     9.660000e+08 1.162     44.283   
-
-! Reaction index: Chemkin #26; RMG #43745
+! Reaction index: Chemkin #8; RMG #3075
 ! Template reaction: H_Abstraction
-! Flux pairs: S(1593), S(1630); S(1035), S(1593); 
+! Flux pairs: S(644), S(681); S(681), S(759); 
 ! Estimated using an average for rate rule [C/H2/CdCs;C_rad/H2/Cd]
 ! Euclidian distance = 0
 ! Multiplied by reaction path degeneracy 2.0
 ! family: H_Abstraction
-S(1035)+S(1593)=S(1593)+S(1630)                     9.040000e-03 4.340     11.200   
+S(644)+S(681)=S(681)+S(759)                         9.040000e-03 4.340     11.200   
 
-! Reaction index: Chemkin #27; RMG #356
+! Reaction index: Chemkin #9; RMG #3102
+! Template reaction: H_Abstraction
+! Flux pairs: S(566), S(644); S(759), S(681); 
+! Estimated using an average for rate rule [C/H2/CdCs;C_rad/H/CdCs]
+! Euclidian distance = 0
+! Multiplied by reaction path degeneracy 2.0
+! family: H_Abstraction
+S(566)+S(759)=S(644)+S(681)                         4.580000e-03 4.340     11.700   
+
+! Reaction index: Chemkin #10; RMG #2544
+! Template reaction: Intra_ene_reaction
+! Flux pairs: S(681), S(885); 
+! Estimated using template [1_3_pentadiene;CH2(C)_1;unsaturated_end] for rate rule [1_3_pentadiene;CH2(C)_1;CdH2_2]
+! Euclidian distance = 1.0
+! Multiplied by reaction path degeneracy 2.0
+! family: Intra_ene_reaction
+S(681)=S(885)                                       9.660000e+08 1.162     44.283   
+
+! Reaction index: Chemkin #11; RMG #3978
+! Template reaction: H_Abstraction
+! Flux pairs: S(759), S(885); S(566), S(644); 
+! Estimated using an average for rate rule [C/H2/CdCs;C_rad/H2/Cd]
+! Euclidian distance = 0
+! Multiplied by reaction path degeneracy 2.0
+! family: H_Abstraction
+S(566)+S(759)=S(885)+S(644)                         9.040000e-03 4.340     11.200   
+
+! Reaction index: Chemkin #12; RMG #4249
+! Template reaction: H_Abstraction
+! Flux pairs: S(759), S(885); S(681), S(759); 
+! Estimated using an average for rate rule [C/H2/CdCs;C_rad/H2/Cd]
+! Euclidian distance = 0
+! Multiplied by reaction path degeneracy 2.0
+! family: H_Abstraction
+S(681)+S(759)=S(885)+S(759)                         9.040000e-03 4.340     11.200   
+
+! Reaction index: Chemkin #13; RMG #4250
+! Template reaction: H_Abstraction
+! Flux pairs: S(885), S(759); S(644), S(681); 
+! Estimated using an average for rate rule [C/H3/Cd;C_rad/H2/Cd]
+! Euclidian distance = 0
+! Multiplied by reaction path degeneracy 3.0
+! family: H_Abstraction
+S(885)+S(644)=S(681)+S(759)                         4.350000e-03 4.340     13.600   
+
+! Reaction index: Chemkin #14; RMG #4444
+! Template reaction: Intra_ene_reaction
+! Flux pairs: S(1148), S(885); 
+! Estimated using template [1_3_pentadiene;CH_end;CdHC_2] for rate rule [1_3_pentadiene;CH(C)C_1;CdHC_2]
+! Euclidian distance = 1.0
+! Multiplied by reaction path degeneracy 2.0
+! family: Intra_ene_reaction
+S(1148)=S(885)                                      4.250000e+09 0.991     10.983   
+
+! Reaction index: Chemkin #15; RMG #3369
+! Template reaction: intra_H_migration
+! Flux pairs: S(759), S(1021); 
+! Estimated using template [R4H_S(Cd)SS;C_rad_out_2H;Cs_H_out_H/Cd] for rate rule [R4H_S(Cd)SS;C_rad_out_2H;Cs_H_out_H/(Cd-Cd-Cd)]
+! Euclidian distance = 1.0
+! Multiplied by reaction path degeneracy 2.0
+! family: intra_H_migration
+S(759)=S(1021)                                      5.160000e+04 2.040     25.300   
+
+! Reaction index: Chemkin #16; RMG #4974
+! Template reaction: H_Abstraction
+! Flux pairs: S(644), S(681); S(885), S(1021); 
+! Estimated using an average for rate rule [C/H2/CdCs;C_rad/H2/Cd]
+! Euclidian distance = 0
+! Multiplied by reaction path degeneracy 2.0
+! family: H_Abstraction
+S(885)+S(644)=S(1021)+S(681)                        9.040000e-03 4.340     11.200   
+
+! Reaction index: Chemkin #17; RMG #5001
+! Template reaction: H_Abstraction
+! Flux pairs: S(566), S(644); S(1021), S(885); 
+! Estimated using an average for rate rule [C/H2/CdCs;C_rad/H/CdCs]
+! Euclidian distance = 0
+! Multiplied by reaction path degeneracy 4.0
+! family: H_Abstraction
+S(1021)+S(566)=S(885)+S(644)                        9.160000e-03 4.340     11.700   
+
+! Reaction index: Chemkin #18; RMG #5189
+! Template reaction: H_Abstraction
+! Flux pairs: S(759), S(885); S(885), S(1021); 
+! Estimated using an average for rate rule [C/H2/CdCs;C_rad/H2/Cd]
+! Euclidian distance = 0
+! Multiplied by reaction path degeneracy 2.0
+! family: H_Abstraction
+S(885)+S(759)=S(885)+S(1021)                        9.040000e-03 4.340     11.200   
+
+! Reaction index: Chemkin #19; RMG #5216
+! Template reaction: H_Abstraction
+! Flux pairs: S(759), S(681); S(885), S(1021); 
+! Estimated using an average for rate rule [C/H2/CdCs;C_rad/H/CdCs]
+! Euclidian distance = 0
+! Multiplied by reaction path degeneracy 2.0
+! family: H_Abstraction
+S(885)+S(759)=S(1021)+S(681)                        4.580000e-03 4.340     11.700   
+
+! Reaction index: Chemkin #20; RMG #5703
+! Template reaction: H_Abstraction
+! Flux pairs: S(644), S(681); S(1148), S(1021); 
+! Estimated using an average for rate rule [C/H/Cs2Cd;C_rad/H2/Cd]
+! Euclidian distance = 0
+! family: H_Abstraction
+S(1148)+S(644)=S(1021)+S(681)                       2.780000e-03 4.340     8.900    
+
+! Reaction index: Chemkin #21; RMG #5727
+! Template reaction: H_Abstraction
+! Flux pairs: S(644), S(566); S(1148), S(1021); 
+! From training reaction 1088 used for C/H/Cs2Cd;C_rad/H/CdCs
+! Exact match found for rate rule [C/H/Cs2Cd;C_rad/H/CdCs]
+! Euclidian distance = 0
+! family: H_Abstraction
+S(1148)+S(644)=S(1021)+S(566)                       1.150000e-03 4.340     9.300    
+
+! Reaction index: Chemkin #22; RMG #5873
+! Template reaction: H_Abstraction
+! Flux pairs: S(759), S(885); S(1148), S(1021); 
+! Estimated using an average for rate rule [C/H/Cs2Cd;C_rad/H2/Cd]
+! Euclidian distance = 0
+! family: H_Abstraction
+S(1148)+S(759)=S(885)+S(1021)                       2.780000e-03 4.340     8.900    
+
+! Reaction index: Chemkin #23; RMG #5897
+! Template reaction: H_Abstraction
+! Flux pairs: S(759), S(681); S(1148), S(1021); 
+! From training reaction 1088 used for C/H/Cs2Cd;C_rad/H/CdCs
+! Exact match found for rate rule [C/H/Cs2Cd;C_rad/H/CdCs]
+! Euclidian distance = 0
+! family: H_Abstraction
+S(1148)+S(759)=S(1021)+S(681)                       1.150000e-03 4.340     9.300    
+
+! Reaction index: Chemkin #24; RMG #7146
+! Template reaction: H_Abstraction
+! Flux pairs: S(1148), S(1021); S(1021), S(885); 
+! From training reaction 1088 used for C/H/Cs2Cd;C_rad/H/CdCs
+! Exact match found for rate rule [C/H/Cs2Cd;C_rad/H/CdCs]
+! Euclidian distance = 0
+! Multiplied by reaction path degeneracy 2.0
+! family: H_Abstraction
+S(1148)+S(1021)=S(885)+S(1021)                      2.300000e-03 4.340     9.300    
+
+! Reaction index: Chemkin #25; RMG #4440
+! Template reaction: Intra_Disproportionation
+! Flux pairs: S(1144), S(885); 
+! Estimated using template [R5;Y_rad_NDe;XH_Rrad] for rate rule [R5radExo;Y_rad_NDe;XH_Rrad]
+! Euclidian distance = 1.0
+! Multiplied by reaction path degeneracy 4.0
+! family: Intra_Disproportionation
+S(1144)=S(885)                                      1.284000e+10 0.137     2.000    
+
+! Reaction index: Chemkin #26; RMG #8520
+! Template reaction: Intra_Disproportionation
+! Flux pairs: S(1144), S(1464); 
+! Estimated using template [R7;Y_rad_NDe;XH_Rrad] for rate rule [R7radEndo;Y_rad_NDe;XH_Rrad]
+! Euclidian distance = 1.0
+! Multiplied by reaction path degeneracy 6.0
+! family: Intra_Disproportionation
+S(1144)=S(1464)                                     1.926000e+10 0.137     2.000    
+
+! Reaction index: Chemkin #27; RMG #10637
+! Template reaction: H_Abstraction
+! Flux pairs: S(644), S(681); S(1579), S(1598); 
+! Estimated using an average for rate rule [C/H2/CdCd;C_rad/H2/Cd]
+! Euclidian distance = 0
+! Multiplied by reaction path degeneracy 2.0
+! family: H_Abstraction
+S(644)+S(1579)=S(1598)+S(681)                       3.860000e-03 4.340     6.700    
+
+! Reaction index: Chemkin #28; RMG #10664
+! Template reaction: H_Abstraction
+! Flux pairs: S(644), S(566); S(1579), S(1598); 
+! From training reaction 1132 used for C/H2/CdCd;C_rad/H/CdCs
+! Exact match found for rate rule [C/H2/CdCd;C_rad/H/CdCs]
+! Euclidian distance = 0
+! Multiplied by reaction path degeneracy 2.0
+! family: H_Abstraction
+S(644)+S(1579)=S(1598)+S(566)                       1.962000e-03 4.340     6.300    
+
+! Reaction index: Chemkin #29; RMG #10920
+! Template reaction: H_Abstraction
+! Flux pairs: S(759), S(885); S(1579), S(1598); 
+! Estimated using an average for rate rule [C/H2/CdCd;C_rad/H2/Cd]
+! Euclidian distance = 0
+! Multiplied by reaction path degeneracy 2.0
+! family: H_Abstraction
+S(759)+S(1579)=S(885)+S(1598)                       3.860000e-03 4.340     6.700    
+
+! Reaction index: Chemkin #30; RMG #10947
+! Template reaction: H_Abstraction
+! Flux pairs: S(759), S(681); S(1579), S(1598); 
+! From training reaction 1132 used for C/H2/CdCd;C_rad/H/CdCs
+! Exact match found for rate rule [C/H2/CdCd;C_rad/H/CdCs]
+! Euclidian distance = 0
+! Multiplied by reaction path degeneracy 2.0
+! family: H_Abstraction
+S(759)+S(1579)=S(1598)+S(681)                       1.962000e-03 4.340     6.300    
+
+! Reaction index: Chemkin #31; RMG #11269
+! Template reaction: H_Abstraction
+! Flux pairs: S(1021), S(885); S(1579), S(1598); 
+! From training reaction 1132 used for C/H2/CdCd;C_rad/H/CdCs
+! Exact match found for rate rule [C/H2/CdCd;C_rad/H/CdCs]
+! Euclidian distance = 0
+! Multiplied by reaction path degeneracy 4.0
+! family: H_Abstraction
+S(1021)+S(1579)=S(885)+S(1598)                      3.924000e-03 4.340     6.300    
+
+! Reaction index: Chemkin #32; RMG #11296
+! Template reaction: H_Abstraction
+! Flux pairs: S(1148), S(1021); S(1598), S(1579); 
+! From training reaction 1089 used for C/H/Cs2Cd;C_rad/H/CdCd
+! Exact match found for rate rule [C/H/Cs2Cd;C_rad/H/CdCd]
+! Euclidian distance = 0
+! family: H_Abstraction
+S(1598)+S(1148)=S(1021)+S(1579)                     1.460000e-03 4.340     12.900   
+
+! Reaction index: Chemkin #33; RMG #9966
+! Template reaction: Intra_ene_reaction
+! Flux pairs: S(1579), S(1667); 
+! Estimated using template [1_3_pentadiene;CH2(C)_1;unsaturated_end] for rate rule [1_3_pentadiene;CH2(C)_1;CdH2_2]
+! Euclidian distance = 1.0
+! Multiplied by reaction path degeneracy 2.0
+! family: Intra_ene_reaction
+S(1579)=S(1667)                                     9.660000e+08 1.162     44.283   
+
+! Reaction index: Chemkin #34; RMG #12425
+! Template reaction: H_Abstraction
+! Flux pairs: S(1598), S(1667); S(566), S(644); 
+! Estimated using an average for rate rule [C/H2/CdCs;C_rad/H2/Cd]
+! Euclidian distance = 0
+! Multiplied by reaction path degeneracy 2.0
+! family: H_Abstraction
+S(1598)+S(566)=S(644)+S(1667)                       9.040000e-03 4.340     11.200   
+
+! Reaction index: Chemkin #35; RMG #12785
+! Template reaction: H_Abstraction
+! Flux pairs: S(1667), S(1598); S(759), S(681); 
+! Estimated using an average for rate rule [C/H3/Cd;C_rad/H/CdCs]
+! Euclidian distance = 0
+! Multiplied by reaction path degeneracy 3.0
+! family: H_Abstraction
+S(759)+S(1667)=S(1598)+S(681)                       2.691000e-03 4.340     14.300   
+
+! Reaction index: Chemkin #36; RMG #12786
+! Template reaction: H_Abstraction
+! Flux pairs: S(1667), S(1598); S(644), S(681); 
+! Estimated using an average for rate rule [C/H3/Cd;C_rad/H2/Cd]
+! Euclidian distance = 0
+! Multiplied by reaction path degeneracy 3.0
+! family: H_Abstraction
+S(644)+S(1667)=S(1598)+S(681)                       4.350000e-03 4.340     13.600   
+
+! Reaction index: Chemkin #37; RMG #13171
+! Template reaction: H_Abstraction
+! Flux pairs: S(1598), S(1667); S(885), S(1021); 
+! Estimated using an average for rate rule [C/H2/CdCs;C_rad/H2/Cd]
+! Euclidian distance = 0
+! Multiplied by reaction path degeneracy 2.0
+! family: H_Abstraction
+S(885)+S(1598)=S(1021)+S(1667)                      9.040000e-03 4.340     11.200   
+
+! Reaction index: Chemkin #38; RMG #13172
+! Template reaction: H_Abstraction
+! Flux pairs: S(1667), S(1598); S(759), S(885); 
+! Estimated using an average for rate rule [C/H3/Cd;C_rad/H2/Cd]
+! Euclidian distance = 0
+! Multiplied by reaction path degeneracy 3.0
+! family: H_Abstraction
+S(759)+S(1667)=S(885)+S(1598)                       4.350000e-03 4.340     13.600   
+
+! Reaction index: Chemkin #39; RMG #13297
+! Template reaction: H_Abstraction
+! Flux pairs: S(1598), S(1667); S(1148), S(1021); 
+! Estimated using an average for rate rule [C/H/Cs2Cd;C_rad/H2/Cd]
+! Euclidian distance = 0
+! family: H_Abstraction
+S(1598)+S(1148)=S(1021)+S(1667)                     2.780000e-03 4.340     8.900    
+
+! Reaction index: Chemkin #40; RMG #14031
+! Template reaction: H_Abstraction
+! Flux pairs: S(1598), S(1667); S(1579), S(1598); 
+! Estimated using an average for rate rule [C/H2/CdCd;C_rad/H2/Cd]
+! Euclidian distance = 0
+! Multiplied by reaction path degeneracy 2.0
+! family: H_Abstraction
+S(1598)+S(1579)=S(1598)+S(1667)                     3.860000e-03 4.340     6.700    
+
+! Reaction index: Chemkin #41; RMG #3402
+! Template reaction: Intra_R_Add_Endocyclic
+! Flux pairs: S(1047), S(759); 
+! Estimated using an average for rate rule [R6_SSM_D;doublebond_intra_pri_2H;radadd_intra_csHCd]
+! Euclidian distance = 0
+! family: Intra_R_Add_Endocyclic
+S(1047)=S(759)                                      5.899837e+01 3.303     14.303   
+
+! Reaction index: Chemkin #42; RMG #16934
+! Template reaction: H_Abstraction
+! Flux pairs: S(2029), S(1047); S(644), S(566); 
+! From training reaction 1440 used for C/H3/Cb;C_rad/H/CdCs
+! Exact match found for rate rule [C/H3/Cb;C_rad/H/CdCs]
+! Euclidian distance = 0
+! Multiplied by reaction path degeneracy 3.0
+! family: H_Abstraction
+S(644)+S(2029)=S(1047)+S(566)                       2.283000e-03 4.340     16.100   
+
+! Reaction index: Chemkin #43; RMG #17240
+! Template reaction: H_Abstraction
+! Flux pairs: S(2029), S(1047); S(759), S(681); 
+! From training reaction 1440 used for C/H3/Cb;C_rad/H/CdCs
+! Exact match found for rate rule [C/H3/Cb;C_rad/H/CdCs]
+! Euclidian distance = 0
+! Multiplied by reaction path degeneracy 3.0
+! family: H_Abstraction
+S(759)+S(2029)=S(681)+S(1047)                       2.283000e-03 4.340     16.100   
+
+! Reaction index: Chemkin #44; RMG #17241
+! Template reaction: H_Abstraction
+! Flux pairs: S(1047), S(2029); S(681), S(644); 
+! Estimated using an average for rate rule [C/H3/Cd;C_rad/H2/Cb]
+! Euclidian distance = 0
+! Multiplied by reaction path degeneracy 3.0
+! family: H_Abstraction
+S(681)+S(1047)=S(644)+S(2029)                       4.020000e-03 4.340     11.500   
+
+! Reaction index: Chemkin #45; RMG #17572
+! Template reaction: H_Abstraction
+! Flux pairs: S(2029), S(1047); S(1021), S(885); 
+! From training reaction 1440 used for C/H3/Cb;C_rad/H/CdCs
+! Exact match found for rate rule [C/H3/Cb;C_rad/H/CdCs]
+! Euclidian distance = 0
+! Multiplied by reaction path degeneracy 6.0
+! family: H_Abstraction
+! Ea raised from 69.4 to 72.0 kJ/mol to match endothermicity of reaction.
+S(1021)+S(2029)=S(885)+S(1047)                      4.566000e-03 4.340     17.217   
+
+! Reaction index: Chemkin #46; RMG #17573
+! Template reaction: H_Abstraction
+! Flux pairs: S(1047), S(2029); S(885), S(759); 
+! Estimated using an average for rate rule [C/H3/Cd;C_rad/H2/Cb]
+! Euclidian distance = 0
+! Multiplied by reaction path degeneracy 3.0
+! family: H_Abstraction
+S(885)+S(1047)=S(759)+S(2029)                       4.020000e-03 4.340     11.500   
+
+! Reaction index: Chemkin #47; RMG #17682
+! Template reaction: H_Abstraction
+! Flux pairs: S(1047), S(2029); S(1148), S(1021); 
+! From training reaction 1096 used for C/H/Cs2Cd;C_rad/H2/Cb
+! Exact match found for rate rule [C/H/Cs2Cd;C_rad/H2/Cb]
+! Euclidian distance = 0
+! family: H_Abstraction
+S(1148)+S(1047)=S(1021)+S(2029)                     2.580000e-03 4.340     6.800    
+
+! Reaction index: Chemkin #48; RMG #18292
+! Template reaction: H_Abstraction
+! Flux pairs: S(1047), S(2029); S(1579), S(1598); 
+! From training reaction 1140 used for C/H2/CdCd;C_rad/H2/Cb
+! Exact match found for rate rule [C/H2/CdCd;C_rad/H2/Cb]
+! Euclidian distance = 0
+! Multiplied by reaction path degeneracy 2.0
+! family: H_Abstraction
+S(1047)+S(1579)=S(1598)+S(2029)                     3.580000e-03 4.340     4.600    
+
+! Reaction index: Chemkin #49; RMG #18696
+! Template reaction: H_Abstraction
+! Flux pairs: S(1047), S(2029); S(1667), S(1598); 
+! Estimated using an average for rate rule [C/H3/Cd;C_rad/H2/Cb]
+! Euclidian distance = 0
+! Multiplied by reaction path degeneracy 3.0
+! family: H_Abstraction
+S(1047)+S(1667)=S(1598)+S(2029)                     4.020000e-03 4.340     11.500   
+
+! Reaction index: Chemkin #50; RMG #14208
+! Template reaction: Intra_Disproportionation
+! Flux pairs: S(1855), S(1667); 
+! From training reaction 0 used for R2radExo;Y_rad_De;XH_Rrad_NDe
+! Exact match found for rate rule [R2radExo;Y_rad_De;XH_Rrad_NDe]
+! Euclidian distance = 0
+! Multiplied by reaction path degeneracy 2.0
+! family: Intra_Disproportionation
+S(1855)=S(1667)                                     3.898000e+11 0.486     5.464    
+
+! Reaction index: Chemkin #51; RMG #23315
+! Template reaction: Birad_recombination
+! Flux pairs: S(1855), S(2331); 
+! Estimated using template [Rn;C_rad_out_H/OneDe;Cpri_rad_out_2H] for rate rule [R5_SSDS;C_rad_out_H/OneDe;Cpri_rad_out_2H]
+! Euclidian distance = 2.0
+! family: Birad_recombination
+S(1855)=S(2331)                                     2.000000e+12 0.000     1.800    
+
+! Reaction index: Chemkin #52; RMG #24922
+! Template reaction: H_Abstraction
+! Flux pairs: S(644), S(681); S(2331), S(2442); 
+! Estimated using an average for rate rule [C/H/CdCd;C_rad/H2/Cd]
+! Euclidian distance = 0
+! family: H_Abstraction
+S(644)+S(2331)=S(681)+S(2442)                       7.840000e-04 4.340     17.400   
+
+! Reaction index: Chemkin #53; RMG #24946
+! Template reaction: H_Abstraction
+! Flux pairs: S(644), S(566); S(2331), S(2442); 
+! From training reaction 1176 used for C/H/CdCd;C_rad/H/CdCs
+! Exact match found for rate rule [C/H/CdCd;C_rad/H/CdCs]
+! Euclidian distance = 0
+! family: H_Abstraction
+S(644)+S(2331)=S(566)+S(2442)                       3.260000e-04 4.340     14.560   
+
+! Reaction index: Chemkin #54; RMG #25158
+! Template reaction: H_Abstraction
+! Flux pairs: S(759), S(885); S(2331), S(2442); 
+! Estimated using an average for rate rule [C/H/CdCd;C_rad/H2/Cd]
+! Euclidian distance = 0
+! family: H_Abstraction
+S(759)+S(2331)=S(885)+S(2442)                       7.840000e-04 4.340     17.400   
+
+! Reaction index: Chemkin #55; RMG #25182
+! Template reaction: H_Abstraction
+! Flux pairs: S(759), S(681); S(2331), S(2442); 
+! From training reaction 1176 used for C/H/CdCd;C_rad/H/CdCs
+! Exact match found for rate rule [C/H/CdCd;C_rad/H/CdCs]
+! Euclidian distance = 0
+! family: H_Abstraction
+S(759)+S(2331)=S(681)+S(2442)                       3.260000e-04 4.340     14.560   
+
+! Reaction index: Chemkin #56; RMG #25446
+! Template reaction: H_Abstraction
+! Flux pairs: S(1021), S(885); S(2331), S(2442); 
+! From training reaction 1176 used for C/H/CdCd;C_rad/H/CdCs
+! Exact match found for rate rule [C/H/CdCd;C_rad/H/CdCs]
+! Euclidian distance = 0
+! Multiplied by reaction path degeneracy 2.0
+! family: H_Abstraction
+S(1021)+S(2331)=S(885)+S(2442)                      6.520000e-04 4.340     14.560   
+
+! Reaction index: Chemkin #57; RMG #25470
+! Template reaction: H_Abstraction
+! Flux pairs: S(1148), S(1021); S(2442), S(2331); 
+! From training reaction 1090 used for C/H/Cs2Cd;C_rad/CdCdCs
+! Exact match found for rate rule [C/H/Cs2Cd;C_rad/CdCdCs]
+! Euclidian distance = 0
+! family: H_Abstraction
+S(1148)+S(2442)=S(1021)+S(2331)                     4.370000e-05 4.340     11.900   
+
+! Reaction index: Chemkin #58; RMG #25910
+! Template reaction: H_Abstraction
+! Flux pairs: S(1579), S(1598); S(2442), S(2331); 
+! From training reaction 1134 used for C/H2/CdCd;C_rad/CdCdCs
+! Exact match found for rate rule [C/H2/CdCd;C_rad/CdCdCs]
+! Euclidian distance = 0
+! Multiplied by reaction path degeneracy 2.0
+! family: H_Abstraction
+S(1579)+S(2442)=S(1598)+S(2331)                     2.880000e-05 4.340     7.200    
+
+! Reaction index: Chemkin #59; RMG #25942
+! Template reaction: H_Abstraction
+! Flux pairs: S(1598), S(1667); S(2331), S(2442); 
+! Estimated using an average for rate rule [C/H/CdCd;C_rad/H2/Cd]
+! Euclidian distance = 0
+! family: H_Abstraction
+S(1598)+S(2331)=S(2442)+S(1667)                     7.840000e-04 4.340     17.400   
+
+! Reaction index: Chemkin #60; RMG #26174
+! Template reaction: H_Abstraction
+! Flux pairs: S(1047), S(2029); S(2331), S(2442); 
+! From training reaction 1184 used for C/H/CdCd;C_rad/H2/Cb
+! Exact match found for rate rule [C/H/CdCd;C_rad/H2/Cb]
+! Euclidian distance = 0
+! family: H_Abstraction
+S(1047)+S(2331)=S(2442)+S(2029)                     7.270000e-04 4.340     14.812   
+
+! Reaction index: Chemkin #61; RMG #356
 ! Template reaction: Diels_alder_addition
 ! Flux pairs: C6H8(111), S(203); C6H8(111), S(203); 
 ! Estimated using template [diene_unsub_unsub_out;diene_in;ene] for rate rule [diene_unsub_unsub_out;diene_in_HDe;ene_De2_2H]
@@ -553,7 +917,7 @@ S(1035)+S(1593)=S(1593)+S(1630)                     9.040000e-03 4.340     11.20
 C6H8(111)+C6H8(111)=S(203)                          3.076471e+08 0.441     24.113   
 DUPLICATE
 
-! Reaction index: Chemkin #28; RMG #359
+! Reaction index: Chemkin #62; RMG #359
 ! Template reaction: Diels_alder_addition
 ! Flux pairs: C6H8(111), S(203); C6H8(111), S(203); 
 ! Estimated using template [diene_unsub_unsub_out;diene_in;ene] for rate rule [diene_unsub_unsub_out;diene_in_DeH;ene_2H_De2]
@@ -562,7 +926,7 @@ DUPLICATE
 C6H8(111)+C6H8(111)=S(203)                          1.538235e+08 0.441     24.113   
 DUPLICATE
 
-! Reaction index: Chemkin #29; RMG #3342
+! Reaction index: Chemkin #63; RMG #3186
 ! Template reaction: Birad_recombination
 ! Flux pairs: S(192), S(203); 
 ! Estimated using template [R6_SSSDS;C_rad_out_single;Cpri_rad_out_2H] for rate rule [R6_SSSDS;C_rad_out_TwoDe;Cpri_rad_out_2H]
@@ -571,13 +935,106 @@ DUPLICATE
 ! family: Birad_recombination
 S(192)=S(203)                                       8.000000e+12 0.000     1.800    
 
-! Reaction index: Chemkin #30; RMG #2644
-! Template reaction: 1,4_Linear_birad_scission
-! Flux pairs: S(1749), S(1035); S(1749), C6H8(111); 
-! Exact match found for rate rule [RJJ]
+! Reaction index: Chemkin #64; RMG #21602
+! Template reaction: H_Abstraction
+! Flux pairs: S(644), S(681); S(1007), S(2161); 
+! Estimated using an average for rate rule [C/H2/CdCs;C_rad/H2/Cd]
 ! Euclidian distance = 0
-! family: 1,4_Linear_birad_scission
-S(1749)=C6H8(111)+S(1035)                           5.000000e+12 0.000     0.000    
+! Multiplied by reaction path degeneracy 2.0
+! family: H_Abstraction
+S(644)+S(1007)=S(681)+S(2161)                       9.040000e-03 4.340     11.200   
+
+! Reaction index: Chemkin #65; RMG #21626
+! Template reaction: H_Abstraction
+! Flux pairs: S(566), S(644); S(2161), S(1007); 
+! Estimated using an average for rate rule [C/H2/CdCs;C_rad/H/CdCs]
+! Euclidian distance = 0
+! Multiplied by reaction path degeneracy 2.0
+! family: H_Abstraction
+S(566)+S(2161)=S(644)+S(1007)                       4.580000e-03 4.340     11.700   
+
+! Reaction index: Chemkin #66; RMG #21866
+! Template reaction: H_Abstraction
+! Flux pairs: S(759), S(885); S(1007), S(2161); 
+! Estimated using an average for rate rule [C/H2/CdCs;C_rad/H2/Cd]
+! Euclidian distance = 0
+! Multiplied by reaction path degeneracy 2.0
+! family: H_Abstraction
+S(1007)+S(759)=S(885)+S(2161)                       9.040000e-03 4.340     11.200   
+
+! Reaction index: Chemkin #67; RMG #21890
+! Template reaction: H_Abstraction
+! Flux pairs: S(681), S(759); S(2161), S(1007); 
+! Estimated using an average for rate rule [C/H2/CdCs;C_rad/H/CdCs]
+! Euclidian distance = 0
+! Multiplied by reaction path degeneracy 2.0
+! family: H_Abstraction
+S(681)+S(2161)=S(1007)+S(759)                       4.580000e-03 4.340     11.700   
+
+! Reaction index: Chemkin #68; RMG #22194
+! Template reaction: H_Abstraction
+! Flux pairs: S(885), S(1021); S(2161), S(1007); 
+! Estimated using an average for rate rule [C/H2/CdCs;C_rad/H/CdCs]
+! Euclidian distance = 0
+! Multiplied by reaction path degeneracy 2.0
+! family: H_Abstraction
+S(885)+S(2161)=S(1021)+S(1007)                      4.580000e-03 4.340     11.700   
+
+! Reaction index: Chemkin #69; RMG #22218
+! Template reaction: H_Abstraction
+! Flux pairs: S(1148), S(1021); S(2161), S(1007); 
+! From training reaction 1088 used for C/H/Cs2Cd;C_rad/H/CdCs
+! Exact match found for rate rule [C/H/Cs2Cd;C_rad/H/CdCs]
+! Euclidian distance = 0
+! family: H_Abstraction
+S(1148)+S(2161)=S(1021)+S(1007)                     1.150000e-03 4.340     9.300    
+
+! Reaction index: Chemkin #70; RMG #22722
+! Template reaction: H_Abstraction
+! Flux pairs: S(1579), S(1598); S(2161), S(1007); 
+! From training reaction 1132 used for C/H2/CdCd;C_rad/H/CdCs
+! Exact match found for rate rule [C/H2/CdCd;C_rad/H/CdCs]
+! Euclidian distance = 0
+! Multiplied by reaction path degeneracy 2.0
+! family: H_Abstraction
+S(1579)+S(2161)=S(1598)+S(1007)                     1.962000e-03 4.340     6.300    
+
+! Reaction index: Chemkin #71; RMG #22746
+! Template reaction: H_Abstraction
+! Flux pairs: S(1667), S(1598); S(2161), S(1007); 
+! Estimated using an average for rate rule [C/H3/Cd;C_rad/H/CdCs]
+! Euclidian distance = 0
+! Multiplied by reaction path degeneracy 3.0
+! family: H_Abstraction
+S(2161)+S(1667)=S(1598)+S(1007)                     2.691000e-03 4.340     14.300   
+
+! Reaction index: Chemkin #72; RMG #23018
+! Template reaction: H_Abstraction
+! Flux pairs: S(2029), S(1047); S(2161), S(1007); 
+! From training reaction 1440 used for C/H3/Cb;C_rad/H/CdCs
+! Exact match found for rate rule [C/H3/Cb;C_rad/H/CdCs]
+! Euclidian distance = 0
+! Multiplied by reaction path degeneracy 3.0
+! family: H_Abstraction
+S(2161)+S(2029)=S(1047)+S(1007)                     2.283000e-03 4.340     16.100   
+
+! Reaction index: Chemkin #73; RMG #29428
+! Template reaction: H_Abstraction
+! Flux pairs: S(2331), S(2442); S(2161), S(1007); 
+! From training reaction 1176 used for C/H/CdCd;C_rad/H/CdCs
+! Exact match found for rate rule [C/H/CdCd;C_rad/H/CdCs]
+! Euclidian distance = 0
+! family: H_Abstraction
+S(2161)+S(2331)=S(1007)+S(2442)                     3.260000e-04 4.340     14.560   
+
+! Reaction index: Chemkin #74; RMG #32302
+! Template reaction: Intra_R_Add_Endocyclic
+! Flux pairs: S(2789), S(2161); 
+! From training reaction 94 used for R6_SSM_D;doublebond_intra_pri_2H;radadd_intra_csH(CdCdCd)
+! Exact match found for rate rule [R6_SSM_D;doublebond_intra_pri_2H;radadd_intra_csH(CdCdCd)]
+! Euclidian distance = 0
+! family: Intra_R_Add_Endocyclic
+S(2789)=S(2161)                                     5.899837e+01 3.303     14.303   
 
 END
 

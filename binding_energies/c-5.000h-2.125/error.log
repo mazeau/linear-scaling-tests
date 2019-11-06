@@ -1,0 +1,16 @@
+Using Theano backend.
+Traceback (most recent call last):
+  File "/scratch/westgroup/mazeau/Cat/RMG-Py/rmg.py", line 173, in <module>
+    main()
+  File "/scratch/westgroup/mazeau/Cat/RMG-Py/rmg.py", line 158, in main
+    cProfile.runctx(command, global_vars, local_vars, stats_file)
+  File "/home/mazeau.e/anaconda2/envs/rmg_env3/lib/python2.7/cProfile.py", line 54, in runctx
+    prof.dump_stats(filename)
+  File "/home/mazeau.e/anaconda2/envs/rmg_env3/lib/python2.7/cProfile.py", line 86, in dump_stats
+    self.create_stats()
+  File "/home/mazeau.e/anaconda2/envs/rmg_env3/lib/python2.7/cProfile.py", line 92, in create_stats
+    self.snapshot_stats()
+  File "/home/mazeau.e/anaconda2/envs/rmg_env3/lib/python2.7/cProfile.py", line 106, in snapshot_stats
+    callersdicts[id(entry.code)] = callers
+MemoryError
+slurmstepd: error: *** JOB 7635495 ON c0543 CANCELLED AT 2019-11-06T16:10:50 DUE TO TIME LIMIT ***

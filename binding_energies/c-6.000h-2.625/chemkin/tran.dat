@@ -1,0 +1,297 @@
+! Species         Shape    LJ-depth  LJ-diam   DiplMom   Polzblty  RotRelaxNum Data     
+! Name            Index    epsilon/k_B sigma     mu        alpha     Zrot      Source   
+n-heptane           2     402.997     6.366     0.000     0.000     0.000    ! Epsilon & sigma estimated with Tc=523.37 K, Pc=29.47 bar (from Joback method)
+Ar                  0     136.500     3.330     0.000     0.000     0.000    ! NOx2018
+He                  0      10.200     2.576     0.000     0.000     0.000    ! NOx2018
+Ne                  0     148.600     3.758     0.000     0.000     0.000    ! Epsilon & sigma estimated with fixed Lennard Jones Parameters. This is the fallback method! Try improving transport databases!
+N2                  1      97.530     3.621     0.000     1.760     4.000    ! PrimaryTransportLibrary
+! X(1)                None
+C2H4(2)             2     280.800     3.971     0.000     0.000     1.500    ! NOx2018
+C4H8-1(3)           2     357.002     5.176     0.000     0.000     1.000    ! GRI-Mech
+C4H8-2(4)           2     359.053     5.289     0.000     0.000     0.000    ! Epsilon & sigma estimated with Tc=466.30 K, Pc=45.78 bar (from Joback method)
+! HX(5)               None
+! C2H3X(37)           None
+C4H6(7)             2     357.002     5.180     0.000     0.000     1.000    ! GRI-Mech
+H2(68)              1      59.700     2.833     0.000     0.000     0.000    ! PrimaryTransportLibrary
+! C4H5X(81)           None
+C6H8(9)             2     396.052     5.514     0.000     0.000     0.000    ! Epsilon & sigma estimated with Tc=514.35 K, Pc=44.56 bar (from Joback method)
+! C4H5X(80)           None
+S(181)              2     525.848     7.393     0.000     0.000     0.000    ! Epsilon & sigma estimated with Tc=682.92 K, Pc=24.56 bar (from Joback method)
+S(185)              2     537.302     7.465     0.000     0.000     0.000    ! Epsilon & sigma estimated with Tc=697.79 K, Pc=24.36 bar (from Joback method)
+S(264)              2     560.334     7.761     0.000     0.000     0.000    ! Epsilon & sigma estimated with Tc=727.71 K, Pc=22.61 bar (from Joback method)
+S(244)              2     546.416     7.591     0.000     0.000     0.000    ! Epsilon & sigma estimated with Tc=709.63 K, Pc=23.56 bar (from Joback method)
+! C6H9X(192)          None
+C8H12(652)          2     423.433     6.098     0.000     0.000     0.000    ! Epsilon & sigma estimated with Tc=549.91 K, Pc=35.22 bar (from Joback method)
+C6H10(651)          2     388.080     5.673     0.000     0.000     0.000    ! Epsilon & sigma estimated with Tc=504.00 K, Pc=40.11 bar (from Joback method)
+! SX(197)             None
+! SX(706)             None
+! SX(198)             None
+! SX(708)             None
+! SX(950)             None
+! SX(711)             None
+! SX(977)             None
+S(1018)             2     426.137     6.124     0.000     0.000     0.000    ! Epsilon & sigma estimated with Tc=553.42 K, Pc=35.01 bar (from Joback method)
+! SX(991)             None
+! SX(990)             None
+! SX(160)             None
+! SX(989)             None
+! SX(1208)            None
+! C6H9X(642)          None
+! SX(1237)            None
+! SX(1261)            None
+! SX(1260)            None
+! SX(1259)            None
+! SX(1069)            None
+! C6H9X(824)          None
+! C6H9X(822)          None
+! C6H9X(823)          None
+! SX(1429)            None
+! C6H9X(159)          None
+! SX(1428)            None
+! SX(1517)            None
+! SX(1550)            None
+S(163)              2     483.690     6.911     0.000     0.000     0.000    ! Epsilon & sigma estimated with Tc=628.17 K, Pc=27.64 bar (from Joback method)
+! SX(1402)            None
+S(1771)             2     425.761     6.328     0.000     0.000     0.000    ! Epsilon & sigma estimated with Tc=552.94 K, Pc=31.7 bar (from Joback method)
+! C5H7X(645)          None
+! C6H9X(98)           None
+! CH3X(39)            None
+CH4(1890)           2     141.400     3.746     0.000     2.600    13.000    ! NOx2018
+! SX(1210)            None
+! SX(1195)            None
+! C2H5X(40)           None
+C2H6(1953)          2     252.300     4.302     0.000     0.000     1.500    ! NOx2018
+! SX(1331)            None
+S(2058)             2     426.003     6.336     0.000     0.000     0.000    ! Epsilon & sigma estimated with Tc=553.25 K, Pc=31.6 bar (from Joback method)
+! SX(1213)            None
+S(2052)             2     460.110     6.756     0.000     0.000     0.000    ! Epsilon & sigma estimated with Tc=597.55 K, Pc=28.14 bar (from Joback method)
+! C4H7X(43)           None
+! C4H7X(41)           None
+! C4H7X(44)           None
+! SX(1067)            None
+! C4H7X(42)           None
+C4H8(2491)          2     351.146     5.238     0.000     0.000     0.000    ! Epsilon & sigma estimated with Tc=456.03 K, Pc=46.09 bar (from Joback method)
+! SX(1955)            None
+! SX(1183)            None
+S(2050)             2     461.060     6.775     0.000     0.000     0.000    ! Epsilon & sigma estimated with Tc=598.78 K, Pc=27.97 bar (from Joback method)
+! SX(1490)            None
+S(2063)             2     433.303     6.384     0.000     0.000     0.000    ! Epsilon & sigma estimated with Tc=562.73 K, Pc=31.42 bar (from Joback method)
+! SX(1459)            None
+! SX(1991)            None
+S(1952)             2     406.016     5.997     0.000     0.000     0.000    ! Epsilon & sigma estimated with Tc=527.29 K, Pc=35.52 bar (from Joback method)
+S(889)              2     518.576     7.554     0.000     0.000     0.000    ! Epsilon & sigma estimated with Tc=673.47 K, Pc=22.7 bar (from Joback method)
+S(1382)             2     433.470     6.171     0.000     0.000     0.000    ! Epsilon & sigma estimated with Tc=562.95 K, Pc=34.81 bar (from Joback method)
+! SX(3108)            None
+S(3144)             2     433.055     6.376     0.000     0.000     0.000    ! Epsilon & sigma estimated with Tc=562.41 K, Pc=31.53 bar (from Joback method)
+! SX(420)             None
+! SX(418)             None
+! SX(417)             None
+! SX(413)             None
+! SX(3743)            None
+! SX(407)             None
+! SX(409)             None
+! SX(415)             None
+! SX(412)             None
+! SX(3762)            None
+! SX(3756)            None
+! SX(3755)            None
+! SX(3775)            None
+! SX(3776)            None
+! SX(3777)            None
+! SX(3748)            None
+! SX(3829)            None
+! SX(3837)            None
+! SX(3836)            None
+! SX(3828)            None
+! SX(3827)            None
+! SX(3835)            None
+! SX(3862)            None
+! SX(3876)            None
+! SX(3875)            None
+! SX(410)             None
+! SX(3812)            None
+! SX(3792)            None
+! SX(3912)            None
+! SX(3911)            None
+! SX(3804)            None
+! SX(3785)            None
+! SX(3939)            None
+! SX(3938)            None
+! SX(3763)            None
+! SX(3803)            None
+! SX(3813)            None
+! SX(419)             None
+! SX(3747)            None
+! SX(3985)            None
+! SX(3863)            None
+! SX(3998)            None
+! SX(3997)            None
+! SX(3933)            None
+! SX(3786)            None
+! SX(4012)            None
+! SX(4011)            None
+! SX(4016)            None
+! SX(4023)            None
+! SX(4010)            None
+! SX(4015)            None
+! SX(553)             None
+! SX(552)             None
+! SX(550)             None
+! SX(545)             None
+! SX(4045)            None
+! SX(541)             None
+! SX(543)             None
+! SX(547)             None
+! SX(4061)            None
+! SX(4057)            None
+! SX(4056)            None
+! SX(542)             None
+! SX(4069)            None
+! SX(4097)            None
+! SX(4095)            None
+C7H8(4108)          2     455.131     6.183     0.000     0.000     0.000    ! Epsilon & sigma estimated with Tc=591.08 K, Pc=36.33 bar (from Joback method)
+! SX(4100)            None
+! SX(3106)            None
+! SX(4070)            None
+! SX(4050)            None
+! SX(4049)            None
+! SX(4464)            None
+! SX(4399)            None
+! SX(4398)            None
+! SX(4473)            None
+! SX(4592)            None
+! SX(4351)            None
+S(2987)             2     413.195     6.037     0.000     0.000     0.000    ! Epsilon & sigma estimated with Tc=536.62 K, Pc=35.43 bar (from Joback method)
+C7H7(4115)          2     399.300     5.949     0.000     0.000     0.000    ! Epsilon & sigma estimated with fixed Lennard Jones Parameters. This is the fallback method! Try improving transport databases!
+C6H9(136)           2     406.008     5.795     0.000     0.000     0.000    ! Epsilon & sigma estimated with Tc=527.28 K, Pc=39.36 bar (from Joback method)
+! SX(4159)            None
+! SX(4160)            None
+! SX(5651)            None
+! SX(1520)            None
+S(2061)             2     433.055     6.376     0.000     0.000     0.000    ! Epsilon & sigma estimated with Tc=562.41 K, Pc=31.53 bar (from Joback method)
+C5H8c(817)          2     369.973     5.354     0.000     0.000     0.000    ! Epsilon & sigma estimated with Tc=480.48 K, Pc=45.47 bar (from Joback method)
+! SX(414)             None
+! SX(411)             None
+! SX(3772)            None
+! SX(6353)            None
+S(3479)             2     518.576     7.554     0.000     0.000     0.000    ! Epsilon & sigma estimated with Tc=673.47 K, Pc=22.7 bar (from Joback method)
+S(3476)             2     518.576     7.554     0.000     0.000     0.000    ! Epsilon & sigma estimated with Tc=673.47 K, Pc=22.7 bar (from Joback method)
+! SX(3884)            None
+! SX(3883)            None
+! SX(6630)            None
+! SX(6637)            None
+! SX(6640)            None
+! SX(1066)            None
+! allylX(38)          None
+! C3H5X(45)           None
+C3H6(32)            2     266.801     4.982     0.000     0.000     1.000    ! GRI-Mech
+! SX(3771)            None
+! SX(7369)            None
+! SX(7378)            None
+! SX(7376)            None
+! SX(7368)            None
+! SX(7367)            None
+! SX(7406)            None
+! SX(7405)            None
+! SX(7424)            None
+! SX(7423)            None
+! SX(7386)            None
+! SX(7385)            None
+! SX(7443)            None
+! SX(7450)            None
+! SX(7384)            None
+! SX(7456)            None
+! SX(7383)            None
+! SX(3849)            None
+! SX(7468)            None
+! SX(1073)            None
+! SX(1070)            None
+! SX(7497)            None
+S(2346)             2     462.476     6.773     0.000     0.000     0.000    ! Epsilon & sigma estimated with Tc=600.62 K, Pc=28.08 bar (from Joback method)
+! SX(3882)            None
+! SX(7606)            None
+! SX(7605)            None
+! SX(7613)            None
+! SX(7626)            None
+! SX(7625)            None
+! SX(3881)            None
+! SX(7635)            None
+! SX(3767)            None
+! SX(3766)            None
+! SX(7658)            None
+! SX(3770)            None
+! SX(7668)            None
+! SX(1763)            None
+! SX(7678)            None
+! SX(7706)            None
+! SX(7705)            None
+! SX(7753)            None
+! SX(7757)            None
+S(7766)             2     463.304     7.002     0.000     0.000     0.000    ! Epsilon & sigma estimated with Tc=601.69 K, Pc=25.46 bar (from Joback method)
+! SX(1790)            None
+! SX(7883)            None
+! SX(3472)            None
+! SX(1378)            None
+! SX(7882)            None
+! SX(5770)            None
+! SX(5771)            None
+! SX(7909)            None
+! SX(8047)            None
+S(8057)             2     469.212     7.023     0.000     0.000     0.000    ! Epsilon & sigma estimated with Tc=609.37 K, Pc=25.56 bar (from Joback method)
+S(2959)             2     443.042     6.448     0.000     0.000     0.000    ! Epsilon & sigma estimated with Tc=575.38 K, Pc=31.18 bar (from Joback method)
+! SX(2994)            None
+! SX(2995)            None
+! SX(110)             None
+! SX(2646)            None
+! SX(109)             None
+! SX(2997)            None
+! SX(2998)            None
+! SX(2999)            None
+! SX(8424)            None
+! SX(3627)            None
+! SX(3572)            None
+! SX(7266)            None
+! SX(8423)            None
+! SX(1461)            None
+! SX(8397)            None
+S(8407)             2     470.405     7.050     0.000     0.000     0.000    ! Epsilon & sigma estimated with Tc=610.92 K, Pc=25.33 bar (from Joback method)
+! SX(1072)            None
+! SX(8806)            None
+! SX(8832)            None
+! SX(8854)            None
+! SX(8857)            None
+S(8865)             2     469.827     6.828     0.000     0.000     0.000    ! Epsilon & sigma estimated with Tc=610.16 K, Pc=27.85 bar (from Joback method)
+! SX(8805)            None
+! SX(9009)            None
+! SX(9033)            None
+! SX(2133)            None
+! SX(9079)            None
+! SX(2026)            None
+! SX(9100)            None
+! SX(860)             None
+! SX(9178)            None
+! SX(9177)            None
+! SX(9201)            None
+! SX(2267)            None
+! SX(7142)            None
+! SX(7143)            None
+! SX(861)             None
+! SX(2315)            None
+! SX(863)             None
+! SX(9374)            None
+! SX(9422)            None
+! SX(9125)            None
+! SX(9421)            None
+! SX(862)             None
+! SX(6867)            None
+! SX(3932)            None
+! SX(3931)            None
+! SX(7704)            None
+! SX(2134)            None
+! SX(9576)            None
+S(9583)             2     462.369     6.984     0.000     0.000     0.000    ! Epsilon & sigma estimated with Tc=600.48 K, Pc=25.61 bar (from Joback method)
+S(3428)             2     443.042     6.448     0.000     0.000     0.000    ! Epsilon & sigma estimated with Tc=575.38 K, Pc=31.18 bar (from Joback method)
+! SX(3920)            None
+! SX(3919)            None
+! SX(9930)            None
+! SX(9937)            None
