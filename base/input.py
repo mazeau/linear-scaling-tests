@@ -7,15 +7,25 @@ database(
     kineticsFamilies =['surface','default'],
     kineticsEstimator = 'rate rules',
 )
-catalystProperties(
-    bindingEnergies = { # default values for Pt(111)
-                       'C':(-6.750, 'eV/molecule'),
-                       'O':(-3.586, 'eV/molecule'),
+catalystProperties( # default values for Rh(111)
+    bindingEnergies = {
+                       'C':(-6.568, 'eV/molecule'),
+                       'O':(-4.610, 'eV/molecule'),
                        'N':(-4.352, 'eV/molecule'),
                        'H':(-2.479, 'eV/molecule'),
                        },
     surfaceSiteDensity=(2.72e-9, 'mol/cm^2'),
 )
+
+# catalystProperties( # default values for Pt(111)
+#     bindingEnergies = {
+#                        'C':(-6.750, 'eV/molecule'),
+#                        'O':(-3.586, 'eV/molecule'),
+#                        'N':(-4.352, 'eV/molecule'),
+#                        'H':(-2.479, 'eV/molecule'),
+#                        },
+#     surfaceSiteDensity=(2.72e-9, 'mol/cm^2'),
+# )
 
 # List of species
 species(
@@ -190,7 +200,7 @@ surfaceReactor(
 #    terminationConversion={'O2': 0.99,},
     terminationRateRatio=0.01
 )
-    
+
 surfaceReactor(
     temperature=(2000,'K'),
     initialPressure=(1.0, 'bar'),
@@ -198,7 +208,7 @@ surfaceReactor(
         "CH4": 0.108574,
         "O2": 0.02088,
         "Ar": 0.78547,
-    },  
+    },
     initialSurfaceCoverages={
         "X": 1.0,
     },
