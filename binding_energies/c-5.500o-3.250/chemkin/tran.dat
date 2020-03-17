@@ -32,11 +32,29 @@ CH3OO(82)           2     417.000     3.690     1.700     0.000     2.000    ! N
 ! CHX(28)             None
 ! CX(26)              None
 ! OCX(25)             None
-! H2X(49)             None
 ! CO2X(24)            None
-C2H4(47)            2     110.700     4.443     0.000     0.000     0.000    ! Epsilon & sigma estimated with fixed Lennard Jones Parameters. This is the fallback method! Try improving transport databases!
-! COX(50)             None
-! CHOX(53)            None
+! H2X(49)             None
+O(29)               0      80.000     2.750     0.000     0.000     0.000    ! NOx2018
 ! CH3X(55)            None
-! C2H4X(215)          None
+C2H4(47)            2     110.700     4.443     0.000     0.000     0.000    ! Epsilon & sigma estimated with fixed Lennard Jones Parameters. This is the fallback method! Try improving transport databases!
+! OH(D)X(68)          None
+! COX(50)             None
+! CH4OX(63)           None
+! CHOX(53)            None
+! C2H6X(52)           None
+! C2H4X(222)          None
+CH2(T)(34)          2     144.000     3.800     0.000     0.000     0.000    ! NOx2018
 ! C2H4X(70)           None
+CH2O2(186)          2     384.897     5.391     0.000     0.000     0.000    ! Epsilon & sigma estimated with Tc=499.87 K, Pc=46.34 bar (from Joback method)
+acetyl(44)          2     436.000     3.970     0.000     0.000     2.000    ! NOx2018
+! CH2OX(54)           None
+! C2H3X(221)          None
+CH2OH(40)           2     417.000     3.690     1.700     0.000     2.000    ! NOx2018
+! C2H2X(298)          None
+! C2HX(305)           None
+! C2H3X(69)           None
+C2H3(46)            2     209.000     4.100     0.000     0.000     1.000    ! NOx2018
+C2H2(348)           1     209.000     4.100     0.000     0.000     2.500    ! NOx2018
+C2H2(372)           2     209.000     4.100     0.000     0.000     2.500    ! NOx2018
+! C2H2X(373)          None
+! C2H2X(336)          None
